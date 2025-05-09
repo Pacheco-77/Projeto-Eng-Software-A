@@ -12,9 +12,42 @@
 + Comunidade: Ferramentas para engajamento, como avaliações, receitas saudáveis e eventos virtuais com produtores.
 + Educação nutricional: Conteúdo integrado com receitas saudáveis, dicas de consumo e benefícios dos alimentos para engajar os usuários.
   
-### o quê?
+### O quê?
 #### Uma aplicativo que conecta consumidores a produtores rurais, oferecendo alimentos saudáveis e de alta qualidade. A solução inclui:
 + Catálogo de produtos frescos, orgânicos e artesanais, com filtros por qualidade, certificação ou benefícios à saúde.
 + Sistema de pedidos com opções de personalização, assinatura semanal/mensal e entregas programadas.
 + Painel para produtores gerenciarem vendas, estoques e comunicação com clientes.
 + Recursos educativos, como guias de alimentação saudável, vídeos de preparo e informações nutricionais.
+
+
+## Matriz Swot 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
+</div>
+
+
+
+### Forças 
++ O aplicativo conecta produtores e consumidores diretamente,  sem intermediários os preços ficam mais justos;
++ Alto crescimento em interesse em produtos livres de agrotóxicos;
++ Foco em fornecedores locais, assim incentivando a economia local;
++ Avaliação e feedbacks, trazendo maior confiança para o cliente.
+  
+### Fraqueza
++ Logística de entrega, pois entregar alimentos perecíveis necessita de um cuidado rigoroso;
++ Falta de internet entre produtores;
++ Produtores podem resistir ao uso da tecnologia ou preferir vendas diretas.
+
+  
+### Oportunidades 
++ Pessoas buscam produtos mais saudáveis e sustentáveis ;
++ Parcerias com cooperativas;
++ Expansão como assinatura de cestas, feira virtual, cursos para agricultores, atendimento com nutricionista online e outros;
++ Incentivo governamental ou de empresas privadas. 
+
+### Ameaças
+
++ Concorrências com grandes Marketplace;
++ Aumento do custo dos produtos, por causas naturais ou não a produção pode ficar mais escassa, aumentando o custo dos produtos  pra venda;
++ Problemas logísticos de entrega, atraso ou entregas mal feitas pode prejudicar a reputação do aplicativo. 
