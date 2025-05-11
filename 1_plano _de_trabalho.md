@@ -8,8 +8,6 @@
   | Executor Principal         | Team APX                  |
   | Coordenador do Projeto     | Prof. Dr. Andrey Rodrigues|
 
- # Documento do Projeto
-
 ## 1. INTRODUÇÃO
 A introdução apresenta um panorama geral do projeto, contextualizando seu propósito, justificativa e características principais.
 
