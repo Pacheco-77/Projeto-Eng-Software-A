@@ -9,6 +9,7 @@
   | Coordenador do Projeto     | Prof. Dr. Andrey Rodrigues|
 
 ## 1. INTRODUÇÃO
+Este documento apresenta o projeto de desenvolvimento de um Minimum Viable Product (MVP) para um aplicativo mobile que conecta produtores rurais, consumidores de produtos orgânicos e profissionais de nutrição e agronomia. O projeto busca promover o acesso a alimentos orgânicos de qualidade, diretamente do campo ao consumidor.
 Com o intuito de oferecer uma alimentação saudável e sustentável, o aplicativo visa solucionar a dificuldade de encontrar produtos orgânicos frescos, eliminando intermediários e valorizando pequenos produtores locais do município de Itacoatiara. A plataforma permitirá a venda direta de produtos orgânicos, e também oferecerá conteúdos educativos sobre alimentação e cultivo orgânico e proporcionará ferramentas simples para gerenciamento de vendas. Este projeto justifica-se pela oportunidade de fomentar a economia local, incentivar práticas agrícolas sustentáveis e conscientizar a população sobre hábitos alimentares mais saudáveis.
 
 ### 1.1 Objeto
