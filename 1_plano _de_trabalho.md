@@ -51,7 +51,7 @@ O projeto busca desenvolver um aplicativo mobile para conectar **produtores rura
   - Relatórios básicos de vendas e desempenho.
 
 ### 2.1.2 Escopo Negativo
-- **Integração com redes sociais para login ou compartilhamento**: O aplicativo não permitirá login via redes sociais (ex.: Facebook, Google) nem compartilhamento direto de produtos ou conteúdos em plataformas sociais.
+- **Integração com redes sociais para login ou compartilhamento**: O aplicativo não permitirá login via redes sociais (ex: Facebook, Google) nem compartilhamento direto de produtos ou conteúdos em plataformas sociais.
 - **Suporte a vendas de produtos não orgânicos**: O sistema será exclusivo para produtos certificados como orgânicos, não incluindo alimentos ou itens produzidos com agrotóxicos ou métodos convencionais.
 - **Aplicativo para desktop**: O projeto focará exclusivamente em um aplicativo mobile, sem desenvolvimento de uma versão para computadores ou navegadores web.
 - **Funcionalidades avançadas de inteligência artificial**: Não serão implementadas ferramentas de IA, como recomendações personalizadas de produtos ou análise preditiva de vendas.
