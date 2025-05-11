@@ -8,44 +8,97 @@
   | Executor Principal         | Team APX                  |
   | Coordenador do Projeto     | Prof. Dr. Andrey Rodrigues|
 
-  ## 1. Introdução
+ # Documento do Projeto
 
-  ### 1.1 Objeto
-No presente projeto será desenvolvido um  Minimum Viable Product (MVP) que nada mais é que uma versão simples de um produto, apresentando suas funcionalidades mais básicas, que tem como objetivo principal conectar produtores rurais, consumidores de produtos orgânicos e profissionais da área. Nele será possível o produtor rural vender seus produtos orgânicos para os consumidores, e também irá conter espaços para profissionais da área de nutrição e agronomia dar dicas de alimentação saudável e cultivo de produtos orgânicos.
-  ### 1.2 Motivação, Justificativa e Oportunidade
-Muitos dos alimentos que consumimos são produtos que contém agrotóxicos, o que vem a culminar em uma má alimentação. este aplicativo visa quebrar o paradigma de produtos orgânicos com produtos que possuem agrotóxicos, mostrando assim para os consumidores que existem produtores que cultivam alimentos orgânicos e que eles podem estar adquirindo esses alimentos direto pelo aplicativo.
-  ### 1.3 Caracterização do Projeto
-  #### 1.3.1 Classe
-  #### 1.3.2 
-  #### 1.3.3 Tipo
+## 1. INTRODUÇÃO
+A introdução apresenta um panorama geral do projeto, contextualizando seu propósito, justificativa e características principais.
 
-  ## 2. Informações Gerais
+### 1.1 Objeto
+No presente projeto será desenvolvido um **Minimum Viable Product (MVP)**, uma versão simples de um produto com funcionalidades básicas, que tem como objetivo principal conectar **produtores rurais**, **consumidores de produtos orgânicos** e **profissionais da área**. Nele, será possível ao produtor rural vender seus produtos orgânicos diretamente aos consumidores, além de conter espaços para profissionais de nutrição e agronomia compartilharem dicas de alimentação saudável e cultivo de produtos orgânicos.
 
-  ### 2.1 Escopo Geral
-  #### 2.1.1 Escopo Específico
-  #### 2.1.2 Escopo Negativo
+### 1.2 Motivação, Justificativa e Oportunidade
+Muitos alimentos consumidos contêm agrotóxicos, contribuindo para uma alimentação inadequada. Este aplicativo visa quebrar o paradigma de consumo de produtos com agrotóxicos, mostrando aos consumidores que existem produtores de alimentos orgânicos e que esses produtos podem ser adquiridos diretamente pelo aplicativo.
 
-  ### 2.2 Ambiente de Desenvolvimento
+### 1.3 Caracterização do Projeto
+- **1.3.1 Classe**: [Não especificado]
+- **1.3.2 Enquadrabilidade**: [Não especificado]
+- **1.3.3 Tipo**: [Não especificado]
 
-  ### 2.3 Características Inovadoras do Projeto
+## 2. INFORMAÇÕES GERAIS
+Este projeto pretende desenvolver um aplicativo que conecte alimentos orgânicos diretamente do campo ao consumidor com apenas um clique. Uma limitação é a dependência de internet, considerando que muitos agricultores no campo não têm acesso às mesmas tecnologias. Será o primeiro aplicativo a entregar alimentos totalmente orgânicos ao consumidor final em **Itacoatiara**.
 
-  ### 2.4 Resultados Esperados
+### 2.1 Escopo Geral
+O projeto busca desenvolver um aplicativo mobile para conectar **produtores rurais**, **agrônomos/profissionais de saúde alimentar** e **consumidores de produtos orgânicos**, permitindo a venda e compra de produtos naturais e possibilitando aos produtores expor seus produtos à venda.
 
-  ## 3. Metodologia de Projeto
+#### 2.1.1 Escopo Específico
+[Não especificado]
 
-  ### 3.1 Estrutura do Projeto
+#### 2.1.2 Escopo Negativo
+[Não especificado]
 
-  **Fases do Projeto**
-  1. Conceito/ideia
-  2. Levantamento de Requisitos
-  3. Projetos e Arquitetura
-  4. Projetos dos Casos de Teste
-  5. Desenvolvimento do MVP
+### 2.2 Ambiente de Desenvolvimento
+As tecnologias a serem utilizadas no desenvolvimento do projeto estão descritas no quadro abaixo:  
+[Quadro não fornecido no documento]
 
-  ### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos Integrantes
+### 2.3 Características Inovadoras do Projeto
+- **Compra direta do produtor**: Elimina intermediários, garantindo frescor, preço justo e apoio à produção local.
+- **Transparência total**: Detalhes sobre origem, cultivo e certificações orgânicas de cada produto.
+- **Entrega eficiente**: Rede de entregadores locais e pontos de retirada estratégicos.
+- **Recompensas ecológicas**: Pontos por compras sustentáveis, trocáveis por descontos e brindes.
+- **Educação sobre alimentação saudável**: Conteúdos educativos e dicas direto dos produtores.
+- **Facilidade para pequenos agricultores**: Ferramentas simples para gerenciar pedidos, estoques e entregas pelo celular.
 
-  ### 3.3 Backlog do Sprint
+### 2.4 Resultados Esperados
+- **Conexão direta**: Liga produtores de alimentos 100% orgânicos aos consumidores, garantindo compras justas e sustentáveis.
+- **Menos intermediários**: Maior lucro para o produtor e preços acessíveis para o consumidor.
+- **Valorização dos pequenos produtores**: Dados e relatos sobre a origem dos produtos disponíveis na plataforma.
+- **Entrega eficiente**: Sistema logístico integrado com entregas acessíveis e pontos de retirada estratégicos.
+- **Consciência alimentar**: Conteúdos educativos para incentivar hábitos saudáveis e sustentáveis.
+- **Facilidade na gestão**: Ferramentas simples para controle de pedidos, estoque e relacionamento com clientes.
+- **Fidelização sustentável**: Recompensas para consumo consciente e ecológico.
 
-  ### 3.4 Controle de Mudanças 
+## 3. METODOLOGIA DO PROJETO
 
-  ### 3.5 Gerenciamento de Comunicação
+### 3.1 Estrutura do Projeto
+#### Fases do Projeto
+1. **Conceito/Ideia**  
+   - Dificuldade para encontrar alimentos saudáveis e de qualidade.  
+   - Público-alvo: Pessoas que valorizam alimentos orgânicos como estilo de vida.
+2. **Análise de Concorrentes e Soluções**  
+   - Identificação da inovação e diferenciação do projeto.  
+   - Definição dos perfis de usuários.
+3. **Levantamento de Requisitos**  
+   - Refinamento do backlog do produto no GitHub.  
+   - Definição de critérios de aceitação e regras de negócio para as funcionalidades.
+4. **Projeto e Arquitetura**  
+   - Modelagem detalhada das telas e fluxo de navegação.  
+   - Definição da arquitetura do sistema.  
+   - Criação de diagramas de classes e estrutura de dados.  
+   - Revisão do backlog e definição de prioridades para o MVP.
+5. **Projeto dos Casos de Teste**  
+   - Identificação de cenários de teste para as principais funcionalidades.  
+   - Criação de casos de teste baseados nas histórias do usuário.  
+   - Definição de critérios de sucesso para cada funcionalidade.
+6. **Desenvolvimento do MVP**  
+   - Implementação das funcionalidades essenciais no framework [X].  
+   - Testes e ajustes iterativos.  
+   - Apresentação da primeira versão do MVP.  
+   - Feedback e melhorias com base em testes e validação dos usuários.
+
+### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos Integrantes
+[Não especificado]
+
+### 3.3 Backlog do Sprint
+[Não especificado]
+
+### 3.4 Controle de Mudanças
+[Não especificado]
+
+### 3.5 Gerenciamento de Comunicação
+O gerenciamento de comunicação define como a equipe interage para garantir alinhamento e produtividade, incluindo reuniões, canais de comunicação e ferramentas utilizadas. Principais elementos:
+
+- **Reuniões de Planejamento (Sprint Planning)**: No início de cada sprint, a equipe define tarefas e prioridades.
+- **Daily Stand-ups (Reuniões Diárias)**: Reuniões curtas (5 a 10 minutos) para sincronizar progresso e remover impedimentos.
+- **Sprint Review (Revisão da Sprint)**: Apresentação do que foi feito ao final da sprint.
+- **Sprint Retrospective (Retrospectiva da Sprint)**: Discussão sobre o que funcionou bem e o que pode ser melhorado.
+- **Ferramentas de Comunicação**: Discord, Slack ou WhatsApp para conversas rápidas.
