@@ -51,8 +51,15 @@ O projeto busca desenvolver um aplicativo mobile para conectar **produtores rura
   - Ferramenta simples para controle de estoque, pedidos e comunicação com os clientes.
   - Relatórios básicos de vendas e desempenho.
 
-#### 2.1.2 Escopo Negativo
-[Não especificado]
+### 2.1.2 Escopo Negativo
+- **Integração com redes sociais para login ou compartilhamento**: O aplicativo não permitirá login via redes sociais (ex.: Facebook, Google) nem compartilhamento direto de produtos ou conteúdos em plataformas sociais.
+- **Suporte a vendas de produtos não orgânicos**: O sistema será exclusivo para produtos certificados como orgânicos, não incluindo alimentos ou itens produzidos com agrotóxicos ou métodos convencionais.
+- **Aplicativo para desktop**: O projeto focará exclusivamente em um aplicativo mobile, sem desenvolvimento de uma versão para computadores ou navegadores web.
+- **Funcionalidades avançadas de inteligência artificial**: Não serão implementadas ferramentas de IA, como recomendações personalizadas de produtos ou análise preditiva de vendas.
+- **Entregas internacionais ou intermunicipais**: O sistema será limitado a entregas dentro do município de Itacoatiara, sem suporte para envios fora dessa área.
+- **Gerenciamento financeiro avançado**: O aplicativo não incluirá funcionalidades como controle de impostos, emissão de notas fiscais ou integração com sistemas contábeis para produtores.
+- **Suporte multilíngue**: A interface será oferecida apenas em português, sem tradução para outros idiomas.
+- **Moderação automática de conteúdos educativos**: Conteúdos postados por profissionais (ex: dicas de nutrição ou cultivo) não passarão por moderação automatizada, sendo responsabilidade dos autores garantir a qualidade.
 
 ### 2.2 Ambiente de Desenvolvimento
 As tecnologias a serem utilizadas no desenvolvimento do projeto estão descritas no quadro abaixo:  
