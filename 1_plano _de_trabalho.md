@@ -31,7 +31,25 @@ Este projeto pretende desenvolver um aplicativo que conecte alimentos orgânicos
 O projeto busca desenvolver um aplicativo mobile para conectar **produtores rurais**, **agrônomos/profissionais de saúde alimentar** e **consumidores de produtos orgânicos**, permitindo a venda e compra de produtos naturais e possibilitando aos produtores expor seus produtos à venda.
 
 #### 2.1.1 Escopo Específico
-[Não especificado]
+- **Cadastro e Gerenciamento dos perfis de usuários**:
+  - Cadastro de produtores rurais, consumidores e profissionais (nutricionistas e agrônomos) com informações básicas (nome, contato, localização, certificações orgânicas para produtores).
+  - Gerenciamento de perfil, permitindo edição de dados e inclusão de fotos ou descrições dos produtos.
+- **Catálogo de Produtos**:
+  - Funcionalidade para produtores cadastrarem e gerenciarem seus produtos (nome, descrição, preço, quantidade disponível no estoque, fotos e informações de cultivo).
+  - Exibição de produtos para consumidores com filtros (categoria, localização, preço, certificação orgânica).
+- **Gerenciamento de Pedidos e pagamentos**:
+  - Interface para os consumidores selecionarem os produtos a qual desejam adquirir, adicionar no carrinho e finalizar a compra.
+  - Integração com banco para pagamentos (ex: cartão e pix).
+  Notificações de status do pedido (Confirmado, em preparo, enviado), para produtores e consumidores.
+- **Logística de entrega**:
+  - Configuração de opções de entrega (entrega direta por produtores, pontos de retirada ou entregadores locais).
+  - Sistema de rastreamento básico para acompanhar o status da entrega.
+- **Espaço educativo**:
+  - Sessão para profissionais como nutricionistas e agrônomos publicarem dicas sobre alimentação saudável e cultivo orgânico.
+  - Comentários para a interação entre usuários e profissionais.
+- **Painel de gerenciamento para produtores**:
+  - Ferramenta simples para controle de estoque, pedidos e comunicação com os clientes.
+  - Relatórios básicos de vendas e desempenho.
 
 #### 2.1.2 Escopo Negativo
 [Não especificado]
