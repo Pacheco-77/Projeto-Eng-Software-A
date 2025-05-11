@@ -56,7 +56,6 @@ O projeto busca desenvolver um aplicativo mobile para conectar **produtores rura
 - **Funcionalidades avançadas de inteligência artificial**: Não serão implementadas ferramentas de IA, como recomendações personalizadas de produtos ou análise preditiva de vendas.
 - **Entregas internacionais ou intermunicipais**: O sistema será limitado a entregas dentro do município de Itacoatiara, sem suporte para envios fora dessa área.
 - **Gerenciamento financeiro avançado**: O aplicativo não incluirá funcionalidades como controle de impostos, emissão de notas fiscais ou integração com sistemas contábeis para produtores.
-- **Suporte multilíngue**: A interface será oferecida apenas em português, sem tradução para outros idiomas.
 - **Moderação automática de conteúdos educativos**: Conteúdos postados por profissionais (ex: dicas de nutrição ou cultivo) não passarão por moderação automatizada, sendo responsabilidade dos autores garantir a qualidade.
 
 ### 2.2 Ambiente de Desenvolvimento
