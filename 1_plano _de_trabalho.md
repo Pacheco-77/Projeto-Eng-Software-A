@@ -63,7 +63,13 @@ O projeto busca desenvolver um aplicativo mobile para conectar **produtores rura
 
 ### 2.2 Ambiente de Desenvolvimento
 As tecnologias a serem utilizadas no desenvolvimento do projeto estão descritas no quadro abaixo:  
-[Quadro não fornecido no documento]
+ | Componente            | Tecnologia/Ferramenta    |
+  |----------------------------|----------------------------|
+  | Metodologia                     | Scrum com sprints                       |
+  | Gerenciamento de Backlog                     | Github         |
+  | Repositório de Código  | Github                |
+  | Modelagem de Software         | Draw.io (diagrama de classes, fluxo de telas)                  |
+  | Desenvolvimento do MVP     | xxxxx|
 
 ### 2.3 Características Inovadoras do Projeto
 - **Compra direta do produtor**: Elimina intermediários, garantindo frescor, preço justo e apoio à produção local.
