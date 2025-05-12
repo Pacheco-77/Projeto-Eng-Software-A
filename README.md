@@ -3,10 +3,10 @@
 
 ### Integrantes:
 
-+ A1 - Ana Paula Xavier - 22351934
-+ A2 - Eugênio Oliveira - 22352616
++ A1 - Ana Paula Xavier - 
++ A2 - Eugênio Oliveira - 
 + A3 - Itamar Pereira - 22352613
-+ A4 - Josiel Santos - 22353928
++ A4 - Josiel Santos - 
 + A5 - Wamberson Pacheco - 22352620
 
 
