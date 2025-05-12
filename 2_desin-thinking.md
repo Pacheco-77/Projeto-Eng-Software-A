@@ -80,11 +80,11 @@
 | Pontos fracos / limitações |                             |                               |                               |                          |
 
 # **3. Conhecendo o usuário – Persona**
-IMAGEM PERSONA 1
+PERSONA 1
 ![image](https://github.com/user-attachments/assets/9a32335c-9e52-4e7d-aa8c-747907257621)
-IMAGEM PERSONA 2
+PERSONA 2
 ![image](https://github.com/user-attachments/assets/36786032-d13f-4cb3-97e6-006bb94fce92)
-IMAGEM PERSONA 3
+PERSONA 3
 ![image](https://github.com/user-attachments/assets/cea0135b-3827-4f2d-9da5-1fb50dd914f0)
 
 
