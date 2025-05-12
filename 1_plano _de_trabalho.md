@@ -117,19 +117,29 @@ As tecnologias a serem utilizadas no desenvolvimento do projeto estão descritas
    - Feedback e melhorias com base em testes e validação dos usuários.
 
 ### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos Integrantes
-[Não especificado]
+| Função                        | Responsabilidades |
+|------------------------------|-------------------|
+| **Product Owner (PO)**       | - Define a visão do produto e prioriza o backlog.<br>- Levanta requisitos com produtores, consumidores e profissionais.<br>- Valida entregas do MVP com base nos critérios de aceitação. |
+| **Scrum Master**             | - Facilita reuniões ágeis (Sprint Planning, Daily Stand-ups, Retrospectivas).<br>- Remove impedimentos que afetam o progresso da equipe.<br>- Garante a adesão à metodologia Scrum. |
+| **Desenvolvedor Full-Stack (2 membros)** | - Implementa as funcionalidades do aplicativo (front-end e back-end) no framework definido.<br>- Integra APIs de pagamento e logística.<br>- Realiza testes unitários e ajustes iterativos. |
+| **Designer de UX/UI (2 membros)**        | - Cria wireframes, protótipos e design das telas do aplicativo.<br>- Garante uma interface intuitiva para produtores e consumidores.<br>- Valida a usabilidade com usuários-alvo. |
 
 ### 3.3 Backlog do Sprint
-[Não especificado]
+O backlog do sprint irá conter as histórias de usuário e tarefas prioritárias para cada ciclo de desenvolvimento, retiradas do backlog do produto mantido repositório do projeto no GitHub.
 
 ### 3.4 Controle de Mudanças
-[Não especificado]
+O controle de mudanças definirá o processo para gerenciar alterações no escopo, requisitos ou cronograma do projeto, garantindo alinhamento com os objetivos do MVP. O processo inclui:
+
+1. **Solicitação de Mudança**: Qualquer membro da equipe ou stakeholder pode propor uma mudança (ex: nova funcionalidade, ajuste em requisito).
+3. **Aprovação**: Mudanças são aprovadas pelo Product Owner em consenso com a equipe durante a Sprint Review ou em reunião extraordinária, se urgente.
+4. **Implementação**: Mudanças aprovadas são adicionadas ao backlog do produto, priorizadas e implementadas no sprint seguinte.
+5. **Documentação**: Todas as mudanças são registradas no GitHub, com justificativa, impacto e status.
 
 ### 3.5 Gerenciamento de Comunicação
-O gerenciamento de comunicação define como a equipe interage para garantir alinhamento e produtividade, incluindo reuniões, canais de comunicação e ferramentas utilizadas. Principais elementos:
+O gerenciamento de comunicação irá definir como a equipe interage durante o projeto para garantir alinhamento e produtividade. Principais elementos:
 
-- **Reuniões de Planejamento (Sprint Planning)**: No início de cada sprint, a equipe define tarefas e prioridades.
-- **Daily Stand-ups (Reuniões Diárias)**: Reuniões curtas (5 a 10 minutos) para sincronizar progresso e remover impedimentos.
-- **Sprint Review (Revisão da Sprint)**: Apresentação do que foi feito ao final da sprint.
-- **Sprint Retrospective (Retrospectiva da Sprint)**: Discussão sobre o que funcionou bem e o que pode ser melhorado.
-- **Ferramentas de Comunicação**: Discord, Slack ou WhatsApp para conversas rápidas.
+- **Reuniões de Planejamento (Sprint Planning)**: No início de cada sprint, a equipe define as tarefas e prioridades.
+- **Daily Stand-ups (Reuniões Diárias)**: Curtas reuniões diárias (5 a 10 min) para sincronizar o progresso e remover impedimentos.
+- **Sprint Review (Revisão da Sprint)**: No final da sprint, a equipe apresenta o que foi feito.
+- **Sprint Retrospective (Retrospectiva da Sprint)**: Discussão sobre o que funcionou bem e o que poderá ser melhorado.
+- **Ferramentas de Comunicação**: O grupo pode usar Discord, Slack ou WhatsApp para conversas rápidas.
