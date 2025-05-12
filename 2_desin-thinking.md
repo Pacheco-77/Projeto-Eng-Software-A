@@ -57,7 +57,7 @@
 + Descrição: Um aplicativo que conecta produtores de orgânicos com consumidores, utilizando geolocalização. 
 + Público Alvo: Agricultores próximos aos grandes centros e adultos que buscam alimentos naturais e orgânicos no conforto de suas casas.
 <div align="center">
-  <img src="https://play-lh.googleusercontent.com/49YQ9X7KAY4-amB5od7Lc8HmyMzuStPmqzoymYOT0GZRXYn2pl2zBkSRHTlKj6sFCF4=w526-h296-rw" style="width:700px;">
+  <img src="https://drive.google.com/file/d/12vyjfBhEDONmnEZpHBW1aOWjCsHDP-RH/view?usp=drive_link" style="width:700px;">
 </div>
   
 + Plataforma: https://ciorganicos.com.br
