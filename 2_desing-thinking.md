@@ -67,6 +67,7 @@
     
 ![image](https://github.com/user-attachments/assets/00a39ed4-455d-4963-b057-924d29e22c45)
 
+### Concorrente 3
 + Aplicativo: Daki | Supermercado rápido
 + Descrição: : Daki é um supermercado completo e online, com opção de entregas super rápidas que chegam em minutos para quem precisa com urgência,
   ou opção de entregas agendadas para os mais organizados.
