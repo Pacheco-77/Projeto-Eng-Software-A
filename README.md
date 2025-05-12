@@ -14,7 +14,7 @@ Docente: Andrey Rodrigues
 
 Tema: Segurança alimentar
 
-Sistema Desenvolvido: 
+Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 ## 🧠 Objetivo
 
@@ -70,7 +70,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 # 4. Backlog do Sprint
 ### Pendentes
 ### Em Progresso
-### Concluído
+### Concluídos
 
 ## 🛠️ Tecnologias Utilizadas
 
