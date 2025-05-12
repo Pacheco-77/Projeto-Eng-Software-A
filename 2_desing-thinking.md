@@ -80,9 +80,9 @@
 |--------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------|
 | Modelo de negócio        |  Assinatura                   |  B2C                          | B2C                           | Freemium                 |
 | Tecnologia utilizada     |  Mobile                       |  Web                          | Mobile                        | Mobile                   |
-| Público-alvo             |  Agricultores / Adultos / jovens| Agricultores / Adultos        |  Agricultores / Jovens       | Agricultores / Produtores / Jovens / Adultos / Idosos   |
+| Público-alvo             |  Agricultores / Adultos / jovens| Agricultores / Adultos        |  Agricultores / Jovens      | Agricultores / Produtores / Jovens / Adultos / Idosos   |
 | Pontos fortes            | Notificações Push / Integração com Redes Sociais | Variedade de Produtos  |   Variedade de Produtos / Velocidade de entregas |  Velocidade de entregas / Tutorias |
-| Pontos fracos / limitações |                             |                               |                               |                          |
+| Pontos fracos / limitações | Limite de areas de entrega   | Dificuldade em comprar os serviços  | Limitada a franquias   | Não possui variedade de produtos |
 
 # **3. Conhecendo o usuário – Persona**
 PERSONA 1
