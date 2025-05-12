@@ -22,7 +22,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 
 # 📁 Estrutura do Repositório
 
-## 1. Plano de Trabalho
+## [1. Plano de Trabalho](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md)
 ### 1. INTRODUÇÃO
 #### 1.1 Objeto
 #### 1.2 Motivação, Justificativa e Oportunidade
@@ -41,7 +41,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 #### 3.4 Controle de Mudanças
 #### 3.5 Gerenciamento de Comunicação
 
-## 2. Design Thinking
+## [2. Design Thinking](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md)
 ### 1. Enquadramento do Problema – Golden Circle
 #### Por quê?
 #### Como?
@@ -60,7 +60,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### 3. Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
-## 3. Backlog do Produto
+## [3. Backlog do Produto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md)
 #### Backlog do PRODUTO
 #### Especificações
 #### Revisão 
