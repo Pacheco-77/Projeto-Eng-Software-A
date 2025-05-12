@@ -87,4 +87,4 @@ PERSONA 2
 PERSONA 3
 ![image](https://github.com/user-attachments/assets/cea0135b-3827-4f2d-9da5-1fb50dd914f0)
 
-
+# **Organização das ideias na ferramenta Notion**
