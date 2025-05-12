@@ -61,15 +61,13 @@
 + Descrição: Uma plataforma online com informações sobre certificação de produtos orgânicos e como comprá-los.  
 + Público Alvo: Os produtores e consumidores de alimentos orgânicos como jovens, adultos, além de outros atores do mercado.
     
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
-</div>
+![image](https://github.com/user-attachments/assets/00a39ed4-455d-4963-b057-924d29e22c45)
 
-+ Aplicativo: DAKI | Supermercado rápido
++ Aplicativo:  | Supermercado rápido
 + Descrição: : Daki é um supermercado completo e online, com opção de entregas super rápidas que chegam em minutos para quem precisa com urgência,
   ou opção de entregas agendadas para os mais organizados.
 + Público Alvo: É bastante diverso, incluindo jovens solteiros, famílias inteiras, pessoas de baixa e alta renda, dentre muitos outros.
-IMAGEM
+![image](https://github.com/user-attachments/assets/91a2e788-3af6-4e54-b1e4-92ece895c0ed)
 
 ## **C) Quadro Comparativo de Soluções Existentes**
 
@@ -83,15 +81,10 @@ IMAGEM
 
 # **3. Conhecendo o usuário – Persona**
 IMAGEM PERSONA 1
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
-</div>
+![image](https://github.com/user-attachments/assets/9a32335c-9e52-4e7d-aa8c-747907257621)
 IMAGEM PERSONA 2
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
-</div>
+![image](https://github.com/user-attachments/assets/36786032-d13f-4cb3-97e6-006bb94fce92)
 IMAGEM PERSONA 3
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
-</div>
+![image](https://github.com/user-attachments/assets/cea0135b-3827-4f2d-9da5-1fb50dd914f0)
+
 
