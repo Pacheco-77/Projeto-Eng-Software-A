@@ -1,3 +1,20 @@
+# Informações Acadêmicas
+## Curso: Sistemas de Informação
+
+### Integrantes:
+
++ A1 - Ana Paula Xavier - 22351934
++ A2 - Eugênio Oliveira - 22352616
++ A3 - Itamar Pereira - 22353928
++ A4 - Josiel Santos - 22353928
++ A5 - Wamberson Pacheco - 22353928
+
+
+Docente: Andrey Rodrigues
+
+Sistema Desenvolvido: 
+
+
 # 📋 Backlog do Produto
 
 Este repositório foi desenvolvido como parte da disciplina de **Engenharia de Software A** do curso de **Sistemas de Informação**, apresentado ao **Prof. Dr. Andrey Rodrigues**.
