@@ -43,20 +43,20 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 
 ## [2. Design Thinking](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md)
 ### 1. Enquadramento do Problema – Golden Circle
-#### Por quê?
-#### Como?
-#### O quê?
+#### [Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
+#### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
+#### [O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
 ### 2. Exploração do Mercado
-### A) Análise SWOT
-#### Forças 
+### [A) Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
+#### Forças
 #### Fraqueza
 #### Oportunidades
 #### Ameaças
-### B) Identificação Visual de Soluções Existentes
+### [B) Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
 #### Concorrente 1
 #### Concorrente 2
 #### Concorrente 3
-### C) Quadro Comparativo de Soluções Existentes
+### [C) Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 ### 3. Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
