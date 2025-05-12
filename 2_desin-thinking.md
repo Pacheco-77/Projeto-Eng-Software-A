@@ -56,10 +56,7 @@
 + Aplicativo: Quintal Saudáveis 
 + Descrição: Um aplicativo que conecta produtores de orgânicos com consumidores, utilizando geolocalização. 
 + Público Alvo: Agricultores próximos aos grandes centros e adultos que buscam alimentos naturais e orgânicos no conforto de suas casas.
-<div align="center">
-  <img src="https://drive.google.com/file/d/12vyjfBhEDONmnEZpHBW1aOWjCsHDP-RH/view?usp=drive_link" style="width:700px;">
-</div>
-  
+![quintal](https://github.com/user-attachments/assets/f6f98d4a-19cd-4af5-9ae8-937c7894e9bf)
 + Plataforma: https://ciorganicos.com.br
 + Descrição: Uma plataforma online com informações sobre certificação de produtos orgânicos e como comprá-los.  
 + Público Alvo: Os produtores e consumidores de alimentos orgânicos como jovens, adultos, além de outros atores do mercado.
