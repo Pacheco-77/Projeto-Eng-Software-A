@@ -26,8 +26,6 @@
   <img src="https://github.com/user-attachments/assets/6da5c2a9-0aa4-4227-9b7a-de98ddcb9b88" style="width:700px;">
 </div>
 
-
-
 ### Forças 
 + O aplicativo conecta produtores e consumidores diretamente,  sem intermediários os preços ficam mais justos;
 + Alto crescimento em interesse em produtos livres de agrotóxicos;
