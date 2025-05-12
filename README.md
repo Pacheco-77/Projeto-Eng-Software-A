@@ -4,14 +4,14 @@
 ### Integrantes:
 
 + A1 - Ana Paula Xavier - 
-+ A2 - Eugênio Oliveira - 
++ A2 - Eugênio Oliveira - 22352093
 + A3 - Itamar Pereira - 22352613
-+ A4 - Josiel Santos - 
++ A4 - Josiel Santos - 22352319
 + A5 - Wamberson Pacheco - 22352620
 
 
 Docente: Andrey Rodrigues
-
+Tema: Segurança alimentar
 Sistema Desenvolvido: 
 
 ## 🧠 Objetivo
@@ -38,9 +38,32 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### 3.3 Backlog do Sprint
 ### 3.4 Controle de Mudanças
 ### 3.5 Gerenciamento de Comunicação
+# 2. Design Thinking
+## 1. Enquadramento do Problema – Golden Circle
+### Por quê?
+### Como?
+### O quê?
+## 2. Exploração do Mercado
+## A) Análise SWOT
+### Forças 
+### Fraqueza
+### Oportunidades
+### Ameaças
+## B) Identificação Visual de Soluções Existentes
+### Concorrente 1
+### Concorrente 2
+### Concorrente 3
+## C) Quadro Comparativo de Soluções Existentes
+## 3. Conhecendo o usuário – Persona
+## **Organização das ideias na ferramenta Notion**
+# 3. Backlog do Produto
+### Backlog do PRODUTO
+### Especificações
+### Revisão 
+### Implementação
+### Concluidas 
+# 4. 
 
-- [2_design-thinking.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md): Aplicação da metodologia de Design Thinking para levantamento de requisitos e entendimento do problema.
-- [3_backlog-do-produto.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md): Lista priorizada de funcionalidades desejadas para o produto, servindo como guia para o desenvolvimento.
 - [4_backlog-do-sprint.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/4_backlog-do-sprint.md): Itens selecionados do backlog do produto para serem desenvolvidos em um sprint específico.
 
 ## 🛠️ Tecnologias Utilizadas
