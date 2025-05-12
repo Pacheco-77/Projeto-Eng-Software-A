@@ -10,7 +10,7 @@
 + A5 - Wamberson Pacheco - 22352620
 
 
-Docente: Andrey Rodrigues
+Docente: Prof. Dr. Andrey Rodrigues
 
 Tema: Segurança alimentar
 
