@@ -53,17 +53,21 @@
 + Problemas logísticos de entrega, atraso ou entregas mal feitas pode prejudicar a reputação do aplicativo.
 
 ## **B) Identificação Visual de Soluções Existentes**
+
+### Concorrente 1
 + Aplicativo: Quintal Saudáveis 
 + Descrição: Um aplicativo que conecta produtores de orgânicos com consumidores, utilizando geolocalização. 
 + Público Alvo: Agricultores próximos aos grandes centros e adultos que buscam alimentos naturais e orgânicos no conforto de suas casas.
 ![quintal](https://github.com/user-attachments/assets/f6f98d4a-19cd-4af5-9ae8-937c7894e9bf)
+
+### Concorrente 2
 + Plataforma: https://ciorganicos.com.br
 + Descrição: Uma plataforma online com informações sobre certificação de produtos orgânicos e como comprá-los.  
 + Público Alvo: Os produtores e consumidores de alimentos orgânicos como jovens, adultos, além de outros atores do mercado.
     
 ![image](https://github.com/user-attachments/assets/00a39ed4-455d-4963-b057-924d29e22c45)
 
-+ Aplicativo:  | Supermercado rápido
++ Aplicativo: Daki | Supermercado rápido
 + Descrição: : Daki é um supermercado completo e online, com opção de entregas super rápidas que chegam em minutos para quem precisa com urgência,
   ou opção de entregas agendadas para os mais organizados.
 + Público Alvo: É bastante diverso, incluindo jovens solteiros, famílias inteiras, pessoas de baixa e alta renda, dentre muitos outros.
