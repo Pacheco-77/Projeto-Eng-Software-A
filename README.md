@@ -11,7 +11,9 @@
 
 
 Docente: Andrey Rodrigues
+
 Tema: Segurança alimentar
+
 Sistema Desenvolvido: 
 
 ## 🧠 Objetivo
@@ -64,7 +66,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### Concluidas 
 # 4. 
 
-- [4_backlog-do-sprint.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/4_backlog-do-sprint.md): Itens selecionados do backlog do produto para serem desenvolvidos em um sprint específico.
+
 
 ## 🛠️ Tecnologias Utilizadas
 
