@@ -93,4 +93,4 @@ PERSONA 3
 ![image](https://github.com/user-attachments/assets/cea0135b-3827-4f2d-9da5-1fb50dd914f0)
 
 # **Organização das ideias na ferramenta Notion**
-[Daily Scrum](URLhttps://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b&pvs=4)
+[Daily Scrum](https://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b&pvs=4)
