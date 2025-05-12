@@ -5,9 +5,9 @@
 
 + A1 - Ana Paula Xavier - 22351934
 + A2 - Eugênio Oliveira - 22352616
-+ A3 - Itamar Pereira - 22353928
++ A3 - Itamar Pereira - 22352613
 + A4 - Josiel Santos - 22353928
-+ A5 - Wamberson Pacheco - 22353928
++ A5 - Wamberson Pacheco - 22352620
 
 
 Docente: Andrey Rodrigues
@@ -25,7 +25,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 
 ## 📁 Estrutura do Repositório
 
-- [1_plano_de_trabalho.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md): Documento contendo o plano de trabalho inicial do projeto.
+# 1. Plano de Trabalho
 - [2_design-thinking.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md): Aplicação da metodologia de Design Thinking para levantamento de requisitos e entendimento do problema.
 - [3_backlog-do-produto.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md): Lista priorizada de funcionalidades desejadas para o produto, servindo como guia para o desenvolvimento.
 - [4_backlog-do-sprint.md](https://github.com/Pacheco-77/backlog-do-produto/blob/main/4_backlog-do-sprint.md): Itens selecionados do backlog do produto para serem desenvolvidos em um sprint específico.
