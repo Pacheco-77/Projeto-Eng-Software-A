@@ -1,4 +1,4 @@
-# **1. Enquadramento do Problema – Golden Circle**
+# 1. Enquadramento do Problema – Golden Circle
 
 ### Por quê?
 #### Combater a dificuldade de acesso a alimentos saudáveis e de alta qualidade, promovendo bem-estar e apoiando pequenos produtores rurais. Muitos consumidores urbanos enfrentam barreiras para encontrar produtos frescos, orgânicos e confiáveis, enquanto produtores rurais lutam contra baixa visibilidade e margens reduzidas por intermediários. Nosso propósito é conectar diretamente consumidores a produtores, garantindo alimentação saudável, qualidade de vida e valorização das comunidades rurais.
@@ -19,7 +19,7 @@
 + Recursos educativos, como guias de alimentação saudável, vídeos de preparo e informações nutricionais.
 
 
-# **2. Exploração do Mercado**
+# 2. Exploração do Mercado
 ## **A) Análise SWOT**
 
 <div align="center">
@@ -72,7 +72,7 @@
 + Público Alvo: É bastante diverso, incluindo jovens solteiros, famílias inteiras, pessoas de baixa e alta renda, dentre muitos outros.
 ![image](https://github.com/user-attachments/assets/91a2e788-3af6-4e54-b1e4-92ece895c0ed)
 
-## **C) Quadro Comparativo de Soluções Existentes**
+## C) Quadro Comparativo de Soluções Existentes
 
 | Critérios / Soluções     | Solução A (Concorrente 1)     | Solução B (Concorrente 2)     | Solução C (Concorrente 3)     | Nossa Solução            |
 |--------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------|
@@ -82,7 +82,7 @@
 | Pontos fortes            | Notificações Push / Integração com Redes Sociais | Variedade de Produtos  |   Variedade de Produtos / Velocidade de entregas |  Velocidade de entregas / Tutorias |
 | Pontos fracos / limitações | Limite de areas de entrega   | Dificuldade em comprar os serviços  | Limitada a franquias   | Não possui variedade de produtos |
 
-# **3. Conhecendo o usuário – Persona**
+# 3. Conhecendo o usuário – Persona
 PERSONA 1
 ![image](https://github.com/user-attachments/assets/9a32335c-9e52-4e7d-aa8c-747907257621)
 PERSONA 2
