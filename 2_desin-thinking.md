@@ -56,13 +56,13 @@
 + Aplicativo: Quintal Saudáveis 
 + Descrição: Um aplicativo que conecta produtores de orgânicos com consumidores, utilizando geolocalização. 
 + Público Alvo: Agricultores próximos aos grandes centros e adultos que buscam alimentos naturais e orgânicos no conforto de suas casas.
-IMAGEM 
+  <img src="imagens/diagrama.png" alt="Diagrama" width="300"/>
   
 + Plataforma: https://ciorganicos.com.br
 + Descrição: Uma plataforma online com informações sobre certificação de produtos orgânicos e como comprá-los.  
 + Público Alvo: Os produtores e consumidores de alimentos orgânicos como jovens, adultos, além de outros atores do mercado.
     
-IMAGEM
+<img src="imagens/diagrama.png" alt="Diagrama" width="300"/>
 
 + Aplicativo: DAKI | Supermercado rápido
 + Descrição: : Daki é um supermercado completo e online, com opção de entregas super rápidas que chegam em minutos para quem precisa com urgência,
@@ -82,9 +82,9 @@ IMAGEM
 
 # **3. Conhecendo o usuário – Persona**
 IMAGEM PERSONA 1
-
+<img src="imagens/diagrama.png" alt="Diagrama" width="300"/>
 IMAGEM PERSONA 2
-
+<img src="imagens/diagrama.png" alt="Diagrama" width="300"/>
 IMAGEM PERSONA 3
-
+<img src="imagens/diagrama.png" alt="Diagrama" width="300"/>
 
