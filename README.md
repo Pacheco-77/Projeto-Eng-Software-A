@@ -45,6 +45,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [2.1.1 Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
 ### [2.1.2 Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
 ### [2.1.3 O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
+
 ## 2.2 Exploração do Mercado
 ### [2.2.1 Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
 ### [2.2.2 Forças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#for%C3%A7as)
@@ -58,11 +59,11 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [2.2.10 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 
 ## 2.3 Conhecendo o usuário – Persona
-### [2.3.1 Persona Júlia]()
-### [2.3.2 Persona João Mendes]()
-### [2.3.3 Persona Ana Oliveira]()
-### [2.3.4 Persona]()
-### [2.3.5 Persona]()
+### [2.3.1 Persona Júlia](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#231-persona-j%C3%BAlia)
+### [2.3.2 Persona João Mendes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#232-persona-jo%C3%A3o-mendes)
+### [2.3.3 Persona Ana Oliveira](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#233-persona-ana-oliveira)
+### [2.3.4 Persona](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#234-persona-4)
+### [2.3.5 Persona](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#235-persona-5)
 
 ## 2.4 Organização das ideias na ferramenta Notion
 ### [2.4.1 Daily Scrum]()
