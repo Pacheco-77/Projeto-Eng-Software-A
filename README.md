@@ -43,20 +43,20 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 
 # 2. Design Thinking
 ## 2.1 Enquadramento do Problema – Golden Circle
-### [Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
-### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
-### [O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
+### [2.1.1 Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
+### [2.1.2 Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
+### [2.1.3 O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
 ## 2.2 Exploração do Mercado
 ### [2.2.1 Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
-### Forças
-### Fraquezas
-### Oportunidades
-### Ameaças
-### [2.2.2 Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
-### Concorrente 1
-### Concorrente 2
-### Concorrente 3
-### [2.2.3 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
+### 2.2.2 Forças
+### 2.2.3 Fraquezas
+### 2.2.4 Oportunidades
+### 2.2.5 Ameaças
+### [2.2.6 Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
+### 2.2.7 Concorrente 1
+### 2.2.8 Concorrente 2
+### 2.2.9 Concorrente 3
+### [2.2.10 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 ## 2.3 Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
