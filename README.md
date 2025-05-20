@@ -58,7 +58,13 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### 2.2.9 Concorrente 3
 ### [2.2.10 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 ## 2.3 Conhecendo o usuário – Persona
-### **Organização das ideias na ferramenta Notion**
+### 2.3.1 Persona Júlia
+### 2.3.2 Persona João Mendes
+### 2.3.3 Persona Ana Oliveira
+### 2.3.4 Persona
+### 2.3.5 Persona
+## 2.4 Organização das ideias na ferramenta Notion
+### 2.4.1 Daily Scrum
 
 # 3. Backlog do Produto
 ### 3.1 Backlog do PRODUTO
