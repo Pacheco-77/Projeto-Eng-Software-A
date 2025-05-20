@@ -47,30 +47,30 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
 ### [O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
 ## 2.2 Exploração do Mercado
-### [A) Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
+### [2.2.1 Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
 ### Forças
 ### Fraquezas
 ### Oportunidades
 ### Ameaças
-### [B) Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
+### [2.2.2 Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
 ### Concorrente 1
 ### Concorrente 2
 ### Concorrente 3
-### [C) Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
+### [2.2.3 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 ## 2.3 Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
 # 3. Backlog do Produto
-## 3.1 Backlog do PRODUTO
-## 3.2 Especificações
-## 3.3 Revisão 
-## 3.4 Implementação
-## 3.5Concluidas 
+### 3.1 Backlog do PRODUTO
+### 3.2 Especificações
+### 3.3 Revisão 
+### 3.4 Implementação
+### 3.5 Concluidas 
 
 # 4. Backlog do Sprint
-## 4.1 Pendentes
-## 4.2 Em Progresso
-## 4.3 Concluídos
+### 4.1 Pendentes
+### 4.2 Em Progresso
+### 4.3 Concluídos
 
 # 🛠️ Tecnologias Utilizadas
 
