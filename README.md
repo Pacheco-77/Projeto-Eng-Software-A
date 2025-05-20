@@ -49,12 +49,12 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [2.2.1 Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
 ### [2.2.2 Forças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#for%C3%A7as)
 ### [2.2.3 Fraquezas](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#fraquezas)
-### [2.2.4 Oportunidades]()
-### [2.2.5 Ameaças]()
+### [2.2.4 Oportunidades](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#oportunidades)
+### [2.2.5 Ameaças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#amea%C3%A7as)
 ### [2.2.6 Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
-### [2.2.7 Concorrente 1]()
-### [2.2.8 Concorrente 2]()
-### [2.2.9 Concorrente 3]()
+### [2.2.7 Concorrente 1](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-1)
+### [2.2.8 Concorrente 2](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-2)
+### [2.2.9 Concorrente 3](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-3)
 ### [2.2.10 Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
 
 ## 2.3 Conhecendo o usuário – Persona
