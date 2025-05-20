@@ -41,36 +41,36 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### [1.3.4 Controle de Mudanças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#34-controle-de-mudan%C3%A7as)
 ### [1.3.5 Gerenciamento de Comunicação](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#35-gerenciamento-de-comunica%C3%A7%C3%A3o)
 
-## [4. Design Thinking](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md)
-### 1. Enquadramento do Problema – Golden Circle
-#### [Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
-#### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
-#### [O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
-### 2. Exploração do Mercado
+# [2. Design Thinking](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md)
+## 2.1 Enquadramento do Problema – Golden Circle
+### [Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
+### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
+### [O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
+## 2.2 Exploração do Mercado
 ### [A) Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
-#### Forças
-#### Fraquezas
-#### Oportunidades
-#### Ameaças
+### Forças
+### Fraquezas
+### Oportunidades
+### Ameaças
 ### [B) Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
-#### Concorrente 1
-#### Concorrente 2
-#### Concorrente 3
+### Concorrente 1
+### Concorrente 2
+### Concorrente 3
 ### [C) Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)
-### 3. Conhecendo o usuário – Persona
+## 2.3 Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
-## [3. Backlog do Produto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md)
-#### Backlog do PRODUTO
-#### Especificações
-#### Revisão 
-#### Implementação
-#### Concluidas 
+# [3. Backlog do Produto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md)
+## 3.1 Backlog do PRODUTO
+## 3.2 Especificações
+## 3.3 Revisão 
+## 3.4 Implementação
+## 3.5Concluidas 
 
 ## [4. Backlog do Sprint](https://github.com/Pacheco-77/backlog-do-produto/blob/main/4_backlog-do-sprint.md)
-#### Pendentes
-#### Em Progresso
-#### Concluídos
+## 4.1 Pendentes
+## 4.2 Em Progresso
+## 4.3 Concluídos
 
 # 🛠️ Tecnologias Utilizadas
 
