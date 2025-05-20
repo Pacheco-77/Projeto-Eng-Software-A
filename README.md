@@ -22,7 +22,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 
 # 📁 Estrutura do Repositório
 
-# [1. Plano de Trabalho](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md)
+# 1. Plano de Trabalho
 ## 1.1 INTRODUÇÃO
 ### [1.1.1 Objeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#1-introdu%C3%A7%C3%A3o)
 ### [1.1.2 Motivação, Justificativa e Oportunidade](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#12-motiva%C3%A7%C3%A3o-justificativa-e-oportunidade)
@@ -41,7 +41,7 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### [1.3.4 Controle de Mudanças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#34-controle-de-mudan%C3%A7as)
 ### [1.3.5 Gerenciamento de Comunicação](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#35-gerenciamento-de-comunica%C3%A7%C3%A3o)
 
-# [2. Design Thinking](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md)
+# 2. Design Thinking
 ## 2.1 Enquadramento do Problema – Golden Circle
 ### [Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
 ### [Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
@@ -60,14 +60,14 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ## 2.3 Conhecendo o usuário – Persona
 ### **Organização das ideias na ferramenta Notion**
 
-# [3. Backlog do Produto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/3_backlog-do-produto.md)
+# 3. Backlog do Produto
 ## 3.1 Backlog do PRODUTO
 ## 3.2 Especificações
 ## 3.3 Revisão 
 ## 3.4 Implementação
 ## 3.5Concluidas 
 
-## [4. Backlog do Sprint](https://github.com/Pacheco-77/backlog-do-produto/blob/main/4_backlog-do-sprint.md)
+# 4. Backlog do Sprint
 ## 4.1 Pendentes
 ## 4.2 Em Progresso
 ## 4.3 Concluídos
