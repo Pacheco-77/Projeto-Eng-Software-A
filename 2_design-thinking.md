@@ -82,16 +82,23 @@
 | Pontos fortes            | Notificações Push / Integração com Redes Sociais | Variedade de Produtos  |   Variedade de Produtos / Velocidade de entregas |  Velocidade de entregas / Tutorias |
 | Pontos fracos / limitações | Limite de areas de entrega   | Dificuldade em comprar os serviços  | Limitada a franquias   | Não possui variedade de produtos |
 
-# 3. Conhecendo o usuário – Persona
-PERSONA 1
+## 2.3 Conhecendo o usuário – Persona
+
+### 2.3.1 PERSONA JÚLIA
 Breve resumo
 ![image](https://github.com/user-attachments/assets/9a32335c-9e52-4e7d-aa8c-747907257621)
-PERSONA 2
+
+### 2.3.2 PERSONA JOÃO MENDES
 Breve resumo
 ![image](https://github.com/user-attachments/assets/36786032-d13f-4cb3-97e6-006bb94fce92)
-PERSONA 3
+
+### 2.3.3 PERSONA ANA OLIVEIRA
 Breve resumo
 ![image](https://github.com/user-attachments/assets/cea0135b-3827-4f2d-9da5-1fb50dd914f0)
+
+### 2.3.4 PERSONA 4
+
+### 2.3.5 PERSONA 5
 
 # **Organização das ideias na ferramenta Notion**
 [Daily Scrum](https://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b&pvs=4)
