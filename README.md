@@ -29,8 +29,8 @@ O objetivo principal deste projeto é aplicar os conceitos de engenharia de soft
 ### [1.1.3 Caracterização do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#13-caracteriza%C3%A7%C3%A3o-do-projeto)
 ## 1.2 INFORMAÇÕES GERAIS
 ### [1.2.1 Escopo Geral](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#21-escopo-geral)
-### 1.2.2 Escopo Específico
-### 1.2.3 Escopo Negativo
+### [1.2.2 Escopo Específico](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#211-escopo-espec%C3%ADfico)
+### [1.2.3 Escopo Negativo](https://github.com/Pacheco-77/backlog-do-produto/edit/main/1_plano%20_de_trabalho.md#212-escopo-negativo)
 ### [1.2.4 Ambiente de Desenvolvimento](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#22-ambiente-de-desenvolvimento)
 ### [1.2.3 Características Inovadoras do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#23-caracter%C3%ADsticas-inovadoras-do-projeto)
 ### [2.4 Resultados Esperados](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#24-resultados-esperados)
