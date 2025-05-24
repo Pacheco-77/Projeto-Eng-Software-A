@@ -31,7 +31,7 @@ Este projeto pretende desenvolver um aplicativo que conecte alimentos orgânicos
 ### 1.2.1 Escopo Geral
 O projeto busca desenvolver um aplicativo mobile para conectar **produtores rurais**, **agrônomos/profissionais de saúde alimentar** e **consumidores de produtos orgânicos**, permitindo a venda e compra de produtos naturais e possibilitando aos produtores expor seus produtos à venda.
 
-#### 1.2.2 Escopo Específico
+### 1.2.2 Escopo Específico
 - **Cadastro e Gerenciamento dos perfis de usuários**:
   - Cadastro de produtores rurais, consumidores e profissionais (nutricionistas e agrônomos) com informações básicas (nome, contato, localização, certificações orgânicas para produtores).
   - Gerenciamento de perfil, permitindo edição de dados e inclusão de fotos ou descrições dos produtos.
