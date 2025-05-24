@@ -25,13 +25,13 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [1.1.2 Motivação, Justificativa e Oportunidade](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#12-motiva%C3%A7%C3%A3o-justificativa-e-oportunidade)
 ### [1.1.3 Caracterização do Projeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#13-caracteriza%C3%A7%C3%A3o-do-projeto)
 
-## 1.2 INFORMAÇÕES GERAIS
-### [1.2.1 Escopo Geral](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#21-escopo-geral)
-### [1.2.2 Escopo Específico](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#211-escopo-espec%C3%ADfico)
-### [1.2.3 Escopo Negativo](https://github.com/Pacheco-77/backlog-do-produto/edit/main/1_plano%20_de_trabalho.md#212-escopo-negativo)
-### [1.2.4 Ambiente de Desenvolvimento](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#22-ambiente-de-desenvolvimento)
-### [1.2.3 Características Inovadoras do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#23-caracter%C3%ADsticas-inovadoras-do-projeto)
-### [2.4 Resultados Esperados](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#24-resultados-esperados)
+## [1.2 INFORMAÇÕES GERAIS](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#2-informa%C3%A7%C3%B5es-gerais)
+### [1.2.1 Escopo Geral]()
+### [1.2.2 Escopo Específico]()
+### [1.2.3 Escopo Negativo]()
+### [1.2.4 Ambiente de Desenvolvimento]()
+### [1.2.3 Características Inovadoras do Projeto]()
+### [2.4 Resultados Esperados]()
 
 ## 1.3 METODOLOGIA DO PROJETO
 ### [1.3.1 Estrutura do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#31-estrutura-do-projeto)
