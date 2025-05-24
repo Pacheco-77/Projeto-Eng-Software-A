@@ -43,7 +43,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 
 
-# [2. Design Thinking]()
+# [2. Design Thinking](https://github.com/Pacheco-77/Projeto-Eng-Software-A/tree/main/SPRINT%2001/02%20-%20DESIGN%20THINKING)
 ## [2.1 Enquadramento do Problema – Golden Circle]()
 ### [2.1.1 Por quê?]()
 ### [2.1.2 Como?]()
