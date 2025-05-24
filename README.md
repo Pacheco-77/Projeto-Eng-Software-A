@@ -33,25 +33,25 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [1.2.3 Características Inovadoras do Projeto]()
 ### [2.4 Resultados Esperados]()
 
-## 1.3 METODOLOGIA DO PROJETO
-### [1.3.1 Estrutura do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#31-estrutura-do-projeto)
-### [1.3.2 Equipe de Projeto: Papéis e Responsabilidades dos Integrantes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#32-equipe-de-projeto-pap%C3%A9is-e-responsabilidades-dos-integrantes)
-### [1.3.3 Backlog do Sprint](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#33-backlog-do-sprint)
-### [1.3.4 Controle de Mudanças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#34-controle-de-mudan%C3%A7as)
-### [1.3.5 Gerenciamento de Comunicação](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#35-gerenciamento-de-comunica%C3%A7%C3%A3o)
+## [1.3 METODOLOGIA DO PROJETO]()
+### [1.3.1 Estrutura do Projeto]()
+### [1.3.2 Equipe de Projeto: Papéis e Responsabilidades dos Integrantes]()
+### [1.3.3 Backlog do Sprint]()
+### [1.3.4 Controle de Mudanças]()
+### [1.3.5 Gerenciamento de Comunicação]()
 
-# 2. Design Thinking
-## 2.1 Enquadramento do Problema – Golden Circle
-### [2.1.1 Por quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#por-qu%C3%AA)
-### [2.1.2 Como?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#como)
-### [2.1.3 O quê?](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#o-qu%C3%AA)
+# [2. Design Thinking]()
+## [2.1 Enquadramento do Problema – Golden Circle]()
+### [2.1.1 Por quê?]()
+### [2.1.2 Como?]()
+### [2.1.3 O quê?]()
 
-## 2.2 Exploração do Mercado
-### [2.2.1 Análise SWOT](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#a-an%C3%A1lise-swot)
-### [2.2.2 Forças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#for%C3%A7as)
-### [2.2.3 Fraquezas](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#fraquezas)
-### [2.2.4 Oportunidades](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#oportunidades)
-### [2.2.5 Ameaças](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#amea%C3%A7as)
+## [2.2 Exploração do Mercado]()
+### [2.2.1 Análise SWOT]()
+### [2.2.2 Forças]()
+### [2.2.3 Fraquezas]()
+### [2.2.4 Oportunidades]()
+### [2.2.5 Ameaças]()
 ### [2.2.6 Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)
 ### [2.2.7 Concorrente 1](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-1)
 ### [2.2.8 Concorrente 2](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-2)
