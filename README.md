@@ -19,11 +19,11 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 # 📁 Estrutura do Repositório
 
-# 1. Plano de Trabalho
-## 1.1 INTRODUÇÃO
-### [1.1.1 Objeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#1-introdu%C3%A7%C3%A3o)
-### [1.1.2 Motivação, Justificativa e Oportunidade](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#12-motiva%C3%A7%C3%A3o-justificativa-e-oportunidade)
-### [1.1.3 Caracterização do Projeto](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#13-caracteriza%C3%A7%C3%A3o-do-projeto)
+# [1. Plano de Trabalho](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#plano-de-trabalho)
+## [1.1 INTRODUÇÃO](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#1-introdu%C3%A7%C3%A3o)
+### [1.1.1 Objeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#11-objetivo)
+### [1.1.2 Motivação, Justificativa e Oportunidade](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#12-motiva%C3%A7%C3%A3o-justificativa-e-oportunidade)
+### [1.1.3 Caracterização do Projeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#13-caracteriza%C3%A7%C3%A3o-do-projeto)
 
 ## 1.2 INFORMAÇÕES GERAIS
 ### [1.2.1 Escopo Geral](https://github.com/Pacheco-77/backlog-do-produto/blob/main/1_plano%20_de_trabalho.md#21-escopo-geral)
