@@ -18,7 +18,6 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 
 # 📁 Estrutura do Repositório
-
 # [1. Plano de Trabalho](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#plano-de-trabalho)
 ## [1.1 INTRODUÇÃO](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#1-introdu%C3%A7%C3%A3o)
 ### [1.1.1 Objeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#11-objetivo)
@@ -44,12 +43,12 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 
 # [2. Design Thinking](https://github.com/Pacheco-77/Projeto-Eng-Software-A/tree/main/SPRINT%2001/02%20-%20DESIGN%20THINKING)
-## [2.1 Enquadramento do Problema – Golden Circle]()
-### [2.1.1 Por quê?]()
-### [2.1.2 Como?]()
-### [2.1.3 O quê?]()
+## [2.1 Enquadramento do Problema – Golden Circle](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md)
+### [2.1.1 Por quê?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#por-qu%C3%AA)
+### [2.1.2 Como?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#como)
+### [2.1.3 O quê?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#o-qu%C3%AA)
 
-## [2.2 Exploração do Mercado]()
+## [2.2 Exploração do Mercado](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/02.%20Explora%C3%A7%C3%A3o%20do%20Mercado.md)
 ### [2.2.1 Análise SWOT]()
 ### [2.2.2 Forças]()
 ### [2.2.3 Fraquezas]()
