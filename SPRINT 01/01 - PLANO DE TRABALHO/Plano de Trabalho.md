@@ -25,7 +25,7 @@ Muitos alimentos consumidos contêm agrotóxicos, contribuindo para uma alimenta
   - O projeto se enquadra no setor de agronegócio com foco na comercialização de produtos orgânicos, e na área de sustentabilidade por apoiar práticas ecológicas no cultivo.
 - **1.1.3.3 Tipo**:
   - O projeto consiste no desenvolvimento de um aplicativo mobile, com a criação de um MVP para testar e validar a solução.
-## 2. INFORMAÇÕES GERAIS
+## 1.2 INFORMAÇÕES GERAIS
 Este projeto pretende desenvolver um aplicativo que conecte alimentos orgânicos diretamente do campo ao consumidor com apenas um clique. Uma limitação é a dependência de internet, considerando que muitos agricultores no campo não têm acesso às mesmas tecnologias. Será o primeiro aplicativo a entregar alimentos totalmente orgânicos ao consumidor final em **Itacoatiara**.
 
 ### 1.2.1 Escopo Geral
