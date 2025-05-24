@@ -29,8 +29,8 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [1.2.2 Escopo Específico](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#211-escopo-espec%C3%ADfico)
 ### [1.2.3 Escopo Negativo](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#212-escopo-negativo)
 ### [1.2.4 Ambiente de Desenvolvimento](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#22-ambiente-de-desenvolvimento)
-### [1.2.3 Características Inovadoras do Projeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#23-caracter%C3%ADsticas-inovadoras-do-projeto)
-### [2.4 Resultados Esperados](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#24-resultados-esperados)
+### [1.2.5 Características Inovadoras do Projeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#23-caracter%C3%ADsticas-inovadoras-do-projeto)
+### [1.2.6 Resultados Esperados](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#24-resultados-esperados)
 
 ## [1.3 METODOLOGIA DO PROJETO](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#3-metodologia-do-projeto)
 ### [1.3.1 Estrutura do Projeto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#31-estrutura-do-projeto)
@@ -38,9 +38,6 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 ### [1.3.3 Backlog do Sprint](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#33-backlog-do-sprint)
 ### [1.3.4 Controle de Mudanças](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#34-controle-de-mudan%C3%A7as)
 ### [1.3.5 Gerenciamento de Comunicação](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#35-gerenciamento-de-comunica%C3%A7%C3%A3o)
-
-
-
 
 # [2. Design Thinking](https://github.com/Pacheco-77/Projeto-Eng-Software-A/tree/main/SPRINT%2001/02%20-%20DESIGN%20THINKING)
 ## [2.1 Enquadramento do Problema – Golden Circle](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md)
