@@ -72,10 +72,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 4. **Backlog do Sprint**  
  4.1 Pendentes  
  4.2 Em Progresso  
- 4.3 Concluídos  
-
-
-# 🛠️ Tecnologias Utilizadas
+ 4.3 Concluídos 
 
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
