@@ -16,8 +16,6 @@ Tema: Segurança alimentar
 
 Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
-
-# 📁 Estrutura do Repositório
 # SUMÁRIO
 
 1. [**Plano de Trabalho**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#plano-de-trabalho)  
