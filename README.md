@@ -43,33 +43,34 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
   2.1.2 [Como?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#como)  
   2.1.3 [O quê?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#o-qu%C3%AA)  
  2.2 [Exploração do Mercado](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/02.%20Explora%C3%A7%C3%A3o%20do%20Mercado.md)  
-  2.2.1 Análise SWOT  
-   2.2.1.1 Forças  
-   2.2.1.2 Fraquezas  
-   2.2.1.3 Oportunidades  
-   2.2.1.4 Ameaças  
+  2.2.1 [Análise SWOT](https://app.slack.com/huddle/T08NMM3SMQT/C08NMM41EDR)  
+   2.2.1.1 [Forças](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#for%C3%A7as)  
+   2.2.1.2 [Fraquezas](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#fraquezas)  
+   2.2.1.3 [Oportunidades](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#oportunidades)  
+   2.2.1.4 [Ameaças](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#amea%C3%A7as)  
   2.2.2 [Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)  
    2.2.2.1 [Concorrente 1](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-1)  
    2.2.2.2 [Concorrente 2](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-2)  
    2.2.2.3 [Concorrente 3](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#concorrente-3)  
    2.2.2.4 [Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#c-quadro-comparativo-de-solu%C3%A7%C3%B5es-existentes)  
- 2.3 Conhecendo o Usuário – Persona  
+ 2.3 [Conhecendo o Usuário – Persona](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#conhecendo-o-usu%C3%A1rio--persona)  
   2.3.1 [Persona Júlia](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#231-persona-j%C3%BAlia)  
   2.3.2 [Persona João Mendes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#232-persona-jo%C3%A3o-mendes)  
   2.3.3 [Persona Ana Oliveira](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#233-persona-ana-oliveira)  
   2.3.4 [Persona 4](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#234-persona-4)  
   2.3.5 [Persona 5](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#235-persona-5)  
- 2.4 Organização das Ideias na Ferramenta Notion  
-  2.4.1 Daily Scrum  
+ 2.4 [Organização das Ideias na Ferramenta Notion](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/DAILYS/Daily%20Scrum.md#:~:text=Organiza%C3%A7%C3%A3o%20das%20ideias%20na%20ferramenta%20Notion)  
+  2.4.1 [Daily Scrum](https://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b#:~:text=Adicionar%20descri%C3%A7%C3%A3o-,Daily%20Scrum,-Daily%20Scrum)
+  2.4.1 [Registros de Daily no Slack](https://app.slack.com/huddle/T08NMM3SMQT/C08NMM41EDR) 
 
-3. [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
+4. [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
  3.1 [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
  3.2 [Especificações](https://github.com/users/Pacheco-77/projects/2#:~:text=dos%20melhores%20descontos.-,Especifica%C3%A7%C3%A3o,-10)  
  3.3 [Revisão](https://github.com/users/Pacheco-77/projects/2#:~:text=entrega%20da%20compra.-,Revis%C3%A3o,-0)  
  3.4 [Implementação](https://github.com/users/Pacheco-77/projects/2#:~:text=tarefas%20em%20andamento-,Implementa%C3%A7%C3%A3o,-0)  
  3.5 [Concluídas](https://github.com/users/Pacheco-77/projects/2#:~:text=sprint%20foi%20conclu%C3%ADdo.-,Conclu%C3%ADdas,-0)  
 
-4. [Backlog do Sprint](https://github.com/users/Pacheco-77/projects/3)  
+5. [Backlog do Sprint](https://github.com/users/Pacheco-77/projects/3)  
  4.1 [Pendentes](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=Descartar-,PENDENTES,-0)  
  4.2 [Em Progresso](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=est%C3%A3o%20em%20processamento-,EM%20PROGRESSO,-0)  
  4.3 [Concluídos](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=sendo%20trabalhado%20ativamente-,CONCLU%C3%8DDO,-12)
