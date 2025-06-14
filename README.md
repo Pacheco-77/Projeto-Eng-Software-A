@@ -62,7 +62,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
  2.4 Organização das Ideias na Ferramenta Notion  
   2.4.1 Daily Scrum  
 
-3. [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2](https://github.com/users/Pacheco-77/projects/2#:~:text=/-,Backlog%20do%20Produto,-Vista%201))  
+3. [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
  3.1 [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24) 
  3.2 [Especificações](https://github.com/users/Pacheco-77/projects/2#:~:text=dos%20melhores%20descontos.-,Especifica%C3%A7%C3%A3o,-10)
  3.3 [Revisão](https://github.com/users/Pacheco-77/projects/2#:~:text=entrega%20da%20compra.-,Revis%C3%A3o,-0)
