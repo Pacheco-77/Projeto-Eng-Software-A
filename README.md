@@ -63,10 +63,10 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
   2.4.1 Daily Scrum  
 
 3. [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
- 3.1 [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24) 
- 3.2 [Especificações](https://github.com/users/Pacheco-77/projects/2#:~:text=dos%20melhores%20descontos.-,Especifica%C3%A7%C3%A3o,-10)
- 3.3 [Revisão](https://github.com/users/Pacheco-77/projects/2#:~:text=entrega%20da%20compra.-,Revis%C3%A3o,-0)
- 3.4 [Implementação](https://github.com/users/Pacheco-77/projects/2#:~:text=tarefas%20em%20andamento-,Implementa%C3%A7%C3%A3o,-0) 
+ 3.1 [Backlog do Produto](https://github.com/users/Pacheco-77/projects/2#:~:text=Descartar-,Backlog%20do%20Produto,-24)  
+ 3.2 [Especificações](https://github.com/users/Pacheco-77/projects/2#:~:text=dos%20melhores%20descontos.-,Especifica%C3%A7%C3%A3o,-10)  
+ 3.3 [Revisão](https://github.com/users/Pacheco-77/projects/2#:~:text=entrega%20da%20compra.-,Revis%C3%A3o,-0)  
+ 3.4 [Implementação](https://github.com/users/Pacheco-77/projects/2#:~:text=tarefas%20em%20andamento-,Implementa%C3%A7%C3%A3o,-0)  
  3.5 [Concluídas](https://github.com/users/Pacheco-77/projects/2#:~:text=sprint%20foi%20conclu%C3%ADdo.-,Conclu%C3%ADdas,-0)  
 
 4. [Backlog do Sprint](#4-backlog-do-sprint)  
