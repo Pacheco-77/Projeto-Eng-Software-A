@@ -62,17 +62,17 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
  2.4 Organização das Ideias na Ferramenta Notion  
   2.4.1 Daily Scrum  
 
-3. **Backlog do Produto**  
- 3.1 Backlog do Produto  
- 3.2 Especificações  
- 3.3 Revisão  
- 3.4 Implementação  
- 3.5 Concluídas  
+3. [Backlog do Produto](#3-backlog-do-produto)  
+ 3.1 [Backlog do Produto](#31-backlog-do-produto)  
+ 3.2 [Especificações](#32-especificações)  
+ 3.3 [Revisão](#33-revisão)  
+ 3.4 [Implementação](#34-implementação)  
+ 3.5 [Concluídas](#35-concluídas)  
 
-4. **Backlog do Sprint**  
- 4.1 Pendentes  
- 4.2 Em Progresso  
- 4.3 Concluídos 
+4. [Backlog do Sprint](#4-backlog-do-sprint)  
+ 4.1 [Pendentes](#41-pendentes)  
+ 4.2 [Em Progresso](#42-em-progresso)  
+ 4.3 [Concluídos](#43-concluídos)  
 
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
