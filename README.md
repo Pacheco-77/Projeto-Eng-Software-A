@@ -72,8 +72,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 4. [Backlog do Sprint](https://github.com/users/Pacheco-77/projects/3)  
  4.1 [Pendentes](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=Descartar-,PENDENTES,-0)  
  4.2 [Em Progresso](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=est%C3%A3o%20em%20processamento-,EM%20PROGRESSO,-0)  
- 4.3 [Concluídos](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=CONCLUIDO,Personas%3A%20Ana%20Paula%2C%20Josiel%2C)  
-
+ 4.3 [Concluídos](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=sendo%20trabalhado%20ativamente-,CONCLU%C3%8DDO,-12)
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
