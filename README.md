@@ -34,8 +34,8 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
   1.3.1 [Estrutura do Projeto]()  
   1.3.2 [Equipe de Projeto: Papéis e Responsabilidades dos Integrantes]()  
   1.3.3 [Backlog do Sprint]()  
-  1.3.4 [Controle de Mudanças]()  
-  1.3.5 [Gerenciamento de Comunicação]()  
+  1.3.4 [Controle de Mudanças](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#134-controle-de-mudan%C3%A7as)  
+  1.3.5 [Gerenciamento de Comunicação](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/01%20-%20PLANO%20DE%20TRABALHO/Plano%20de%20Trabalho.md#plano-de-trabalho:~:text=1.3.5-,Gerenciamento%20de%20Comunica%C3%A7%C3%A3o,-O%20gerenciamento%20de)  
 
 2. [**Design Thinking**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/tree/main/SPRINT%2001/02%20-%20DESIGN%20THINKING)  
  2.1 [Enquadramento do Problema – Golden Circle](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md)  
