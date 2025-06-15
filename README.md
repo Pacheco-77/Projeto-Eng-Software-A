@@ -52,7 +52,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
   2.2.2 [Identificação Visual de Soluções Existentes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#b-identifica%C3%A7%C3%A3o-visual-de-solu%C3%A7%C3%B5es-existentes)  
    2.2.2.1 [Concorrente 1](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#concorrente-1)  
-   2.2.2.2 [Concorrente 2](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#:~:text=de%20suas%20casas.-,Concorrente%202,-Plataforma%3A%20https)  
+   2.2.2.2 [Concorrente 2](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#concorrente-2)  
    2.2.2.3 [Concorrente 3](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#concorrente-3)  
    2.2.2.4 [Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#:~:text=Quadro%20Comparativo%20de%20Solu%C3%A7%C3%B5es%20Existentes)  
 
