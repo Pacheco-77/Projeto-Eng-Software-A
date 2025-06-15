@@ -20,13 +20,13 @@ Muitos alimentos consumidos contêm agrotóxicos, contribuindo para uma alimenta
 
 ### 1.1.3 Caracterização do Projeto
 - **1.1.3.1 Classe**:
-  - Este projeto é classificado como tecnológico por envolver o desenvolvimento de um App mobilee social, por promover a conexão entre os produtores rurais, consumidores e profissionais da área, assim, incentivando uma alimentação saudávele fortalecendo a economia local.
+  - Este projeto é classificado como tecnológico por envolver o desenvolvimento de um App mobile e social, por promover a conexão entre os produtores rurais, consumidores e profissionais da área, assim, incentivando uma alimentação saudávele e fortalecendo a economia local.
 - **1.1.3.2 Enquadrabilidade**:
   - O projeto se enquadra no setor de agronegócio com foco na comercialização de produtos orgânicos, e na área de sustentabilidade por apoiar práticas ecológicas no cultivo.
 - **1.1.3.3 Tipo**:
   - O projeto consiste no desenvolvimento de um aplicativo mobile, com a criação de um MVP para testar e validar a solução.
 ## 1.2 INFORMAÇÕES GERAIS
-Este projeto pretende desenvolver um aplicativo que conecte alimentos orgânicos diretamente do campo ao consumidor com apenas um clique. Uma limitação é a dependência de internet, considerando que muitos agricultores no campo não têm acesso às mesmas tecnologias. Será o primeiro aplicativo a entregar alimentos totalmente orgânicos ao consumidor final em **Itacoatiara**.
+Este projeto pretende desenvolver um aplicativo que conecte consumidores a alimentos orgânicos, diretamente do campo ao consumidor, de forma prática e rápida. Uma limitação é a dependência de internet, considerando que muitos agricultores no campo não têm acesso às mesmas tecnologias. Será o primeiro aplicativo a entregar alimentos totalmente orgânicos ao consumidor final em **Itacoatiara**.
 
 ### 1.2.1 Escopo Geral
 O projeto busca desenvolver um aplicativo mobile para conectar **produtores rurais**, **agrônomos/profissionais de saúde alimentar** e **consumidores de produtos orgânicos**, permitindo a venda e compra de produtos naturais e possibilitando aos produtores expor seus produtos à venda.
