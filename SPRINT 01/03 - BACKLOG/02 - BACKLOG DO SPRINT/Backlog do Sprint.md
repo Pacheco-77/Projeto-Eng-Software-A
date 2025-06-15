@@ -12,9 +12,7 @@ Backlog do Sprint é uma lista de tarefas extraídas do Backlog do Produto. Repr
 Ao acessar o link abaixo, você será redirecionado para o quadro de Backlog da Sprint da equipe no GitHub Projects. Nele, é possível visualizar o status atual das tarefas relacionadas à Sprint, categorizadas em três colunas:
 
 - Pendentes: Tarefas ainda não iniciadas, aguardando desenvolvimento.
-
 - Em Progresso: Tarefas que estão em execução pela equipe.
-
 - Concluído: Tarefas finalizadas.
 
 [Link para o backlog do sprint](https://github.com/users/Pacheco-77/projects/3)
