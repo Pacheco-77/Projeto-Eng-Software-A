@@ -39,7 +39,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 
 2. [**Design Thinking**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/tree/main/SPRINT%2001/02%20-%20DESIGN%20THINKING)  
  2.1 [Enquadramento do Problema – Golden Circle](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md)  
-  2.1.1 [Por quê?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#por-qu%C3%AA)  
+  2.1.1 - [Por quê?](#por-quê)  
   2.1.2 [Como?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#como)  
   2.1.3 [O quê?](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/01.%20Golden%20Circle%20-%20Enquadramento%20do%20Problema.md#o-qu%C3%AA)  
 
