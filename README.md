@@ -57,11 +57,11 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
    2.2.2.4 [Quadro Comparativo de Soluções Existentes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.2%20Explora%C3%A7%C3%A3o%20do%20Mercado.md#:~:text=Quadro%20Comparativo%20de%20Solu%C3%A7%C3%B5es%20Existentes)  
 
  2.3 [Conhecendo o Usuário – Persona](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#conhecendo-o-usu%C3%A1rio--persona)  
-  2.3.1 [Persona Júlia](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#231-persona-j%C3%BAlia)  
-  2.3.2 [Persona João Mendes](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#232-persona-jo%C3%A3o-mendes)  
-  2.3.3 [Persona Ana Oliveira](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#233-persona-ana-oliveira)  
-  2.3.4 [Persona 4](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#234-persona-4)  
-  2.3.5 [Persona 5](https://github.com/Pacheco-77/backlog-do-produto/blob/main/2_design-thinking.md#235-persona-5)  
+  2.3.1 [Persona Júlia](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#persona-j%C3%BAlia)  
+  2.3.2 [Persona João Mendes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#persona-jo%C3%A3o-mendes)  
+  2.3.3 [Persona Ana Oliveira](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#persona-ana-oliveira)  
+  2.3.4 [Persona Camila Borges](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#persona-camila-borges)  
+  2.3.5 [Persona Letícia Santos](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2001/02%20-%20DESIGN%20THINKING/FASE%201%20-%20INSPIRA%C3%87%C3%83O/2.3%20Personas%20-%20Conhecendo%20o%20Usu%C3%A1rio.md#persona-let%C3%ADcia-santos)  
 
  2.4 [Organização das Ideias na Ferramenta Notion](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/DAILYS/Daily%20Scrum.md#:~:text=Organiza%C3%A7%C3%A3o%20das%20ideias%20na%20ferramenta%20Notion)  
   2.4.1 [Daily Scrum](https://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b#:~:text=Adicionar%20descri%C3%A7%C3%A3o-,Daily%20Scrum,-Daily%20Scrum)  
