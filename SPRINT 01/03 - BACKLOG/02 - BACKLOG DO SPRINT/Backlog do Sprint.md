@@ -15,11 +15,6 @@ Ao acessar o link abaixo, você será redirecionado para o quadro de Backlog da 
 
 - Em Progresso: Tarefas que estão em execução pela equipe.
 
-- Concluído: Tarefas finalizadas, como por exemplo:
-
-  * Criação das Histórias de Usuário da persona consumidora Júlia: Ana Paula
-  * Definição e início da criação da Persona Consumidor (Clientes: Ana Paula, Josiel e Itamar)
-  * Criação da persona consumidor agrônomo: Josiel
-  * Criação da Persona Consumidor: Ana Paula
+- Concluído: Tarefas finalizadas.
 
 [Link para o backlog do sprint](https://github.com/users/Pacheco-77/projects/3)
