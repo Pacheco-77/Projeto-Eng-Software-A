@@ -39,10 +39,10 @@
                                   | Firebase Cloud Messaging    |
                                   +-----------------------------+
 
-                        +------------------+        +------------------+
-                        | Deploy Front-End |        |  Deploy Back-End |
-                        |      Vercel      |        |      Railway     |
-                        +------------------+        +------------------+
+                                        +------------------+
+                                        |  Deploy Back-End |
+                                        |      Railway     |
+                                        +------------------+
 
                        
                         
@@ -68,5 +68,4 @@
 | Mensagens / Notificações     | Firebase Cloud Messaging      | Envio de mensagens e notificações push para usuários.                        |
 | Pagamentos                   | Mercado Pago API              | Integração de pagamentos online entre consumidores e produtores.             |
 | Armazenamento de Imagens     | Firebase Storage              | Armazenamento de fotos de produtos, perfis de usuários, etc.                 |
-| Deploy (Front-End Web)       | Vercel                        | Hospedagem contínua e deploy de aplicações web.                              |
 | Deploy (Back-End API)        | Railway                       | Plataforma para hospedar e gerenciar a API do servidor.                      |
