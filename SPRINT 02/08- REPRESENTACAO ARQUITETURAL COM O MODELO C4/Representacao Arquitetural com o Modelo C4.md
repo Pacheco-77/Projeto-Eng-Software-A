@@ -5,5 +5,5 @@
 ![2 drawio (2)](https://github.com/user-attachments/assets/4ee3046f-b5e3-4ade-931b-369905bfc0fc)
 ---
 ## Diagrama de Componentes
-![3 drawio (2)](https://github.com/user-attachments/assets/b12e32ab-b9b3-4979-a528-7c1e22170d98)
+![3 drawio (1)](https://github.com/user-attachments/assets/b9e2662c-8448-49e0-a9e9-00145e43803d)
 ---
