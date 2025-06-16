@@ -80,9 +80,13 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
  4.3 [Concluídos](https://github.com/users/Pacheco-77/projects/3/views/1#:~:text=sendo%20trabalhado%20ativamente-,CONCLU%C3%8DDO,-12)
 
 5. [**Arquitetura do Software**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/05-%20ARQUITETURA%20DO%20SOFTWARE/Arquitetura%20do%20Software.md#5--arquitetura-do-software)
-6. asasasaa
-7. sasasasas
-8. saasas
+
+6. [**Arquitetura do Sistema**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#6-arquitetura-do-sistema)
+   6.1 [Arquitetura em Camadas](Layered Architecture)(https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#61-arquitetura-em-camadas-layered-architecture)
+
+  
+8. sasasasas
+9. saasas
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
