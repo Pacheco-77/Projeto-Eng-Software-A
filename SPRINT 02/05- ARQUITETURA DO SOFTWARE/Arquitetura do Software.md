@@ -1,4 +1,4 @@
-## 5- Arquitetura so Software 
+## 5- Arquitetura do Software 
 Organo Life é um aplicativo Android que conecta consumidores a produtores de alimentos orgânicos. Ele usa uma arquitetura moderna com foco em escalabilidade, modularidade e comunicação assíncrona, respeitando os princípios do modelo C4.
 
 | **Padrão Arquitetural**            | **Aplicação no Sistema**                                                                                                       |
