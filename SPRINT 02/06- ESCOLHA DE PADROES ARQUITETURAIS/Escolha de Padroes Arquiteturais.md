@@ -1,5 +1,5 @@
 
-#6. Arquitetura do Sistema
+# 6. Arquitetura do Sistema
 
 ## 6.1 Arquitetura em Camadas (Layered Architecture)
 
