@@ -87,12 +87,17 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
    6.3 [Arquitetura Client-Server](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#63-arquitetura-client-server)   
    6.4 [Publisher/Subscriber (Pub/Sub) com Firebase Cloud Messaging](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#64-publishersubscriber-pubsub-com-firebase-cloud-messaging)    
 
-7. Tecnologias e Ferramentas Utilizadas (Tech Stack Map)
-   7.1 
-   7.2
-   7.3
-9. Representação Arquitetural
-10. Rastreabilidade com História do Usuário 
+7. [Tecnologias e Ferramentas Utilizadas (Tech Stack Map)](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/07-%20TECNOLOGIAS%20E%20FERRAMENTAS%20UTILIZADAS%20(TECH%20STACK%20MAP)/Tecnologias%20e%20Ferramentas%20Utilizadas%20(Tech%20Stack%20Map).md#7-tecnologias-e-ferramentas-utilizadas-tech-stack-map)  
+   7.1 [Mapa de Tecnologia](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/07-%20TECNOLOGIAS%20E%20FERRAMENTAS%20UTILIZADAS%20(TECH%20STACK%20MAP)/Tecnologias%20e%20Ferramentas%20Utilizadas%20(Tech%20Stack%20Map).md#71-mapa-de-tecnologia)  
+   7.2 [Plataforma](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/07-%20TECNOLOGIAS%20E%20FERRAMENTAS%20UTILIZADAS%20(TECH%20STACK%20MAP)/Tecnologias%20e%20Ferramentas%20Utilizadas%20(Tech%20Stack%20Map).md#72-plataforma)  
+   7.3[Tech Stack](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/07-%20TECNOLOGIAS%20E%20FERRAMENTAS%20UTILIZADAS%20(TECH%20STACK%20MAP)/Tecnologias%20e%20Ferramentas%20Utilizadas%20(Tech%20Stack%20Map).md#73-tech-stack)  
+8. [Representação Arquitetura com o Modelo C4](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#8-representa%C3%A7%C3%A3o-arquitetura-com-o-modelo-c4)  
+    8.1 [Diagrama de Contexto](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#81-diagrama-de-contexto)    
+    8.2 [Diagrama de Conteiners](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#82-diagrama-de-conteiners)  
+    8.3 [Diagrama de Componentes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#83-diagrama-de-componentes)  
+    8.4 [Diagrama de Código](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#84-diagrama-de-c%C3%B3digo)  
+10. Representação Arquitetural
+11. Rastreabilidade com História do Usuário 
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
