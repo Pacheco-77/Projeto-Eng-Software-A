@@ -65,6 +65,7 @@ Optamos pela aplicação mobile que oferece acesso fácil, rápido e intuitivo a
 ---
 
 ## 7.3 Tech Stack
+A seleção da pilha de tecnologia foi realizada de forma estratégica, visando garantir um sistema eficiente, escalável e com integração fluida entre todos os seus componentes.
 
 | **Camada / Propósito**       | **Tecnologia / Serviço**     | **Descrição**                                                                 |
 |------------------------------|-------------------------------|-------------------------------------------------------------------------------|
