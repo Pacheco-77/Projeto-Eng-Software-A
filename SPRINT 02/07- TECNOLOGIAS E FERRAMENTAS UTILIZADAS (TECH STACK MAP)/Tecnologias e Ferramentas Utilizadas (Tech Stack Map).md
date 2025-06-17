@@ -52,11 +52,15 @@ O sistema foi criado com base em uma arquitetura atual e escalável, formada por
 
 
 ## 7.2 Plataforma
+A plataforma define os requisitos básicos de execução e o ambiente em que o aplicativo será disponibilizado ao usuário final. Com base nos objetivos do projeto e no público-alvo, optou-se pelas seguintes definições:
 
 | **Item**           | **Descrição**         |
 |--------------------|------------------------|
 | Plataforma-alvo    | Android                |
 | Tipo de app        | Aplicativo mobile      |
+
+Optamos pela plataforma Android devido à sua ampla popularidade no Brasil, ampliando nosso alcance entre os usuários.
+Optamos pela aplicação mobile que oferece acesso fácil, rápido e intuitivo aos recursos do sistema pelo smartphone.
 
 ---
 
