@@ -1,5 +1,5 @@
 # **Organização das ideias na ferramenta Notion**
-[Daily Scrum](https://www.notion.so/1d0680faee8980bbb43ce5377d062fd2?v=1d7680faee8980d3a9e8000cbdce6d3b&pvs=4)
+[Daily Scrum](https://www.notion.so/2151b3fae48080759b3ae9a48e35cc76?v=2151b3fae4808044b5c0000cf695fc2d&source=copy_link)
 # **Registros de Daily no Slack**
 [Slack](https://app.slack.com/huddle/T08NMM3SMQT/C08NMM41EDR)
 
