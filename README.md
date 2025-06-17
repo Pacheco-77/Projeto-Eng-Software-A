@@ -96,8 +96,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
     8.2 [Diagrama de Conteiners](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#82-diagrama-de-conteiners)  
     8.3 [Diagrama de Componentes](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#83-diagrama-de-componentes)  
     8.4 [Diagrama de Código](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/08-%20REPRESENTACAO%20ARQUITETURAL%20COM%20O%20MODELO%20C4/Representacao%20Arquitetural%20com%20o%20Modelo%20C4.md#84-diagrama-de-c%C3%B3digo)  
-10. Representação Arquitetural
-11. Rastreabilidade com História do Usuário 
+11. [Rastreabilidade com História do Usuário](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/09-%20RASTREABILIDADE%20COM%20HISTORIAS%20DO%20USUARIO/Rastreabilidade%20com%20Historias%20do%20Usuario.md#9-rastreabilidade-com-hist%C3%B3ria-do-usu%C3%A1rio)  
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
