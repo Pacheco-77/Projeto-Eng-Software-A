@@ -88,9 +88,9 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
    6.3 [Arquitetura Client-Server](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#63-arquitetura-client-server)
    6.4 [Publisher/Subscriber (Pub/Sub) com Firebase Cloud Messaging](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#64-publishersubscriber-pubsub-com-firebase-cloud-messaging)
 
-  
-8. sasasasas
-9. saasas
+7. Tecnologias e Ferramentas Utilizadas (Tech Stack Map)
+8. Representação Arquitetural
+9. Rastreabilidade com História do Usuário 
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
