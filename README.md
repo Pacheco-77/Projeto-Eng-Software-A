@@ -82,10 +82,10 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 5. [**Arquitetura do Software**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/05-%20ARQUITETURA%20DO%20SOFTWARE/Arquitetura%20do%20Software.md#5--arquitetura-do-software)
 
 6. [**Arquitetura do Sistema**](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#6-arquitetura-do-sistema)  
-   6.1 [Arquitetura em Camadas]()  
-   6.2 [Modelo MVC (Model-View-Controller) no Back-End]()  
-   6.3 [Arquitetura Client-Server]()   
-   6.4 [Publisher/Subscriber (Pub/Sub) com Firebase Cloud Messaging]()    
+   6.1 [Arquitetura em Camadas](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#61-arquitetura-em-camadas-layered-architecture)  
+   6.2 [Modelo MVC (Model-View-Controller) no Back-End](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#62-modelo-mvc-model-view-controller-no-back-end)  
+   6.3 [Arquitetura Client-Server](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#63-arquitetura-client-server)   
+   6.4 [Publisher/Subscriber (Pub/Sub) com Firebase Cloud Messaging](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2002/06-%20ESCOLHA%20DE%20PADROES%20ARQUITETURAIS/Escolha%20de%20Padroes%20Arquiteturais.md#64-publishersubscriber-pubsub-com-firebase-cloud-messaging)    
 
 7. Tecnologias e Ferramentas Utilizadas (Tech Stack Map)
    7.1 
