@@ -1,4 +1,5 @@
 # 7. Tecnologias e Ferramentas Utilizadas (Tech Stack MAP)
+## 7.1 Mapa de Tecnologia
 
                                    
                                        +---------------------+
@@ -50,7 +51,7 @@
                         
 
 
-## 7.1 Plataforma
+## 7.2 Plataforma
 
 | **Item**           | **Descrição**         |
 |--------------------|------------------------|
@@ -59,7 +60,7 @@
 
 ---
 
-## 7.2 Tech Stack
+## 7.3 Tech Stack
 
 | **Camada / Propósito**       | **Tecnologia / Serviço**     | **Descrição**                                                                 |
 |------------------------------|-------------------------------|-------------------------------------------------------------------------------|
