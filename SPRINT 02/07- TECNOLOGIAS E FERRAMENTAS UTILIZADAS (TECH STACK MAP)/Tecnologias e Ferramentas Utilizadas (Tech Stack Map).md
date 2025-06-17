@@ -1,6 +1,6 @@
 # 7. Tecnologias e Ferramentas Utilizadas (Tech Stack MAP)
 ## 7.1 Mapa de Tecnologia
-
+O sistema foi criado com base em uma arquitetura atual e escalável, formada por várias tecnologias que se integram de maneira eficiente. O objetivo foi assegurar uma excelente performance, segurança, usabilidade e simplicidade na manutenção.
                                    
                                        +---------------------+
                                        |    Usuário Final    |
