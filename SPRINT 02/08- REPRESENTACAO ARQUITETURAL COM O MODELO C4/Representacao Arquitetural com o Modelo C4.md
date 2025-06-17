@@ -14,7 +14,7 @@ API Backend (Node.js + Express.js): Responsável pela lógica de negócio e pela
 ## 8.3 Diagrama de Componentes
 O Diagrama de Componentes apresenta a decomposição interna da API Backend em diversos módulos especializados, cada um responsável por uma funcionalidade do sistema
 
-![3 drawio (1)](https://github.com/user-attachments/assets/b9e2662c-8448-49e0-a9e9-00145e43803d)
+![image](https://github.com/user-attachments/assets/43d12cc5-a2bc-4de0-acdb-46ffb7fa335a)
 ---
 ## 8.4 Diagrma de Código
 O Diagrama de Código ilustra como as classes, funções e módulos estão organizados na aplicação, mostrando suas interações e detalhes de implementação.Esse diagrama é importante para que desenvolvedores entendam a estrutura técnica do sistema.
