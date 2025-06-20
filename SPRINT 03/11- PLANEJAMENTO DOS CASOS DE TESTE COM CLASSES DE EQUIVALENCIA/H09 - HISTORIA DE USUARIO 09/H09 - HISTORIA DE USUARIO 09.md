@@ -85,4 +85,27 @@
 | CT6  | 1, 4, 8                 | Avaliação enviada, mas usuário consegue reenviar ou editar              | Violação da regra de avaliação única |
 | CT7  | 1, 4, 9                 | Avaliação enviada, botão de envio continua disponível                   | Interface permite envio indevido |
 ---
+## RN31-	Avaliações ofensivas podem ser denunciadas.
+### Tabela de Classes de Equivalência – RN31
+
+| ID  | Condição de Entrada                                | Classe Válida                   | Classe Inválida 1                                   | Classe Inválida 2                               |
+|-----|-----------------------------------------------------|----------------------------------|------------------------------------------------------|--------------------------------------------------|
+| C1  | Avaliação ofensiva identificável pelo consumidor   | Sim (1)                          | Linguagem ofensiva sutil ou implícita (2)            | Avaliação claramente ofensiva, mas não reconhecida (3) |
+| C2  | Sistema permite denunciar avaliações               | Sim (4)                          | Opção de denúncia ausente (5)                        | Botão de denúncia inoperante (6)                 |
+| C3  | Denúncia registrada e processada corretamente       | Sim (7)                          | Denúncia registrada, mas sem retorno (8)             | Denúncia não é registrada ou é perdida (9)       |
+
+
+### Tabela de Casos de Teste – RN31
+
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
+|------|--------------------------|-------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Avaliação com linguagem ofensiva clara, botão de denúncia funcional, denúncia registrada | Denúncia efetuada com sucesso |
+| CT2  | 2, 4, 7                 | Linguagem ofensiva sutil, botão de denúncia funcional, denúncia registrada | Denúncia em análise |
+| CT3  | 3, 4, 7                 | Avaliação claramente ofensiva, botão de denúncia funcional, sistema não reconhece denúncia | Falha na detecção da denúncia |
+| CT4  | 1, 5, 7                 | Avaliação ofensiva, mas sem botão de denúncia                             | Consumidor não consegue denunciar |
+| CT5  | 1, 6, 7                 | Botão de denúncia está presente, mas não responde                         | Ação de denúncia falha |
+| CT6  | 1, 4, 8                 | Denúncia é registrada, mas sistema não processa ou responde               | Denúncia sem retorno |
+| CT7  | 1, 4, 9                 | Botão de denúncia funcional, mas sistema não registra a denúncia         | Avaliação permanece sem registro da denúncia |
+---
+## RN32-	As avaliações influenciam a visibilidade dos produtos.
 
