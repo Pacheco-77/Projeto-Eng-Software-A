@@ -13,7 +13,7 @@
 * 	Se o pedido for recusado por falta de pagamento, o sistema exibirá  uma mensagem de alerta ao usuário.
 
 ---
-# Tabela de Classes de Equivalência
+### Tabela de Classes de Equivalência
 
 | Condição de Entrada                                                    | Classes Válidas                                 | Classes Inválidas                            | Classes Inválidas                           |
 |-------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|----------------------------------------------|
@@ -26,7 +26,7 @@
 
 ---
 
-# Tabela de Casos de Teste
+### Tabela de Casos de Teste
 
 | Casos de Teste | Classes de Equivalência                                        | Entrada                                                                              | Resultado Esperado                                        |
 |----------------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------|
