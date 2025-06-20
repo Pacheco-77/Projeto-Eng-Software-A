@@ -4,11 +4,11 @@
 
 ### Tabela de Classes de Equivalência
 
-| ID  | Condição de Entrada                         | Classe Válida | Classe Inválida |
+| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
 |-----|---------------------------------------------|----------------|------------------|
-| C1  | Produto com foto | Sim  (1)          | Produto sem foto cadastrada    (2)         |
-| C2  | Produto com pequena descrição  | Sim  (3)          | Descrição longa  (4)    |
-| C3  | Interface exibe a foto e descrição dos produtos de forma organizada   | Sim  (5)         | Não      (6)        |
+| C1  | Produto com foto                            | Sim  (1)       | Produto sem foto cadastrada  (2)  |
+| C2  | Produto com pequena descrição               | Sim  (3)       | Descrição longa  (4)    |
+| C3  | Interface exibe a foto e descrição dos produtos de forma organizada   | Sim  (5)       | Não  (6)  |
 
 ### Tabela de Casos de Teste- História do Usuário 
 | Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
