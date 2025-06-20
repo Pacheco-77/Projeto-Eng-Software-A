@@ -17,11 +17,11 @@ Regras de Negócio
 
 | Condição de Entrada                                  | Classes Válidas                                   | Classes Inválidas                                | Classes Inválidas                               |
 |------------------------------------------------------|---------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
-| Produto possui imagem                                | Produto com pelo menos 1 imagem (1)               | Produto sem imagem (2)                           | —                                               |
-| Formato da imagem                                    | PNG, JPEG ou JPG (3)                              | Formato não permitido (PDF, BMP, GIF, etc.) (4)  | —                                               |
-| Tamanho da imagem                                    | Tamanho ≤ 10MB (5)                                | Tamanho > 10MB (6)                               | —                                               |
-| Data da última atualização da imagem                 | Atualizada nos últimos 3 meses (7)                | Atualizada há mais de 3 meses (8)                | —                                               |
-| Funcionalidade de zoom na imagem                     | Zoom funcionando corretamente (9)                 | Zoom não funciona (10)                           | —                                               |
+| Produto possui imagem                                | Produto com pelo menos 1 imagem (1)               | Produto sem imagem (2)                           |                                                |
+| Formato da imagem                                    | PNG, JPEG ou JPG (3)                              | Formato não permitido (PDF, BMP, GIF, etc.) (4)  |                                                |
+| Tamanho da imagem                                    | Tamanho ≤ 10MB (5)                                | Tamanho > 10MB (6)                               |                                                |
+| Data da última atualização da imagem                 | Atualizada nos últimos 3 meses (7)                | Atualizada há mais de 3 meses (8)                |                                                |
+| Funcionalidade de zoom na imagem                     | Zoom funcionando corretamente (9)                 | Zoom não funciona (10)                           |                                                |
 | Campo de data da última atualização                  | Data correta e visível (11)                       | Data não aparece (12)                            | Data incorreta/exibida de forma errada (13)     |
 
 ---
