@@ -9,5 +9,5 @@ Critérios de Aceitação
 Regras de Negócio
 
 * 	Um pedido só é registrado se houver estoque suficiente.
-*	 Após aceito, o estoque dos produtos deve ser automaticamente atualizado.
-* 	Pedidos recusados não afetam o estoque.
+*	 Após a aceitação do pedido, o estoque dos produtos selecionados será automaticamente atualizado no cadastro do produtor
+* 	Se o pedido for recusado por falta de pagamento, o sistema exibirá  uma mensagem de alerta ao usuário.
