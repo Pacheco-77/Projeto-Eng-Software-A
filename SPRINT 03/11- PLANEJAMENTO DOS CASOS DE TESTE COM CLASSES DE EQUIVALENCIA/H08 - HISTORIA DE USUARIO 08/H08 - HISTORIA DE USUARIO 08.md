@@ -77,5 +77,47 @@
 | CT5  | 1, 6, 7                 | Produto disponível, botão exibido, mas função inoperante                | Ação falha ao tentar adicionar item |
 | CT6  | 1, 4, 8                 | Produto disponível, botão funcional, mas falha ao adicionar             | Carrinho não atualiza |
 | CT7  | 1, 4, 9                 | Produto disponível, botão funcional, mas item aparece duplicado         | Erro de quantidade no carrinho |
----  
+--- 
+## AC32-	O aplicativo deve permitir o consumidor visualizar o valor total da compra antes de finalizá-la.
+### Tabela de Classes de Equivalência – AC32
+
+| ID  | Condição de Entrada                                        | Classe Válida                     | Classe Inválida 1                                   | Classe Inválida 2                             |
+|-----|-------------------------------------------------------------|------------------------------------|------------------------------------------------------|------------------------------------------------|
+| C1  | Aplicativo calcula o valor total da compra automaticamente | Sim (1)                            | Cálculo não é acionado automaticamente (2)           | Valor calculado incorretamente (3)            |
+| C2  | Valor total exibido na interface antes de finalizar compra | Sim (4)                            | Valor total não exibido (5)                          | Valor exibido apenas após finalização (6)     |
+| C3  | Valor total corresponde à soma dos itens no carrinho       | Sim (7)                            | Total não condiz com os itens adicionados (8)        | Soma desconsidera descontos ou frete (9)      |
+
+### Tabela de Casos de Teste – AC32
+
+| Caso | Classes de Equivalência | Entrada                                                                                   | Resultado Esperado |
+|------|--------------------------|-------------------------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Cálculo automático do total, valor exibido corretamente, soma confere com os itens        | Valor total exibido corretamente |
+| CT2  | 2, 4, 7                 | Total precisa de ação manual, valor exibido corretamente, soma confere                    | Funcionalidade falha parcialmente |
+| CT3  | 3, 4, 7                 | Valor calculado incorretamente, mas exibido antes da finalização                          | Valor incorreto exibido |
+| CT4  | 1, 5, 7                 | Cálculo automático, mas total não é exibido ao consumidor antes da finalização            | Falta de transparência no processo |
+| CT5  | 1, 6, 7                 | Valor só aparece após finalização da compra                                               | Experiência do usuário prejudicada |
+| CT6  | 1, 4, 8                 | Valor exibido, mas diferente da soma de itens no carrinho                                 | Inconsistência de valores |
+| CT7  | 1, 4, 9                 | Soma correta dos itens, mas descontos e frete não considerados no total                   | Total exibido com erro de cálculo |
+---
+## AC33-	O consumidor deve poder concluir a compra dentro do aplicativo sempre que possível. Quando o uso de plataformas externas for necessário (ex: autenticação bancária), o redirecionamento será feito de forma segura e transparente, com retorno automático ao app após o pagamento.
+### Tabela de Classes de Equivalência – AC33
+
+| ID  | Condição de Entrada                                                                | Classe Válida                       | Classe Inválida 1                                      | Classe Inválida 2                                    |
+|-----|-------------------------------------------------------------------------------------|--------------------------------------|---------------------------------------------------------|-------------------------------------------------------|
+| C1  | Processo de compra pode ser concluído dentro do app                                | Sim (1)                              | Processo exige saída do app sem retorno (2)             | App trava ou reinicia durante o processo (3)          |
+| C2  | Redirecionamento externo ocorre de forma segura e transparente (quando necessário) | Sim (4)                              | Redirecionamento não seguro ou confuso (5)              | Interface do redirecionamento apresenta falhas (6)    |
+| C3  | App retorna automaticamente após processo externo                                   | Sim (7)                              | Retorno ao app falha ou precisa de ação manual (8)      | Retorno leva o usuário a uma tela incorreta (9)       |
+
+### Tabela de Casos de Teste – AC33
+
+| Caso | Classes de Equivalência | Entrada                                                                                                    | Resultado Esperado |
+|------|--------------------------|------------------------------------------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Compra é concluída no app, ou redirecionamento ocorre com segurança e retorno automático ao app            | Compra concluída com sucesso |
+| CT2  | 2, 4, 7                 | Compra exige saída não prevista do app, redirecionamento é seguro, retorno automático                     | Experiência parcial, app não oferece compra direta |
+| CT3  | 3, 4, 7                 | App apresenta falha e reinicia ao tentar processar compra                                                  | Processo de compra interrompido |
+| CT4  | 1, 5, 7                 | Processo no app é normal, mas redirecionamento confuso e inseguro                                          | Usuário desconfia da segurança do pagamento |
+| CT5  | 1, 6, 7                 | Interface externa com falhas durante redirecionamento                                                      | Interrupção ou abandono da compra |
+| CT6  | 1, 4, 8                 | Compra com redirecionamento seguro, mas app não retorna automaticamente                                   | Usuário precisa reiniciar o app |
+| CT7  | 1, 4, 9                 | Compra com redirecionamento correto, mas retorno leva a tela de início ao invés de resumo de pedido       | Continuidade de navegação comprometida |
+
 
