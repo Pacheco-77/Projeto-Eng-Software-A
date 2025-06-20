@@ -108,4 +108,25 @@
 | CT7  | 1, 4, 9                 | Botão de denúncia funcional, mas sistema não registra a denúncia         | Avaliação permanece sem registro da denúncia |
 ---
 ## RN32-	As avaliações influenciam a visibilidade dos produtos.
+### Tabela de Classes de Equivalência – RN32
+
+| ID  | Condição de Entrada                                           | Classe Válida                      | Classe Inválida 1                                       | Classe Inválida 2                             |
+|-----|----------------------------------------------------------------|-------------------------------------|----------------------------------------------------------|------------------------------------------------|
+| C1  | Produto possui avaliações registradas                         | Sim (1)                             | Produto sem avaliações (2)                               | Produto com avaliações excluídas (3)          |
+| C2  | Sistema calcula média de avaliações corretamente              | Sim (4)                             | Cálculo da média incorreto (5)                           | Média desconsidera avaliações recentes (6)    |
+| C3  | Visibilidade do produto varia conforme a avaliação            | Sim (7)                             | Produto sempre visível, independentemente da avaliação (8) | Avaliações afetam visibilidade de forma inconsistente (9) |
+
+### Tabela de Casos de Teste – RN32
+
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
+|------|--------------------------|-------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produto com várias avaliações positivas e sistema calcula média corretamente | Produto ganha destaque na plataforma |
+| CT2  | 2, 4, 7                 | Produto sem avaliações, sistema considera média nula                    | Visibilidade reduzida ou neutra |
+| CT3  | 3, 4, 7                 | Produto com avaliações excluídas, média não é considerada               | Produto não ranqueado corretamente |
+| CT4  | 1, 5, 7                 | Média de avaliação mal calculada, produto bem avaliado recebe nota baixa | Visibilidade incorreta |
+| CT5  | 1, 6, 7                 | Sistema ignora avaliações recentes nas médias                           | Visibilidade não reflete desempenho atual |
+| CT6  | 1, 4, 8                 | Produto mal avaliado continua em destaque                               | Requisito de visibilidade não aplicado |
+| CT7  | 1, 4, 9                 | Alterações na visibilidade não seguem padrão com base na média          | Inconsistência no ranqueamento de produtos |
+---
+
 
