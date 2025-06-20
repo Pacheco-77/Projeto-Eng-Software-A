@@ -1,20 +1,19 @@
-**Como** consumidor, eu **gostaria** de um aplicativo com imagens reais dos produtos, **para que** eu possa verificar a qualidade dos produtos.
-
-Critérios de Aceitação
+# **Como** consumidor, eu **gostaria** de um aplicativo com imagens reais dos produtos, **para que** eu possa verificar a qualidade dos produtos.
+# Critérios de Aceitação
 
 * Cada produto deve conter pelo menos duas imagens reais.
 * 	O usuário deve poder ampliar as imagens.
 * As imagens devem ser atualizadas a cada 3 meses.
 * O aplicativo deve informar a data da última modificação da imagem.
 
-Regras de Negócio
+# Regras de Negócio
 
 *	 O vendedor é responsável pela qualidade e envio de imagens reais.
 * 	Produtos sem imagens não poderão ser cadastrados.
 *	As imagens devem seguir um padrão de tamanho e qualidade.
 
 ---
-
+###  Tabela de Classes de Equivalência
 | Condição de Entrada                                  | Classes Válidas                                   | Classes Inválidas                                | Classes Inválidas                               |
 |------------------------------------------------------|---------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Produto possui imagem                                | Produto com pelo menos 1 imagem (1)               | Produto sem imagem (2)                           |                                                |
@@ -25,7 +24,7 @@ Regras de Negócio
 | Campo de data da última atualização                  | Data correta e visível (11)                       | Data não aparece (12)                            | Data incorreta/exibida de forma errada (13)     |
 
 ---
-
+### Tabela de Casos de Teste
 | Casos de Teste | Classes de Equivalência       | Entradas                                                                                     | Resultado Esperado                                                    |
 |----------------|-------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | Caso 1           | 1, 3, 5, 7, 9, 11             | Produto com imagem PNG, tamanho 5MB, atualizada há 1 mês, zoom funcionando, data visível     | Produto cadastrado com sucesso.           |
