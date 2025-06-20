@@ -1,4 +1,5 @@
 # Como consumidor, eu gostaria de poder comprar produtos certificados como orgânicos (conforme legislação brasileira), para garantir uma alimentação saudável e livre de agrotóxicos.  
+# Critérios de Aceitação
 ## AC28- O aplicativo deve ter um selo ou ícone para indicar que o produto é orgânico.    
 ###  Tabela de Classes de Equivalência
 
