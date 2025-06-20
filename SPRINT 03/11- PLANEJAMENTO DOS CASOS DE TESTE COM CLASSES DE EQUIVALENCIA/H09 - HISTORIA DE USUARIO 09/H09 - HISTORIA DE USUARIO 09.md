@@ -1,5 +1,6 @@
 # H9- Como produtor rural, quero ver os comentários e avaliações dos consumidores, para saber se eles ficaram satisfeitos e melhorar minha oferta.
 # Critérios de Aceitação
+## AC34	O produtor pode visualizar avaliações em uma aba separada do perfil.
 ### Tabela de Classes de Equivalência – AC34
 
 | ID  | Condição de Entrada                                   | Classe Válida                     | Classe Inválida 1                                        | Classe Inválida 2                                 |
