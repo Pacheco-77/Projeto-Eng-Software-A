@@ -119,5 +119,92 @@
 | CT5  | 1, 6, 7                 | Interface externa com falhas durante redirecionamento                                                      | Interrupção ou abandono da compra |
 | CT6  | 1, 4, 8                 | Compra com redirecionamento seguro, mas app não retorna automaticamente                                   | Usuário precisa reiniciar o app |
 | CT7  | 1, 4, 9                 | Compra com redirecionamento correto, mas retorno leva a tela de início ao invés de resumo de pedido       | Continuidade de navegação comprometida |
+---  
 
+# Regras de Negócio
+## RN26-	Um agrônomo deve aprovar o selo de orgânico.
+### Tabela de Classes de Equivalência – RN26
 
+| ID  | Condição de Entrada                                    | Classe Válida               | Classe Inválida 1                                 | Classe Inválida 2                             |
+|-----|---------------------------------------------------------|------------------------------|----------------------------------------------------|------------------------------------------------|
+| C1  | Produto com solicitação de selo orgânico               | Sim (1)                      | Produto sem solicitação de selo (2)                | Produto já possui selo aprovado anteriormente (3) |
+| C2  | Agrônomo disponível para análise e decisão             | Sim (4)                      | Agrônomo ausente ou não designado (5)              | Agrônomo não possui permissão para aprovar (6) |
+| C3  | Aprovação do selo registrada de forma oficial          | Sim (7)                      | Aprovação feita fora do sistema (8)                | Aprovação não registrada corretamente (9)       |
+
+### Tabela de Casos de Teste – RN26
+
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
+|------|--------------------------|-------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produto solicita selo, agrônomo disponível e registro feito corretamente | Selo aprovado e registrado com sucesso |
+| CT2  | 2, 4, 7                 | Produto sem solicitação, mesmo com agrônomo disponível                   | Processo de aprovação não iniciado |
+| CT3  | 3, 4, 7                 | Produto já aprovado previamente, nova tentativa de solicitação          | Solicitação rejeitada ou ignorada |
+| CT4  | 1, 5, 7                 | Produto solicita selo, mas não há agrônomo designado                     | Aprovação não realizada |
+| CT5  | 1, 6, 7                 | Produto solicita selo, agrônomo atribuído sem permissão adequada        | Aprovação inválida ou bloqueada pelo sistema |
+| CT6  | 1, 4, 8                 | Produto e agrônomo corretos, mas aprovação feita fora do sistema        | Registro ausente, processo inválido |
+| CT7  | 1, 4, 9                 | Produto e agrônomo corretos, mas falha na gravação da aprovação         | Inconsistência no status do selo |
+---
+## RN27-	Todos produtos orgânicos devem ter a descrição detalhada de sua procedência (fornecedor, local de cultivo, data da colheita…).
+### Tabela de Classes de Equivalência – RN27
+
+| ID  | Condição de Entrada                                      | Classe Válida               | Classe Inválida 1                                      | Classe Inválida 2                                |
+|-----|-----------------------------------------------------------|------------------------------|---------------------------------------------------------|---------------------------------------------------|
+| C1  | Produto é classificado como orgânico                     | Sim (1)                      | Produto não orgânico (2)                               | Produto sem classificação definida (3)           |
+| C2  | Campos de procedência estão preenchidos                  | Sim (4)                      | Campos ausentes (5)                                     | Campos preenchidos de forma incompleta (6)       |
+| C3  | Procedência exibida de forma legível na interface        | Sim (7)                      | Texto truncado ou ilegível (8)                          | Dados em local inadequado da interface (9)       |
+
+### Tabela de Casos de Teste – RN27
+
+| Caso | Classes de Equivalência | Entrada                                                                                 | Resultado Esperado |
+|------|--------------------------|-----------------------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produto orgânico com todos os dados de procedência preenchidos e exibidos corretamente | Procedência exibida com sucesso |
+| CT2  | 2, 4, 7                 | Produto não orgânico com dados preenchidos                                              | Procedência não obrigatória |
+| CT3  | 3, 4, 7                 | Produto sem classificação definida, campos preenchidos corretamente                    | Exibição depende da regra de negócio aplicada |
+| CT4  | 1, 5, 7                 | Produto orgânico com campos de procedência ausentes                                     | Exibição incompleta, violação do requisito |
+| CT5  | 1, 6, 7                 | Produto orgânico com procedência incompleta (ex: sem data de colheita)                 | Exibição parcial, falta de informação obrigatória |
+| CT6  | 1, 4, 8                 | Produto orgânico com procedência preenchida, mas texto cortado                         | Experiência prejudicada, precisa correção |
+| CT7  | 1, 4, 9                 | Produto orgânico com dados corretos, mas exibidos fora do local esperado               | Navegação confusa ou improdutiva |
+---
+
+## RN28-	As categorias de produtos devem estar sempre atualizadas.
+### Tabela de Classes de Equivalência – RN28
+
+| ID  | Condição de Entrada                                  | Classe Válida                  | Classe Inválida 1                                       | Classe Inválida 2                                |
+|-----|-------------------------------------------------------|---------------------------------|----------------------------------------------------------|---------------------------------------------------|
+| C1  | Sistema permite manutenção das categorias             | Sim (1)                         | Interface de gerenciamento de categorias inexistente (2) | Acesso restrito ou com falhas (3)                |
+| C2  | Atualizações de categoria são refletidas no app      | Sim (4)                         | Atualizações não propagam corretamente (5)               | Demora excessiva na atualização (6)              |
+| C3  | Categorias estão alinhadas com os produtos ativos    | Sim (7)                         | Categorias obsoletas ou não utilizadas (8)               | Categorias duplicadas ou ambíguas (9)            |
+
+### Tabela de Casos de Teste – RN28
+
+| Caso | Classes de Equivalência | Entrada                                                                               | Resultado Esperado |
+|------|--------------------------|---------------------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Sistema com interface de gerenciamento funcional, categorias atualizadas e em uso    | Categorias refletidas corretamente no app |
+| CT2  | 2, 4, 7                 | Interface de gerenciamento indisponível, mas dados antigos ainda são exibidos        | Categorias desatualizadas permanecem visíveis |
+| CT3  | 3, 4, 7                 | Acesso ao painel com erros, atualizações realizadas não são salvas corretamente       | Falha na manutenção de categorias |
+| CT4  | 1, 5, 7                 | Atualização feita, mas app não exibe as mudanças                                     | Inconsistência entre sistema e interface |
+| CT5  | 1, 6, 7                 | Atualização de categoria demora mais de 1 hora para refletir                         | Experiência do usuário comprometida |
+| CT6  | 1, 4, 8                 | Categoria antiga permanece visível mesmo sem produtos associados                     | Requisito de atualização não cumprido |
+| CT7  | 1, 4, 9                 | Categorias repetidas (ex: “Verduras” e “Hortaliças”) confundem o consumidor          | Organização inadequada no app |
+---
+
+## RN29-	Apenas produtores cadastrados e verificados devem poder vender produtos como orgânicos.
+### Tabela de Classes de Equivalência – RN29
+
+| ID  | Condição de Entrada                                      | Classe Válida                  | Classe Inválida 1                                        | Classe Inválida 2                                |
+|-----|-----------------------------------------------------------|---------------------------------|-----------------------------------------------------------|---------------------------------------------------|
+| C1  | Produtor está cadastrado na plataforma                   | Sim (1)                         | Produtor não cadastrado (2)                              | Cadastro com dados incompletos (3)               |
+| C2  | Produtor passou por processo de verificação              | Sim (4)                         | Verificação pendente (5)                                 | Verificação reprovada ou inválida (6)            |
+| C3  | Sistema restringe a venda de produtos orgânicos          | Sim (7)                         | Sistema permite cadastro de produtos orgânicos por qualquer produtor (8) | Restrição falha em alguns casos (9) |
+
+### Tabela de Casos de Teste – RN29
+
+| Caso | Classes de Equivalência | Entrada                                                                            | Resultado Esperado |
+|------|--------------------------|------------------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produtor cadastrado e verificado, sistema aplica corretamente a restrição         | Produto orgânico disponível para venda |
+| CT2  | 2, 4, 7                 | Produtor não cadastrado, mesmo com verificação válida                             | Venda não permitida |
+| CT3  | 3, 4, 7                 | Cadastro incompleto, verificação válida                                            | Venda negada até regularização do cadastro |
+| CT4  | 1, 5, 7                 | Cadastro feito, mas verificação pendente                                           | Venda de produto orgânico bloqueada |
+| CT5  | 1, 6, 7                 | Cadastro feito, verificação inválida                                               | Venda não permitida |
+| CT6  | 1, 4, 8                 | Sistema ignora restrição de verificação                                            | Risco de venda indevida de produto orgânico |
+| CT7  | 1, 4, 9                 | Sistema falha ao aplicar restrição para determinado produtor                      | Produto orgânico liberado indevidamente |
+---
