@@ -35,3 +35,22 @@
 | CT5  | 1, 6, 7    | Filtro disponível na interface, Categoria errada para o produto e Filtro aplicado corretamente | Filtro inexistente |
 | CT6  | 1, 4, 8    | Filtro disponível na interface, produto com categoria selecionado e  Filtro não aplica corretamente os critérios selecionados       | Filtro inexistente  |
 ---
+### Tabela de Classes de Equivalência – AC30
+
+| ID  | Condição de Entrada                                       | Classe Válida           | Classe Inválida 1                            | Classe Inválida 2                           |
+|-----|------------------------------------------------------------|--------------------------|-----------------------------------------------|---------------------------------------------|
+| C1  | Produto contém campo de descrição do fornecedor           | Sim (1)                  | Campo ausente no cadastro do produto (2)      | Produto sem vínculo com fornecedor (3)      |
+| C2  | Descrição do fornecedor está preenchida                   | Sim (4)                  | Campo vazio (5)                                | Preenchimento inconsistente ou inválido (6) |
+| C3  | Descrição é exibida corretamente na interface do usuário  | Sim (7)                  | Texto cortado ou ilegível (8)                 | Texto em local errado ou confuso (9)        |
+
+### Tabela de Casos de Teste – AC30
+
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
+|------|--------------------------|-------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produto com campo de descrição preenchido corretamente, texto exibido adequadamente | Descrição do fornecedor exibida com sucesso |
+| CT2  | 2, 4, 7                 | Produto sem campo de descrição, mas com valor válido armazenado        | Falha ao exibir descrição                    |
+| CT3  | 3, 4, 7                 | Produto sem fornecedor associado, mas descrição presente                | Falha ou inconsistência                      |
+| CT4  | 1, 5, 7                 | Produto com campo de descrição vazio, mas configurado para exibição    | Nenhuma informação exibida                  |
+| CT5  | 1, 6, 7                 | Campo preenchido com dados incoerentes (ex: "123!!"), exibido normalmente | Exibição incorreta ou conteúdo inválido      |
+| CT6  | 1, 4, 8                 | Texto da descrição aparece cortado na interface                         | Falha na exibição                            |
+| CT7  | 1, 4, 9                 | Texto aparece fora do local padrão da interface                         | Experiência do usuário prejudicada           |
