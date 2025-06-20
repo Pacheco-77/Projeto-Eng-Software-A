@@ -35,6 +35,7 @@
 | CT5  | 1, 6, 7    | Filtro disponível na interface, Categoria errada para o produto e Filtro aplicado corretamente | Filtro inexistente |
 | CT6  | 1, 4, 8    | Filtro disponível na interface, produto com categoria selecionado e  Filtro não aplica corretamente os critérios selecionados       | Filtro inexistente  |
 ---
+## AC30-	Os produtos devem ter a descrição do fornecedor.
 ### Tabela de Classes de Equivalência – AC30
 
 | ID  | Condição de Entrada                                       | Classe Válida           | Classe Inválida 1                            | Classe Inválida 2                           |
