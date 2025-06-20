@@ -56,3 +56,26 @@
 | CT5  | 1, 6, 7                 | Campo preenchido com dados incoerentes (ex: "123!!"), exibido normalmente | Exibição incorreta ou conteúdo inválido      |
 | CT6  | 1, 4, 8                 | Texto da descrição aparece cortado na interface                         | Falha na exibição                            |
 | CT7  | 1, 4, 9                 | Texto aparece fora do local padrão da interface                         | Experiência do usuário prejudicada           |
+---  
+## AC31- O consumidor deve poder adicionar itens ao carrinho de compras.
+### Tabela de Classes de Equivalência – AC31
+
+| ID  | Condição de Entrada                                 | Classe Válida                         | Classe Inválida 1                               | Classe Inválida 2                          |
+|-----|------------------------------------------------------|----------------------------------------|--------------------------------------------------|--------------------------------------------|
+| C1  | Produto disponível para compra                      | Sim (1)                                | Produto indisponível (2)                         | Produto com estoque zerado (3)             |
+| C2  | Função “Adicionar ao carrinho” visível e funcional  | Sim (4)                                | Botão não exibido (5)                            | Função inoperante (6)                      |
+| C3  | Item é corretamente adicionado ao carrinho          | Sim (7)                                | Item não é adicionado (8)                        | Item duplicado ou com erro de quantidade (9) |
+
+### Tabela de Casos de Teste – AC31
+
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
+|------|--------------------------|--------------------------------------------------------------------------|--------------------|
+| CT1  | 1, 4, 7                 | Produto disponível, botão “Adicionar ao carrinho” visível e funcional, item adicionado com sucesso | Item presente no carrinho |
+| CT2  | 2, 4, 7                 | Produto indisponível, botão visível e funcional                         | Item não adicionado |
+| CT3  | 3, 4, 7                 | Produto com estoque zerado, botão visível e funcional                   | Item não adicionado |
+| CT4  | 1, 5, 7                 | Produto disponível, botão não exibido                                   | Usuário não consegue adicionar item |
+| CT5  | 1, 6, 7                 | Produto disponível, botão exibido, mas função inoperante                | Ação falha ao tentar adicionar item |
+| CT6  | 1, 4, 8                 | Produto disponível, botão funcional, mas falha ao adicionar             | Carrinho não atualiza |
+| CT7  | 1, 4, 9                 | Produto disponível, botão funcional, mas item aparece duplicado         | Erro de quantidade no carrinho |
+---  
+
