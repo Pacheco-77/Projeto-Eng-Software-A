@@ -1,4 +1,4 @@
-# H5 - Como consumidor, eu gostaria que o aplicativo fornecesse feedbacks de outros usuários sobre os produtos, para que eu tenha maior segurança em compra-los.
+# H5 - Como consumidor, eu gostaria que o aplicativo fornecesse feedbacks de outros usuários sobre os produtos, para que eu tenha maior segurança em comprá-los.
 ## História do Usuário
 
 ### Tabela de Classes de Equivalência
@@ -6,7 +6,7 @@
 | ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
 |-----|---------------------------------------------|----------------|------------------|
 | C1  | Produto possui avaliações                   | Sim  (1)       | Produto sem avaliações (2)  |
-| C2  | Avaliação com comentários claros            | Sim  (3)       | Avaliações ausente, confusas ou irrelevantes (4)|
+| C2  | Avaliação com comentários claros            | Sim  (3)       | Avaliações ausentes, confusas ou irrelevantes (4)|
 | C3  | Interface exibe avaliações enviadas         | Sim  (5)       | Avaliações não exibidas  (6)  |
 
 ### Tabela de Casos de Teste- História do Usuário 
@@ -15,7 +15,7 @@
 | CT1  | 1, 3, 5   | Produto com avaliações, comentários claros e exibidas corretamente | Feedbacks exibidos com sucesso|
 | CT2  | 2, 3, 5   | Produto sem avaliação, comentários claros e exibidas corretamente  | Produto sem feedback disponível |
 | CT3  | 1, 4, 5   | Produto com avaliações mas com comentário ausente, confuso ou irrelevante| Feedback incompleto ou inválido|
-| CT4  | 1, 3, 6   | Produto com avaliações, mas interfacie com erro na exibição  | Erro de usabilidade - feedback não exibido |
+| CT4  | 1, 3, 6   | Produto com avaliações, mas interface com erro na exibição  | Erro de usabilidade - feedback não exibido |
 
 ## Critérios de Aceitação
 ### AC17 - Cada produto deve ter uma seção de Avaliações ao final da página.
@@ -24,7 +24,7 @@
 | ID  | Condição de Entrada                         | Classe Válida | Classe Inválida |
 |-----|---------------------------------------------|----------------|------------------|
 | C1  | Produto com seção de avaliação         | Sim (1)  | Seção ausente (2)   |
-| C2  | Localização da seção de avaliações     | Localiazada ao final da página (3) | Seção não localizada no final da página (4) | 
+| C2  | Localização da seção de avaliações     | Localizada ao final da página (3) | Seção não localizada no final da página (4) | 
 | C3  | Interface exibe a seção de avaliações  | Sim  (5)  | Erro ao exibir seção (6)| 
 
 
@@ -32,9 +32,9 @@
 | Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
 |------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | CT1  | 1, 3, 5   | Produto com seção de avaliações, localizada ao final da página e exibidas corretamente | Seção exibida corretamente|
-| CT2  | 2, 3, 5   | Produto sem seção de avaliação, clocalizada ao final da página e exibidas corretamente | Erro - Seção de avaliações ausente |
+| CT2  | 2, 3, 5   | Produto sem seção de avaliação, localizada ao final da página e exibidas corretamente  | Erro - Seção de avaliações ausente |
 | CT3  | 1, 4, 5   | Produto com seção de avaliações, com a localização errada, mas sendo exibidas          | Erro de usabilidade - Seção mal posicionada|
-| CT4  | 1, 3, 6   | Produto com seção de avaliações, localizada ao final da página mas falha na exibição | Erro - Seção não exibida por falha de carregamento|
+| CT4  | 1, 3, 6   | Produto com seção de avaliações, localizada ao final da página mas falha na exibição   | Erro - Seção não exibida por falha de carregamento|
 
 ## Critérios de Aceitação
 ### AC18 - Os consumidores devem poder avaliar os produtos com imagens e comentários escritos.
@@ -52,8 +52,8 @@
 |------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | CT1  | 1,3,5  | Avaliação com imagem, comentário escrito e campo funcional | Avaliação registrada com sucesso|
 | CT2  | 2,3,5  | Avaliação sem  imagem, comentário escrito e campo funcional| Avaliação registrada sem imagem|
-| CT3  | 1,4,5  | Avaliação com imagem, comentário ausente e campo funcional | Erro no envio de avaliação - comentário obrigatório|
-| CT4  | 1,3,6  | Avaliação com imagem, comentário escrito e mas sistema não permite envio| Erro - Campo inativo |
+| CT3  | 1,4,5  | Avaliação com imagem, comentário ausente e campo funcional | Erro no envio de avaliação - Comentário obrigatório|
+| CT4  | 1,3,6  | Avaliação com imagem, comentário escrito e mas o sistema não permite envio| Erro - Campo inativo |
 
 
 ## Critérios de Aceitação
