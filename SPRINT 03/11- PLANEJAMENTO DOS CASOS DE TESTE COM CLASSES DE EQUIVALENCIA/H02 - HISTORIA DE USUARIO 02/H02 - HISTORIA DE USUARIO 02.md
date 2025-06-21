@@ -1,7 +1,7 @@
-### H2 - Como **consumidor**, **eu gostaria de** ter a possibilidade de um contato direto com os fornecedores, **para que** eu possa verificar pessoalmente a qualidade dos produtos (ex: fresco, maduro, sem amassados).
+# H2 - Como **consumidor**, **eu gostaria de** ter a possibilidade de um contato direto com os fornecedores, **para que** eu possa verificar pessoalmente a qualidade dos produtos (ex: fresco, maduro, sem amassados).
 
 ---
-### Critérios de Aceitação 
+## Critérios de Aceitação 
 
 * O vendedor deverá inserir informações de contato, como telefone, e-mail e endereço.                                                                                         
 * É necessário que tenha um botão de Contato com fornecedor na página de cada produto.                                                                                         
@@ -10,14 +10,13 @@
 * O aplicativo deve garantir a integridade dos dados fornecidos pelo fornecedor conforme a LGPD (Lei Geral de Proteção de Dados – Lei nº 13.709/2018) e criptografia dos dados.
 ---
 
-### Regras de Negócio 
+## Regras de Negócio 
 
-| Código | Descrição |
-|------- | --------- |
-| RN05 | Dados de contatos visíveis devem respeitar as políticas de acordo com a LGPD (Art. 7º, IX). |
-| RN06 | O aplicativo não se responsabiliza por contatos fora do aplicativo. |
-| RN07 | Mensagens de spam ou com links devem ser bloqueadas automaticamente. |
-| RN08 | Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço. |
+
+* Dados de contatos visíveis devem respeitar as políticas de acordo com a LGPD (Art. 7º, IX). 
+* O aplicativo não se responsabiliza por contatos fora do aplicativo.
+* Mensagens de spam ou com links devem ser bloqueadas automaticamente.
+* Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço.
 
 ### Classes de Equivalência para Contato Direto com Fornecedores
 
