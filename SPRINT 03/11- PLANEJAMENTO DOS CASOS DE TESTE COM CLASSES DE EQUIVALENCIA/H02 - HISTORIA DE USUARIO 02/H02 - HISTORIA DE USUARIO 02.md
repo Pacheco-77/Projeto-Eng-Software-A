@@ -24,18 +24,19 @@
 |----------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
 | Cadastro de informações de contato                       | Fornecedor informa telefone, e-mail e endereço **(1)**   | Fornecedor informa apenas parte dos dados **(2)**    | Fornecedor não informa nenhum dado de contato **(3)** |
 | Disponibilidade de botão de contato                      | Botão de contato disponível na página de produto **(4)** | Botão de contato não disponível **(5)**              |                                                       |
-| Canal de comunicação                                     | Contato permitido por chat, telefone ou e-mail **(6)**   | Produtor não responde **(7)**                        | Contato indisponível (nenhum canal funcional) **(8)** |
+| Canal de comunicação                                     | Contato permitido por chat, telefone ou e-mail **(6)**   | Contato por outro canal **(7)**                      | Contato indisponível (nenhum canal funcional) **(8)** |
 | Exibição do nome e perfil do fornecedor                  | Nome e perfil visíveis ao consumidor **(9)**             | Nome ou perfil ausente **(10)**                      |                                                       |
 | Conformidade com a LGPD                                  | Dados tratados conforme LGPD com criptografia **(11)**   | Dados tratados sem LGPD ou sem criptografia **(12)** |                                                       |
 
 ### Casos de Teste
 
-| Casos de Teste | Classes de Equivalência      | Cenário / Entrada                                                                                                              | Resultado Esperado              |
-|----------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Caso 1         | 1, 4, 6, 9, 11               | Fornecedor cadastra todos os dados corretamente, botão de contato disponível, múltiplos canais, perfil visível e LGPD atendida | Requisito atendido              |
-| Caso 2         | **2**, 4, 6, 9, 11           | Fornecedor informa apenas telefone, mas não e-mail ou endereço                                                                 | Requisito não atendido          |
-| Caso 3         | 1, **5**, 6, 9, 11           | Sem botão de contato na página do produto                                                                                      | Requisito não atendido          |
-| Caso 4         | 1, 4, **7**, 9, 11           | Contato apenas por chat, sem opção de telefone ou e-mail                                                                       | Requisito parcialmente atendido |
-| Caso 5         | 1, 4, 6, **10**, 11          | Nome ou perfil do vendedor ausente na página do produto                                                                        | Requisito não atendido          |
-| Caso 6         | 1, 4, 6, 9, **12**           | Dados visíveis mas sem tratamento conforme LGPD ou sem criptografia                                                            | Requisito não atendido          |
+| Casos de Teste | Classes de Equivalência      | Cenário / Entrada                                                                                                              | Resultado Esperado                |
+|----------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| Caso 1         | 1, 4, 6, 9, 11               | Fornecedor cadastra todos os dados corretamente, botão de contato disponível, múltiplos canais, perfil visível e LGPD atendida | Contato direto com os fornecedores|
+| Caso 2         | **2**, 4, 6, 9, 11           | Fornecedor informa apenas telefone, mas não e-mail ou endereço                                                                 | Não sera realizado o cadastro do fornecedor |
+| Caso 3         | 1, **5**, 6, 9, 11           | Sem botão de contato na página do produto                                                                                      | Inviável a comincação entre usuários fornecedor |
+| Caso 4         | 1, 4, **7**, 9, 11           | Contato por outro canal de comunicação                                                                                         | Plataforma não se resposabilisa   |
+| caso 4         | 1, 4, **8**, 9, 11           | Nenhum contato                                                                                                                 |  Inviável a comincação entre usuários fornecedor |
+| Caso 5         | 1, 4, 6, **10**, 11          | Nome ou perfil do vendedor ausente na página do produto                                                                        | Requisito não atendido            |
+| Caso 6         | 1, 4, 6, 9, **12**           | Dados visíveis mas sem tratamento conforme LGPD ou sem criptografia                                                            | Requisito não atendido            |
 
