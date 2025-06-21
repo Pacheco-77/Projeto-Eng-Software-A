@@ -13,4 +13,6 @@
 * RN34 - Cartões devem ser aceitos nas principais bandeiras.
 * RN35 - A opção Pix deve gerar um QR Code dinâmico utilizando uma API de pagamento homologada e compatível com os principais bancos cadastrados no Banco Central.
 
+---
+###  Tabela de Classes de Equivalência
 
