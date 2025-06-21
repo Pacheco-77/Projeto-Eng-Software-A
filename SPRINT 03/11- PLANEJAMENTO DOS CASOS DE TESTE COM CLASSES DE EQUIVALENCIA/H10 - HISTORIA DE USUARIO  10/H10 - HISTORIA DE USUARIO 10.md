@@ -1,4 +1,4 @@
-### H10 - Como consumidor, eu gostaria que estivesse disponível a opção de pagar pelo aplicativo através do pix ou cartão de débito e crédito, para não precisar pagar com dinheiro físico na hora da retirada ou entrega da compra.
+### H10 - **Como consumidor**, eu **gostaria** que estivesse disponível a opção de pagar pelo aplicativo através do pix ou cartão de débito e crédito, **para não** precisar pagar com dinheiro físico na hora da retirada ou entrega da compra.
 
 # Criterios de Aceitação
 
