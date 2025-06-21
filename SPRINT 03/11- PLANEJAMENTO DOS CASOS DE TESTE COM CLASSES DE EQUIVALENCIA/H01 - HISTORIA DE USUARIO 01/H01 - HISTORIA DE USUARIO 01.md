@@ -21,7 +21,7 @@
 |-------------------------------------|------------------------------------------------------|-----------------------------------------------|
 | Título                              | Título ≤ 100 caracteres ou vazio (1)             | Título > 100 caracteres (2)               |
 | Conteúdo da dica                    | Texto não vazio até 500 caracteres (3)           | Vazio (4), >500 caracteres (5)        |
-| Enviar anonimamente (checkbox)      | true / false (6)                                 | Tipo inválido ou nulo (7)                 |
+| Enviar anonimamente (checkbox)      | Verdadeiro / Falso (6)                           | Tipo inválido ou nulo (7)                 |
 | Categoria                           | Categoria válida ou vazio (8)                    | Categoria inválida/inexistente (9)        |
 | Limite diário                       | Até 3 dicas por dia (10)                         | Mais de 3 dicas (**11**)                      |
 | Verificação de conteúdo             | Sem termos ofensivos (12)                        | Termos ofensivos/inadequados (13)         |
