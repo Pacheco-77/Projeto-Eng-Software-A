@@ -17,8 +17,7 @@
 | RN32   | As avaliações influenciam a visibilidade dos produtos. |
 
 
-    
-## Critérios de Aceitação
+
 ### AC34-	O produtor pode visualizar avaliações em uma aba separada do perfil.
 ### Tabela de Classes de Equivalência – AC34
 
@@ -40,9 +39,12 @@
 | CT6  | 1, 4, 8                 | Avaliações aparecem truncadas ou ilegíveis, embora carreguem normalmente                    | Usuário não compreende os comentários |
 | CT7  | 1, 4, 9                 | Avaliações carregam, mas aparecem junto com outros dados como pedidos ou produtos           | Exibição confusa, falta de separação visual |
 ---
-### AC35 Cada avaliação deve ter nota (1 a 5) e comentário. |
-### AC36 Só consumidores que concluíram um pedido podem avaliar.
-### RN30 Um consumidor só pode avaliar uma compra uma vez.
+| Código |   Descrição                                                               |
+|--------|---------------------------------------------------------------------------|
+| AC35   | Cada avaliação deve ter nota (1 a 5) e comentário.                        |
+| AC36   | Só consumidores que concluíram um pedido podem avaliar.                  |
+| RN30   | Um consumidor só pode avaliar uma compra uma vez.                        |
+
 ###  Tabela de Classes de Equivalência – Avaliações
 
 ### Tabela de Classes de Equivalência – Avaliações
