@@ -13,36 +13,32 @@
 * 	Se o pedido for recusado por falta de pagamento, o sistema exibirá  uma mensagem de alerta ao usuário.
 
 ---
+
 ### Tabela de Classes de Equivalência
 
-| Condição de Entrada                                                    | Classes Válidas                                 | Classes Inválidas                            | Classes Inválidas                           |
-|-------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|----------------------------------------------|
-| Notificação de novo pedido para o produtor                             | Notificação enviada                             | Notificação não enviada                       | -                                            |
-| Pedido contém os dados do consumidor e dos produtos                    | Dados completos no pedido                       | Dados do consumidor ausentes                  | Dados dos produtos ausentes                  |
-| Estoque disponível para o pedido (Regra de Negócio)                    | Quantidade em estoque suficiente                | Produto sem estoque                           | Quantidade menor que a solicitada            |
-| Aceitação ou recusa do pedido                                           | Produtor aceita ou recusa                       | Sem opção de aceitar ou recusar               | -                                            |
-| Atualização de estoque após aceitação (Regra de Negócio)               | Estoque atualizado corretamente                 | Estoque não atualizado                        | Estoque atualizado incorretamente            |
-| Recusa por falta de pagamento (Regra de Negócio)                       | Pedido recusado exibe alerta ao consumidor      | Pedido recusado sem exibir alerta             | Pedido não recusado, mesmo sem pagamento     |
+| Condição de Entrada                                          | Classes Válidas                                        | Classes Inválidas                                          | Classes Inválidas                                         |
+|--------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|
+| Notificação de novo pedido para o produtor                   | Notificação enviada (1)                                | Notificação não enviada (2)                                |                                                           |
+| Dados do pedido (dados do consumidor e dos produtos)         | Dados completos: consumidor e produtos (3)             | Dados do consumidor ausentes (4)                           | Dados dos produtos ausentes (5)                           |
+| Estoque disponível para o pedido                             | Quantidade suficiente no estoque (6)                   | Produto sem estoque (7)                                     | Quantidade solicitada maior que o estoque (8)             |
+| Aceitação ou recusa do pedido                                | Produtor pode aceitar ou recusar (9)                   | Interface não permite aceitar nem recusar (10)              |                                                           |
+| Atualização do estoque após aceitação do pedido              | Estoque atualizado corretamente (11)                   | Estoque não atualizado (12)                                 | Estoque atualizado incorretamente (13)                    |
+| Recusa por falta de pagamento exibe alerta ao consumidor     | Pedido recusado exibe alerta (14)                      | Pedido recusado sem exibir alerta (15)                      | Pedido não recusado mesmo sem pagamento (16)              |
 
 ---
 
 ### Tabela de Casos de Teste
 
-| Casos de Teste | Classes de Equivalência                                        | Entrada                                                                              | Resultado Esperado                                        |
-|----------------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| Caso 1           | Notificação enviada                                             | Novo pedido realizado                                                                | Produtor recebe notificação                               |
-| Caso 2           | Notificação não enviada                                        | Novo pedido realizado                                                                | Erro: notificação não recebida                            |
-| Caso 3           | Pedido com dados completos                                      | Pedido com nome do consumidor, endereço e lista de produtos                          | Pedido criado com sucesso                                 |
-| Caso 4           | Dados do consumidor ausentes                                    | Pedido sem nome do consumidor                                                         | Erro: não é possível criar o pedido                       |
-| Caso 5           | Dados dos produtos ausentes                                     | Pedido sem produtos listados                                                          | Erro: não é possível criar o pedido                       |
-| Caso 6           | Estoque suficiente (RN)                                         | Produto solicitado com estoque disponível                                             | Pedido registrado                                         |
-| Caso 7           | Produto sem estoque (RN)                                        | Produto solicitado não tem estoque                                                    | Pedido não registrado, mensagem de erro                   |
-| Caso 8           | Quantidade menor que solicitada (RN)                            | Estoque de 2 unidades e pedido de 5                                                   | Pedido não registrado, mensagem de erro                   |
-| Caso 9           | Aceitar pedido                                                   | Produtor clica em "Aceitar pedido"                                                    | Pedido aceito, estoque atualizado                         |
-| Caso 10           | Recusar pedido                                                   | Produtor clica em "Recusar pedido"                                                    | Pedido recusado                                           |
-| Caso 11           | Sem opção de aceitar/recusar                                    | Interface não apresenta botões de ação                                                | Erro de funcionalidade                                    |
-| Caso 12           | Atualizar estoque corretamente após aceitação (RN)              | Produto tinha 10, vendeu 3                                                           | Estoque atualizado para 7                                  |
-| Caso 13           | Estoque não atualizado após aceitação (RN)                      | Aceitar pedido, mas estoque permanece o mesmo                                        | Erro: estoque não foi atualizado                          |
-| Caso 14           | Recusar por falta de pagamento exibe alerta (RN)                | Consumidor não paga, produtor recusa                                                 | Alerta exibido ao consumidor sobre recusa por falta de pagamento |
-| Caso 15           | Recusa sem alerta exibido (RN)                                  | Pedido recusado por falta de pagamento, sem exibir alerta                            | Erro: alerta não exibido                                  |
-| Caso 16           | Pedido não recusado mesmo sem pagamento (RN)
+| Casos de Teste | Classes de Equivalência         | Entradas                                                                                     | Resultado Esperado                                                                                     |
+|----------------|----------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Caso 1         | 1, 3, 6, 9, 11, 14               | Pedido com dados completos, estoque suficiente, produtor aceita, alerta funcionando         | Pedido aceito, estoque atualizado corretamente, alerta funciona se necessário                         |
+| Caso 2         | 2, 3, 6, 9, 11, 14               | Notificação não enviada, dados corretos, estoque suficiente                                  | Pedido criado, mas produtor não recebe notificação                                                     |
+| Caso 3         | 1, 4, 6, 9, 11, 14               | Dados do consumidor ausentes                                                                 | Pedido não criado, mensagem de erro: "Dados do consumidor obrigatórios"                              |
+| Caso 4         | 1, 5, 6, 9, 11, 14               | Dados dos produtos ausentes                                                                  | Pedido não criado, mensagem de erro: "Pedido sem produtos"                                            |
+| Caso 5         | 1, 3, 7, 9, 11, 14               | Produto sem estoque                                                                          | Pedido não registrado, mensagem: "Produto sem estoque"                                                |
+| Caso 6         | 1, 3, 8, 9, 11, 14               | Pedido de quantidade maior que o estoque disponível                                          | Pedido não registrado, mensagem: "Quantidade solicitada excede o estoque disponível"                 |
+| Caso 7         | 1, 3, 6, 10, 11, 14              | Interface não apresenta opção de aceitar ou recusar                                          | Erro funcional: produtor não consegue aceitar nem recusar o pedido                                    |
+| Caso 8         | 1, 3, 6, 9, 12, 14               | Estoque não atualiza após aceitação do pedido                                                | Pedido aceito, mas estoque permanece igual, gerando erro                                              |
+| Caso 9         | 1, 3, 6, 9, 13, 14               | Estoque atualizado incorretamente após aceitar o pedido                                     | Pedido aceito, porém o estoque mostra valor errado                                                    |
+| Caso 10        | 1, 3, 6, 9, 11, 15               | Pedido recusado por falta de pagamento, sem exibir alerta                                   | Pedido recusado, porém o consumidor não é informado da recusa por falta de pagamento                 |
+| Caso 11        | 1, 3, 6, 9, 11, 16               | Pedido não recusado mesmo sem pagamento                                                      | Pedido permanece ativo mesmo sem pagamento, gerando erro no fluxo                                     |
