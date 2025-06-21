@@ -1,6 +1,6 @@
 # H2 - Como **consumidor**, **eu gostaria de** ter a possibilidade de um contato direto com os fornecedores, **para que** eu possa verificar pessoalmente a qualidade dos produtos (ex: fresco, maduro, sem amassados).
 
----
+
 ## Critérios de Aceitação 
 
 * O vendedor deverá inserir informações de contato, como telefone, e-mail e endereço.                                                                                         
@@ -8,7 +8,7 @@
 * O contato entre consumidor e fornecedor é opcional e ocorrerá através do chat interno, telefone ou e-mail.                                                                   
 * Cada produto deve informar o nome e perfil do vendedor.                                                                                                                      
 * O aplicativo deve garantir a integridade dos dados fornecidos pelo fornecedor conforme a LGPD (Lei Geral de Proteção de Dados – Lei nº 13.709/2018) e criptografia dos dados.
----
+
 
 ## Regras de Negócio 
 
