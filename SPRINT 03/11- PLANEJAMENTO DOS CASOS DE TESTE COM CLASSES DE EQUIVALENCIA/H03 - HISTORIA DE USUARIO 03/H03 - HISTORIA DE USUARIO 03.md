@@ -17,7 +17,7 @@
 - O filtro pode ser desativado e ativado conforme a vontade do usuário.
 - Sistema de Denúncia e Informações Falsas: Consumidores poderão denunciar perfis com informações agrícolas inconsistentes, iniciando uma verificação manual pela administração do app.
 
-### Classes de Equivalência - H3: Diferenciação entre Produtores por Métodos Agrícolas
+### Classes de Equivalência 
 
 | Condição de Entrada                                    | Classes Válidas                                              | Classes Inválidas                                        | Classes Inválidas                            |
 |--------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------|
@@ -31,7 +31,7 @@
 | Controle de exibição do filtro pelo usuário            | Usuário pode ativar/desativar o filtro **(22)**              | Filtro sempre ativo (sem controle pelo usuário) **(23)** | Filtro nunca ativo (mesmo quando usuário deseja) **(24)** |
 
 
-### Casos de Teste - H3: Diferenciação entre Produtores por Métodos Agrícolas
+### Casos de Teste
 
 | Caso de Teste | Classes de Equivalência                       | Cenário / Entrada                                                                                                                                   | Resultado Esperado        |
 |---------------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
