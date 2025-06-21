@@ -45,33 +45,30 @@
 | AC36   | Só consumidores que concluíram um pedido podem avaliar.                  |
 | RN30   | Um consumidor só pode avaliar uma compra uma vez.                        |
 
-###  Tabela de Classes de Equivalência – Avaliações
-
 ### Tabela de Classes de Equivalência – Avaliações
 
-| ID   | Condição de Entrada                                           | Classe Válida                  | Classe Inválida 1                                    | Classe Inválida 2                                |
-|------|----------------------------------------------------------------|---------------------------------|------------------------------------------------------|--------------------------------------------------|
-| C1   | Avaliação contém nota entre 1 a 5                              | Sim (A1)                        | Nota fora do intervalo permitido (A2)               | Nota ausente (A3)                                |
-| C2   | Avaliação contém comentário textual                            | Sim (A4)                        | Comentário ausente (A5)                             | Comentário ofensivo ou inapropriado (A6)         |
-| C3   | Consumidor concluiu o pedido que deseja avaliar                | Sim (B1)                        | Pedido ainda não concluído ou cancelado (B2)        | Pedido não existente (B3)                        |
-| C4   | Sistema permite apenas uma avaliação por pedido                | Sim (C1)                        | Mesmo pedido avaliado mais de uma vez (C2)          | Tentativas simultâneas de avaliação (C3)         |
+| ID  | Condição de Entrada                                           | Classe Válida      | Classe Inválida 1                         | Classe Inválida 2                           |
+|-----|----------------------------------------------------------------|---------------------|-------------------------------------------|---------------------------------------------|
+| 1   | Avaliação contém nota entre 1 a 5                              | Sim (1)             | Nota fora do intervalo permitido (2)      | Nota ausente (3)                            |
+| 2   | Avaliação contém comentário textual                            | Sim (4)             | Comentário ausente (5)                    | Comentário ofensivo ou inválido (6)         |
+| 3   | Consumidor concluiu o pedido que deseja avaliar                | Sim (7)             | Pedido ainda não concluído ou cancelado (8) | Pedido não existente (9)                    |
+| 4   | Sistema permite apenas uma avaliação por pedido                | Sim (10)            | Mesmo pedido avaliado mais de uma vez (11) | Tentativas simultâneas de avaliação (12)    |
 
 ---
 
 ### Tabela de Casos de Teste – Avaliações
 
-| Caso | Classes de Equivalência       | Entrada                                                                                  | Resultado Esperado               |
-|------|-------------------------------|------------------------------------------------------------------------------------------|----------------------------------|
-| CT1  | A1, A4, B1, C1                | Avaliação válida com nota 5 e comentário adequado feita por consumidor com pedido concluído | Avaliação registrada com sucesso |
-| CT2  | A2, A4, B1, C1                | Nota inválida (ex: 7), comentário presente, pedido finalizado                            | Avaliação rejeitada              |
-| CT3  | A3, A4, B1, C1                | Nota ausente, comentário presente, pedido finalizado                                     | Avaliação rejeitada              |
-| CT4  | A1, A5, B1, C1                | Nota válida, sem comentário, pedido finalizado                                           | Avaliação rejeitada              |
-| CT5  | A1, A6, B1, C1                | Comentário ofensivo/inadequado                                                           | Avaliação rejeitada por conteúdo |
-| CT6  | A1, A4, B2, C1                | Avaliação feita para pedido cancelado                                                    | Avaliação bloqueada              |
-| CT7  | A1, A4, B3, C1                | Avaliação feita para pedido inexistente                                                  | Avaliação bloqueada              |
-| CT8  | A1, A4, B1, C2                | Nova tentativa de avaliar o mesmo pedido já avaliado                                     | Nova avaliação rejeitada         |
-| CT9  | A1, A4, B1, C3                | Duas avaliações simultâneas para o mesmo pedido                                          | Apenas uma é registrada          |
-
+| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado               |
+|------|--------------------------|-------------------------------------------------------------------------|----------------------------------|
+| CT1  | 1, 2, 3, 4              | Avaliação válida com nota e comentário de consumidor com pedido concluído      | Avaliação registrada com sucesso |
+| CT2  | 1, 2, 3, 4              | Nota fora da faixa (ex: 6), comentário presente, pedido finalizado             | Avaliação rejeitada              |
+| CT3  | 1, 2, 3, 4              | Nota ausente, comentário presente, pedido finalizado                          | Avaliação rejeitada              |
+| CT4  | 1, 2, 3, 4              | Nota válida, sem comentário, pedido finalizado                                 | Avaliação rejeitada              |
+| CT5  | 1, 2, 3, 4              | Comentário ofensivo ou inválido                                               | Avaliação rejeitada              |
+| CT6  | 1, 2, 3, 4              | Avaliação feita para pedido cancelado                                         | Avaliação bloqueada              |
+| CT7  | 1, 2, 3, 4              | Avaliação feita para pedido inexistente                                       | Avaliação bloqueada              |
+| CT8  | 1, 2, 3, 4              | Nova tentativa de avaliar o mesmo pedido já avaliado                          | Nova avaliação rejeitada         |
+| CT9  | 1, 2, 3, 4              | Duas avaliações simultâneas para o mesmo pedido                               | Apenas uma é registrada          |
 
 ---
 ## RN31-	Avaliações ofensivas podem ser denunciadas.
