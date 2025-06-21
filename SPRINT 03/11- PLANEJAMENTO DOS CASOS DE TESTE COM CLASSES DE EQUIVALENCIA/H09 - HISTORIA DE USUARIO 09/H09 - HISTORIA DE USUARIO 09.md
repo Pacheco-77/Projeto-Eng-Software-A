@@ -20,7 +20,7 @@
     
 ## Critérios de Aceitação
 ### AC34-	O produtor pode visualizar avaliações em uma aba separada do perfil.
-#### Tabela de Classes de Equivalência – AC34
+### Tabela de Classes de Equivalência – AC34
 
 | ID  | Condição de Entrada                                   | Classe Válida                     | Classe Inválida 1                                        | Classe Inválida 2                                 |
 |-----|--------------------------------------------------------|------------------------------------|-----------------------------------------------------------|---------------------------------------------------|
@@ -28,7 +28,7 @@
 | C2  | Avaliações são carregadas corretamente                | Sim (4)                            | Avaliações não carregam (5)                               | Carregamento parcial ou com erro (6)              |
 | C3  | Interface exibe avaliações legíveis e organizadas     | Sim (7)                            | Avaliações truncadas ou ilegíveis (8)                     | Avaliações misturadas com outros conteúdos (9)     |
 
-#### Tabela de Casos de Teste – AC34
+### Tabela de Casos de Teste – AC34
 
 | Caso | Classes de Equivalência | Entrada                                                                                     | Resultado Esperado |
 |------|--------------------------|---------------------------------------------------------------------------------------------|--------------------|
@@ -40,69 +40,37 @@
 | CT6  | 1, 4, 8                 | Avaliações aparecem truncadas ou ilegíveis, embora carreguem normalmente                    | Usuário não compreende os comentários |
 | CT7  | 1, 4, 9                 | Avaliações carregam, mas aparecem junto com outros dados como pedidos ou produtos           | Exibição confusa, falta de separação visual |
 ---
-### AC35-	Cada avaliação deve ter nota (1 a 5) e comentário.
-#### Tabela de Classes de Equivalência – AC35
+### AC35 Cada avaliação deve ter nota (1 a 5) e comentário. |
+### AC36 Só consumidores que concluíram um pedido podem avaliar.
+### RN30 Um consumidor só pode avaliar uma compra uma vez.
+###  Tabela de Classes de Equivalência – Avaliações
 
-| ID  | Condição de Entrada                              | Classe Válida           | Classe Inválida 1                                  | Classe Inválida 2                          |
-|-----|---------------------------------------------------|--------------------------|-----------------------------------------------------|--------------------------------------------|
-| C1  | Avaliação possui nota entre 1 e 5                | Sim (1)                  | Nota fora da faixa (ex: 0 ou 6) (2)                 | Nota ausente (3)                           |
-| C2  | Avaliação contém comentário textual              | Sim (4)                  | Comentário ausente (5)                              | Comentário com conteúdo inválido/inapropriado (6) |
-| C3  | Interface exibe corretamente nota e comentário   | Sim (7)                  | Apenas nota visível (8)                             | Elementos aparecem truncados ou desformatados (9) |
+### Tabela de Classes de Equivalência – Avaliações
 
-### Tabela de Casos de Teste – AC35
+| ID   | Condição de Entrada                                           | Classe Válida                  | Classe Inválida 1                                    | Classe Inválida 2                                |
+|------|----------------------------------------------------------------|---------------------------------|------------------------------------------------------|--------------------------------------------------|
+| C1   | Avaliação contém nota entre 1 a 5                              | Sim (A1)                        | Nota fora do intervalo permitido (A2)               | Nota ausente (A3)                                |
+| C2   | Avaliação contém comentário textual                            | Sim (A4)                        | Comentário ausente (A5)                             | Comentário ofensivo ou inapropriado (A6)         |
+| C3   | Consumidor concluiu o pedido que deseja avaliar                | Sim (B1)                        | Pedido ainda não concluído ou cancelado (B2)        | Pedido não existente (B3)                        |
+| C4   | Sistema permite apenas uma avaliação por pedido                | Sim (C1)                        | Mesmo pedido avaliado mais de uma vez (C2)          | Tentativas simultâneas de avaliação (C3)         |
 
-| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
-|------|--------------------------|-------------------------------------------------------------------------|--------------------|
-| CT1  | 1, 4, 7                 | Avaliação com nota 4 e comentário claro, ambos exibidos corretamente    | Avaliação válida exibida com sucesso |
-| CT2  | 2, 4, 7                 | Avaliação com nota 0 e comentário válido                                | Rejeição da nota inválida |
-| CT3  | 3, 4, 7                 | Avaliação sem nota, apenas comentário presente                          | Avaliação incompleta não registrada |
-| CT4  | 1, 5, 7                 | Avaliação com nota, mas sem comentário                                  | Avaliação incompleta não registrada |
-| CT5  | 1, 6, 7                 | Comentário com conteúdo ofensivo/inadequado e nota válida               | Rejeição por violar política de conteúdo |
-| CT6  | 1, 4, 8                 | Comentário exibido corretamente, mas nota não visível                   | Falha parcial na exibição |
-| CT7  | 1, 4, 9                 | Nota e comentário presentes, mas texto cortado ou layout incorreto      | Interface compromete experiência do usuário |
 ---
-## AC36-	Só consumidores que concluíram um pedido podem avaliar.
-### Tabela de Classes de Equivalência – AC36
 
-| ID  | Condição de Entrada                                       | Classe Válida                    | Classe Inválida 1                               | Classe Inválida 2                           |
-|-----|------------------------------------------------------------|----------------------------------|--------------------------------------------------|---------------------------------------------|
-| C1  | Consumidor possui pedido concluído                        | Sim (1)                          | Pedido cancelado (2)                            | Pedido em andamento ou pendente (3)         |
-| C2  | Sistema verifica status do pedido antes de liberar avaliação | Sim (4)                          | Sistema não faz verificação (5)                 | Verificação incorreta ou bypassável (6)     |
-| C3  | Interface de avaliação disponível apenas para elegíveis   | Sim (7)                          | Interface aparece para usuários inelegíveis (8) | Interface não aparece mesmo sendo elegível (9) |
+### Tabela de Casos de Teste – Avaliações
 
-### Tabela de Casos de Teste – AC36
+| Caso | Classes de Equivalência       | Entrada                                                                                  | Resultado Esperado               |
+|------|-------------------------------|------------------------------------------------------------------------------------------|----------------------------------|
+| CT1  | A1, A4, B1, C1                | Avaliação válida com nota 5 e comentário adequado feita por consumidor com pedido concluído | Avaliação registrada com sucesso |
+| CT2  | A2, A4, B1, C1                | Nota inválida (ex: 7), comentário presente, pedido finalizado                            | Avaliação rejeitada              |
+| CT3  | A3, A4, B1, C1                | Nota ausente, comentário presente, pedido finalizado                                     | Avaliação rejeitada              |
+| CT4  | A1, A5, B1, C1                | Nota válida, sem comentário, pedido finalizado                                           | Avaliação rejeitada              |
+| CT5  | A1, A6, B1, C1                | Comentário ofensivo/inadequado                                                           | Avaliação rejeitada por conteúdo |
+| CT6  | A1, A4, B2, C1                | Avaliação feita para pedido cancelado                                                    | Avaliação bloqueada              |
+| CT7  | A1, A4, B3, C1                | Avaliação feita para pedido inexistente                                                  | Avaliação bloqueada              |
+| CT8  | A1, A4, B1, C2                | Nova tentativa de avaliar o mesmo pedido já avaliado                                     | Nova avaliação rejeitada         |
+| CT9  | A1, A4, B1, C3                | Duas avaliações simultâneas para o mesmo pedido                                          | Apenas uma é registrada          |
 
-| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
-|------|--------------------------|-------------------------------------------------------------------------|--------------------|
-| CT1  | 1, 4, 7                 | Consumidor concluiu pedido, sistema verifica corretamente, avaliação disponível | Avaliação liberada com sucesso |
-| CT2  | 2, 4, 7                 | Pedido foi cancelado, verificação correta, avaliação não aparece       | Avaliação bloqueada |
-| CT3  | 3, 4, 7                 | Pedido ainda em andamento, verificação feita, sem acesso à avaliação   | Avaliação não permitida |
-| CT4  | 1, 5, 7                 | Consumidor elegível, mas sistema não faz verificação                   | Potencial vulnerabilidade no controle de acesso |
-| CT5  | 1, 6, 7                 | Verificação aplicada incorretamente, avaliação liberada para não elegível | Falha de segurança no processo |
-| CT6  | 1, 4, 8                 | Sistema verifica corretamente, mas avaliação aparece para usuário inelegível | Exposição indevida da funcionalidade |
-| CT7  | 1, 4, 9                 | Consumidor concluiu pedido, sistema verifica, mas interface de avaliação não aparece | Usuário é impedido de avaliar indevidamente |  
----
-# Regras de Negócio
-## RN30-	Um consumidor só pode avaliar uma compra uma vez.
-### Tabela de Classes de Equivalência – RN30
 
-| ID  | Condição de Entrada                                | Classe Válida               | Classe Inválida 1                             | Classe Inválida 2                                  |
-|-----|-----------------------------------------------------|------------------------------|------------------------------------------------|----------------------------------------------------|
-| C1  | Consumidor ainda não avaliou o pedido              | Sim (1)                      | Consumidor já avaliou este pedido (2)         | Tentativa de múltiplas avaliações simultâneas (3)  |
-| C2  | Sistema impede submissão repetida da mesma avaliação | Sim (4)                      | Restrição não é aplicada (5)                  | Restrição falha sob determinadas condições (6)     |
-| C3  | Interface bloqueia acesso à avaliação após envio   | Sim (7)                      | Avaliação pode ser reeditada ou reenviada (8) | Botão de avaliação continua disponível (9)         |
-
-### Tabela de Casos de Teste – RN30
-
-| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado |
-|------|--------------------------|-------------------------------------------------------------------------|--------------------|
-| CT1  | 1, 4, 7                 | Consumidor nunca avaliou o pedido, sistema permite avaliação única      | Avaliação submetida com sucesso |
-| CT2  | 2, 4, 7                 | Consumidor já avaliou o pedido, sistema impede nova avaliação           | Nova avaliação bloqueada |
-| CT3  | 3, 4, 7                 | Tentativa de enviar avaliações simultâneas pelo mesmo consumidor        | Apenas uma avaliação registrada |
-| CT4  | 1, 5, 7                 | Consumidor elegível, mas sistema falha em aplicar restrição             | Duas ou mais avaliações registradas indevidamente |
-| CT5  | 1, 6, 7                 | Sistema aplica restrição, mas ela falha em cenários específicos         | Avaliação duplicada ou comportamento inconsistente |
-| CT6  | 1, 4, 8                 | Avaliação enviada, mas usuário consegue reenviar ou editar              | Violação da regra de avaliação única |
-| CT7  | 1, 4, 9                 | Avaliação enviada, botão de envio continua disponível                   | Interface permite envio indevido |
 ---
 ## RN31-	Avaliações ofensivas podem ser denunciadas.
 ### Tabela de Classes de Equivalência – RN31
