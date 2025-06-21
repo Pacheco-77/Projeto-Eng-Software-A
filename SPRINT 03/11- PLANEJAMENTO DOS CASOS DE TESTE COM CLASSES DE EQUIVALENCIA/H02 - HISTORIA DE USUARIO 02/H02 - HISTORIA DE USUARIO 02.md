@@ -1,4 +1,4 @@
-### H2 - Como** consumidor, **eu gostaria de** ter a possibilidade de um contato direto com os fornecedores, **para que** eu possa verificar pessoalmente a qualidade dos produtos (ex: fresco, maduro, sem amassados).
+### H2 - Como **consumidor**, **eu gostaria de** ter a possibilidade de um contato direto com os fornecedores, **para que** eu possa verificar pessoalmente a qualidade dos produtos (ex: fresco, maduro, sem amassados).
 
 ---
 ### Critérios de Aceitação 
