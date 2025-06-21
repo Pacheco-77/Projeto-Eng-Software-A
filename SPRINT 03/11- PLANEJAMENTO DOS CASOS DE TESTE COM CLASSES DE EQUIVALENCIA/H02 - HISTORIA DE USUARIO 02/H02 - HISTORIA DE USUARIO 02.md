@@ -18,7 +18,7 @@
 * Mensagens de spam ou com links devem ser bloqueadas automaticamente.
 * Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço.
 
-### Classes de Equivalência para Contato Direto com Fornecedores
+### Classes de Equivalência 
 
 | Condição de Entrada                                      | Classes Válidas                                          | Classes Inválidas                                  | Classes Inválidas                                       |
 |----------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
@@ -28,7 +28,7 @@
 | Exibição do nome e perfil do fornecedor                  | Nome e perfil visíveis ao consumidor **(9)**             | Nome ou perfil ausente **(10)**                      |                                                       |
 | Conformidade com a LGPD                                  | Dados tratados conforme LGPD com criptografia **(11)**   | Dados tratados sem LGPD ou sem criptografia **(12)** |                                                       |
 
-### Casos de Teste - Contato Direto com Fornecedores
+### Casos de Teste
 
 | Casos de Teste | Classes de Equivalência      | Cenário / Entrada                                                                                                              | Resultado Esperado              |
 |----------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
