@@ -47,28 +47,29 @@
 
 ### Tabela de Classes de Equivalência – Avaliações
 
-| ID  | Condição de Entrada                                           | Classe Válida      | Classe Inválida 1                         | Classe Inválida 2                           |
-|-----|----------------------------------------------------------------|---------------------|-------------------------------------------|---------------------------------------------|
-| 1   | Avaliação contém nota entre 1 a 5                              | Sim (1)             | Nota fora do intervalo permitido (2)      | Nota ausente (3)                            |
-| 2   | Avaliação contém comentário textual                            | Sim (4)             | Comentário ausente (5)                    | Comentário ofensivo ou inválido (6)         |
-| 3   | Consumidor concluiu o pedido que deseja avaliar                | Sim (7)             | Pedido ainda não concluído ou cancelado (8) | Pedido não existente (9)                    |
-| 4   | Sistema permite apenas uma avaliação por pedido                | Sim (10)            | Mesmo pedido avaliado mais de uma vez (11) | Tentativas simultâneas de avaliação (12)    |
+| ID  | Condição de Entrada                              | Classe Válida              | Classe Inválida 1                                | Classe Inválida 2                              |
+|-----|---------------------------------------------------|-----------------------------|--------------------------------------------------|------------------------------------------------|
+| C1  | Avaliação contém nota entre 1 e 5                | Nota válida (1)             | Nota fora da faixa permitida (2)                | Nota ausente (3)                               |
+| C2  | Comentário textual presente e adequado           | Comentário válido (4)       | Comentário ausente (5)                          | Comentário ofensivo ou inválido (6)            |
+| C3  | Consumidor concluiu o pedido avaliado            | Pedido concluído (7)        | Pedido em andamento ou cancelado (8)            | Pedido inexistente (9)                         |
+| C4  | Pedido ainda não foi avaliado pelo consumidor    | Avaliação única (10)        | Segunda tentativa de avaliação (11)             | Avaliações simultâneas para o mesmo pedido (12) |
 
 ---
 
 ### Tabela de Casos de Teste – Avaliações
 
-| Caso | Classes de Equivalência | Entrada                                                                 | Resultado Esperado               |
-|------|--------------------------|-------------------------------------------------------------------------|----------------------------------|
-| CT1  | 1, 2, 3, 4              | Avaliação válida com nota e comentário de consumidor com pedido concluído      | Avaliação registrada com sucesso |
-| CT2  | 1, 2, 3, 4              | Nota fora da faixa (ex: 6), comentário presente, pedido finalizado             | Avaliação rejeitada              |
-| CT3  | 1, 2, 3, 4              | Nota ausente, comentário presente, pedido finalizado                          | Avaliação rejeitada              |
-| CT4  | 1, 2, 3, 4              | Nota válida, sem comentário, pedido finalizado                                 | Avaliação rejeitada              |
-| CT5  | 1, 2, 3, 4              | Comentário ofensivo ou inválido                                               | Avaliação rejeitada              |
-| CT6  | 1, 2, 3, 4              | Avaliação feita para pedido cancelado                                         | Avaliação bloqueada              |
-| CT7  | 1, 2, 3, 4              | Avaliação feita para pedido inexistente                                       | Avaliação bloqueada              |
-| CT8  | 1, 2, 3, 4              | Nova tentativa de avaliar o mesmo pedido já avaliado                          | Nova avaliação rejeitada         |
-| CT9  | 1, 2, 3, 4              | Duas avaliações simultâneas para o mesmo pedido                               | Apenas uma é registrada          |
+| Caso | Classes de Equivalência | Entrada                                                                                      | Resultado Esperado                     |
+|------|--------------------------|----------------------------------------------------------------------------------------------|----------------------------------------|
+| CT1  | 1, 4, 7, 10              | Nota 4 e comentário adequado, pedido concluído, avaliação única                             | Avaliação registrada com sucesso       |
+| CT2  | 2, 4, 7, 10              | Nota 6 e comentário adequado, pedido finalizado                                              | Avaliação rejeitada por nota inválida  |
+| CT3  | 3, 4, 7, 10              | Nota ausente e comentário presente                                                           | Avaliação rejeitada                    |
+| CT4  | 1, 5, 7, 10              | Nota válida, mas comentário ausente                                                          | Avaliação rejeitada                    |
+| CT5  | 1, 6, 7, 10              | Comentário ofensivo ou inválido                                                              | Avaliação rejeitada                    |
+| CT6  | 1, 4, 8, 10              | Pedido cancelado, mas tentativa de avaliação                                                 | Avaliação bloqueada                    |
+| CT7  | 1, 4, 9, 10              | Tentativa de avaliação para pedido inexistente                                               | Avaliação não permitida                |
+| CT8  | 1, 4, 7, 11              | Tentativa de avaliar pedido que já foi avaliado anteriormente                                | Nova avaliação rejeitada               |
+| CT9  | 1, 4, 7, 12              | Duas avaliações simultâneas sendo submetidas                                                 | Apenas uma registrada com sucesso      |
+
 
 ---
 ## RN31-	Avaliações ofensivas podem ser denunciadas.
