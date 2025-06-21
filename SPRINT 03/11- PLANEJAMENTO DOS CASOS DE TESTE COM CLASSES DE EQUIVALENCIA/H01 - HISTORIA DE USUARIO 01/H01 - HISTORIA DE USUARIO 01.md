@@ -1,4 +1,4 @@
-### H1 - Como Agrônoma, *quero* dar dicas para os produtores, para que eu possa *contribuir* com práticas agrícolas melhores.
+### H1 - **Como** Agrônoma, **quero** dar dicas para os produtores, **para que** eu possa contribuir com práticas agrícolas melhores.
 
 # Critérios de Aceitação
 
