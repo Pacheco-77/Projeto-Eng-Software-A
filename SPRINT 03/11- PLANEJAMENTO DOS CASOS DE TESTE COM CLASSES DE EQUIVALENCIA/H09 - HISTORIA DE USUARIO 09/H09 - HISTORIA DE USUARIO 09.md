@@ -1,7 +1,26 @@
 # H9- Como produtor rural, quero ver os comentários e avaliações dos consumidores, para saber se eles ficaram satisfeitos e melhorar minha oferta.
+
 # Critérios de Aceitação
-## AC34-	O produtor pode visualizar avaliações em uma aba separada do perfil.
-### Tabela de Classes de Equivalência – AC34
+
+| Código | Descrição |
+|--------|-----------|
+| AC34   | O produtor pode visualizar avaliações em uma aba separada do perfil. |
+| AC35   | Cada avaliação deve ter nota (1 a 5) e comentário. |
+| AC36   | Só consumidores que concluíram um pedido podem avaliar. |
+
+# Regras de Negócio
+
+| Código | Descrição |
+|--------|-----------|
+| RN30   | Um consumidor só pode avaliar uma compra uma vez. |
+| RN31   | Avaliações ofensivas podem ser denunciadas. |
+| RN32   | As avaliações influenciam a visibilidade dos produtos. |
+
+
+    
+## Critérios de Aceitação
+### AC34-	O produtor pode visualizar avaliações em uma aba separada do perfil.
+#### Tabela de Classes de Equivalência – AC34
 
 | ID  | Condição de Entrada                                   | Classe Válida                     | Classe Inválida 1                                        | Classe Inválida 2                                 |
 |-----|--------------------------------------------------------|------------------------------------|-----------------------------------------------------------|---------------------------------------------------|
@@ -9,7 +28,7 @@
 | C2  | Avaliações são carregadas corretamente                | Sim (4)                            | Avaliações não carregam (5)                               | Carregamento parcial ou com erro (6)              |
 | C3  | Interface exibe avaliações legíveis e organizadas     | Sim (7)                            | Avaliações truncadas ou ilegíveis (8)                     | Avaliações misturadas com outros conteúdos (9)     |
 
-### Tabela de Casos de Teste – AC34
+#### Tabela de Casos de Teste – AC34
 
 | Caso | Classes de Equivalência | Entrada                                                                                     | Resultado Esperado |
 |------|--------------------------|---------------------------------------------------------------------------------------------|--------------------|
@@ -21,8 +40,8 @@
 | CT6  | 1, 4, 8                 | Avaliações aparecem truncadas ou ilegíveis, embora carreguem normalmente                    | Usuário não compreende os comentários |
 | CT7  | 1, 4, 9                 | Avaliações carregam, mas aparecem junto com outros dados como pedidos ou produtos           | Exibição confusa, falta de separação visual |
 ---
-## AC35-	Cada avaliação deve ter nota (1 a 5) e comentário.
-### Tabela de Classes de Equivalência – AC35
+### AC35-	Cada avaliação deve ter nota (1 a 5) e comentário.
+#### Tabela de Classes de Equivalência – AC35
 
 | ID  | Condição de Entrada                              | Classe Válida           | Classe Inválida 1                                  | Classe Inválida 2                          |
 |-----|---------------------------------------------------|--------------------------|-----------------------------------------------------|--------------------------------------------|
