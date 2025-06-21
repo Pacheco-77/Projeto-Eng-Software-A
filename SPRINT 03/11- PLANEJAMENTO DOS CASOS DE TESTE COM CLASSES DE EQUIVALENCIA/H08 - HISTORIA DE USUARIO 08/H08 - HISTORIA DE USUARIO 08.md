@@ -1,5 +1,27 @@
 # Como consumidor, eu gostaria de poder comprar produtos certificados como orgânicos (conforme legislação brasileira), para garantir uma alimentação saudável e livre de agrotóxicos.  
 # Critérios de Aceitação
+
+| Código | Descrição |
+|--------|-----------|
+| AC28   | O aplicativo deve ter um selo ou ícone para indicar que o produto é orgânico. |
+| AC29   | O consumidor deve ter a opção de filtrar os produtos por categoria. |
+| AC30   | Os produtos devem ter a descrição do fornecedor. |
+| AC31   | O consumidor deve poder adicionar itens ao carrinho de compras. |
+| AC32   | O aplicativo deve permitir o consumidor visualizar o valor total da compra antes de finalizá-la. |
+| AC33   | O consumidor deve poder concluir a compra dentro do aplicativo sempre que possível. Quando o uso de plataformas externas for necessário (ex: autenticação bancária), o redirecionamento será feito de forma segura e transparente, com retorno automático ao app após o pagamento. |
+
+# Regras de Negócio
+
+| Código | Descrição |
+|--------|-----------|
+| RN26   | Um agrônomo deve aprovar o selo de orgânico. |
+| RN27   | Todos produtos orgânicos devem ter a descrição detalhada de sua procedência (fornecedor, local de cultivo, data da colheita…). |
+| RN28   | As categorias de produtos devem estar sempre atualizadas. |
+| RN29   | Apenas produtores cadastrados e verificados devem poder vender produtos como orgânicos. |   
+
+
+     
+# Critérios de Aceitação
 ## AC28- O aplicativo deve ter um selo ou ícone para indicar que o produto é orgânico.    
 ###  Tabela de Classes de Equivalência
 
