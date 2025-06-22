@@ -1,6 +1,17 @@
 # H5 - Como consumidor, eu gostaria que o aplicativo fornecesse feedbacks de outros usuários sobre os produtos, para que eu tenha maior segurança em comprá-los.
 ## História do Usuário
 
+# Critérios de Aceitação
+- AC17 - Cada produto deve ter uma seção de Avaliações ao final da página.
+- AC18 - Os consumidores devem poder avaliar os produtos com imagens e comentários escritos.
+- AC19 - O aplicativo deve exibir a média das avaliações de cada produto.
+- AC20 - Os fornecedores podem responder os usuários através de comentário público na própria avaliação.
+  # Regras de Negócio
+- RN17 - O aplicativo deve destacar os produtos com melhores avaliações.
+- RN18 - Os usuários devem editar o comentário em até 1 mês após a postagem.
+- RN19 - O perfil do comprador deve ser visível.
+
+
 ### Tabela de Classes de Equivalência
 
 | ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
