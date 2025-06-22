@@ -16,10 +16,12 @@
 ## Regras de Negócio 
 
 
-* Dados de contatos visíveis devem respeitar as políticas de acordo com a LGPD (Art. 7º, IX). 
-* O aplicativo não se responsabiliza por contatos fora do aplicativo.
-* Mensagens de spam ou com links devem ser bloqueadas automaticamente.
-* Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço.
+| Código | Descrição |
+|--------|-----------|
+| RN05   | Dados de contatos visíveis devem respeitar as políticas de acordo com a LGPD (Art. 7º, IX). |
+| RN06   | O aplicativo não se responsabiliza por contatos fora do aplicativo. |
+| RN07   | Mensagens de spam ou com links devem ser bloqueadas automaticamente. |
+| RN08   | Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço. |
 
 ### Classes de Equivalência 
 
