@@ -1,24 +1,7 @@
 # H4 - Como produtor rural, quero cadastrar meus produtos com fotos e descrições simples, para que os consumidores saibam o que estou vendendo e de onde vem.
 
-## História do Usuário
+# Critérios de Aceitação
 
-### Tabela de Classes de Equivalência
-
-| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
-|-----|---------------------------------------------|----------------|------------------|
-| C1  | Produto com foto                            | Sim  (1)       | Produto sem foto cadastrada  (2)  |
-| C2  | Produto com pequena descrição               | Sim  (3)       | Descrição longa  (4)    |
-| C3  | Interface exibe a foto e descrição dos produtos de forma organizada   | Sim  (5)       | Não  (6)  |
-
-### Tabela de Casos de Teste- História do Usuário 
-| Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
-|------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
-| CT1  | 1, 3, 5   | Produto com foto, descrição e interface organizada | Produto cadastrado com sucesso|
-| CT2  | 2, 3, 5   | Produto sem foto, com pequena descrição e interface organizada | Erro no Cadastro - Produto sem foto cadastrada |
-| CT3  | 1, 4, 5   | Produto com foto, descrição longa e interface organizada       | Erro no Cadastro - Descrição longa|
-| CT4  | 1, 3, 6   | Produto com foto, pequena descrição e interface desorganizada  | Erro no Cadastro - Interface mal formatada |
-
-## Critérios de Aceitação
 ### AC14 - O formulário deve permitir incluir nome, descrição, quantidade disponível e preço.
 
 ### Tabela de Classes de Equivalência
@@ -57,3 +40,22 @@
 | CT2  | 2,3,5  | Nenhuma foto enviada, quantidade de fotos ≥ 1, imagem exibida corretamente     | Erro no cadastro - Nenhuma foto enviada|
 | CT3  | 1,4,5  | Foto enviada com sucesso, quantidade de fotos < 1, imagem exibida corretamente | Erro no cadastro - Quantidade de fotos inválida|
 | CT4  | 1,3,6  | Foto enviada com sucesso, quantidade de fotos ≥ 1, imagem não exibida          | Erro na visualização da imagem |
+
+
+## AC16 - O produto deve ser vinculado automaticamente ao perfil do produtor.
+
+### Tabela de Classes de Equivalência
+
+| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
+|-----|---------------------------------------------|----------------|------------------|
+| C1  | Usuário autenticado como produtor    | Sim  (1)       | Usuário não autenticado (2) |
+| C2  | Produto cadastrado com sucesso       | Sim  (3)       |                             |
+| C3  | Produto vinculado automaticamente ao perfil do produtor | Sim  (4)  | Produto não vinculado (5)
+
+
+### Tabela de Casos de Teste- AC16 
+| Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
+|------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| CT1  | 1, 3, 4   | Usuário autenticado, produto cadastrado corretamente e vinculado ao perfil| Produto vinculado com sucesso|
+| CT2  | 2, 3, 4   | Usuário não autenticado,mas tenta cadastrar e vincular| Erro - Acesso Negado |
+| CT3  | 1, 3, 5   | Usuário autenticado, produto cadastrado mas não vinculado ao perfil| Erro - Produto não vinculado|
