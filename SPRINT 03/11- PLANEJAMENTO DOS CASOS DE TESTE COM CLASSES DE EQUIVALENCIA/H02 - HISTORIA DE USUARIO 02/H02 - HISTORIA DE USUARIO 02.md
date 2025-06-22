@@ -23,7 +23,9 @@
 | RN07   | Mensagens de spam ou com links devem ser bloqueadas automaticamente. |
 | RN08   | Os fornecedores devem obrigatoriamente cadastrar telefone, e-mail e endereço. |
 
-### Classes de Equivalência | AC06 | RN08 |
+# Grupo 1 – Contato do Fornecedor (AC06 + RN08)
+
+### Classes de Equivalência (AC06 + RN08)
 
 | Condição de Entrada                  | Classes Válidas                        | Classes Inválidas                                    |
 |--------------------------------------|----------------------------------------|------------------------------------------------------|
@@ -31,8 +33,7 @@
 | E-mail no formato válido             | E-mail contendo "@" e domínio (3)       | E-mail ausente ou com formato inválido (4)           |
 | Endereço com pelo menos 5 caracteres | Endereço com 5 ou mais caracteres (5)   | Endereço ausente ou com menos de 5 caracteres (6)    |
 
-
-### Casos de Teste | AC06 | RN08|
+### Casos de Teste (AC06 + RN08)
 
 | Caso de Teste | Classes de Equivalência | Entrada                                                                         | Resultado Esperado |
 |---------------|-------------------------|---------------------------------------------------------------------------------|--------------------|
@@ -41,7 +42,12 @@
 | Caso 3        | 1, 4, 5                 | Telefone: 11987654321<br>Email: vendedorloja.com<br>Endereço: Rua das Flores   | Dados inválidos    |
 | Caso 4        | 1, 3, 6                 | Telefone: 11987654321<br>Email: vendedor@loja.com<br>Endereço: Rua             | Dados inválidos    |
 
-### Classes de Equivalência | AC07 | AC08 | RN05 |
+---
+
+# Grupo 2 – Contato com Fornecedor + Controle de Spam (AC07 + AC08 + RN07)
+
+### Classes de Equivalência (AC07 + AC08 + RN07)
+
 | Condição de Entrada                              | Classes Válidas                             | Classes Inválidas                           |
 |--------------------------------------------------|--------------------------------------------|--------------------------------------------|
 | Exibição do botão "Contato com o Fornecedor"     | Botão visível na página do produto (1)     | Botão ausente na página do produto (2)     |
@@ -49,7 +55,8 @@
 | Mensagem enviada pelo consumidor                | Mensagem sem spam e sem links (5)          | Mensagem contendo spam ou links (6)        |
 | Consumidor decide contatar                      | Consumidor opta por contato (7)            | Consumidor não opta por contato (8)        |
 
-### Casos de Teste | AC07 | AC08| RN07 |
+### Casos de Teste (AC07 + AC08 + RN07)
+
 | Caso de Teste | Classes de Equivalência | Entrada                                                                                          | Resultado Esperado                  |
 |---------------|-------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------|
 | Caso 1        | 1, 3, 5, 7              | Botão visível, opções de contato disponíveis, mensagem válida, consumidor inicia contato         | Contato realizado com sucesso       |
@@ -58,14 +65,19 @@
 | Caso 4        | 1, 3, 6, 7              | Botão visível, opções de contato disponíveis, mensagem com spam ou link, consumidor tenta contato | Falha: mensagem bloqueada           |
 | Caso 5        | 1, 3, 5, 8              | Botão visível, opções de contato disponíveis, mensagem válida, consumidor não inicia contato      | Sem interação (opcionalidade mantida) |
 
-### Classes de Equivalência  | AC09 | AC10 |
+---
+
+# Grupo 3 – Exibição de Nome, Perfil e Segurança LGPD (AC09 + AC10)
+
+### Classes de Equivalência (AC09 + AC10)
+
 | Condição de Entrada                                     | Classes Válidas                                 | Classes Inválidas                               |
 |---------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
 | Exibição do nome do vendedor                           | Nome do vendedor visível na página do produto (1) | Nome do vendedor ausente (2)                  |
 | Exibição do perfil do vendedor                         | Perfil (ex.: link ou seção de informações) visível (3) | Perfil do vendedor ausente (4)            |
 | Segurança de dados sensíveis (LGPD)                    | Dados sensíveis armazenados de forma segura e criptografada (5) | Dados armazenados de forma insegura (6) |
 
-### Casos de Teste | AC09 | AC10 |
+### Casos de Teste (AC09 + AC10)
 
 | Caso de Teste | Classes de Equivalência | Entrada                                                                              | Resultado Esperado         |
 |---------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------|
@@ -73,5 +85,3 @@
 | Caso 2        | 2, 3, 5                 | Nome do vendedor ausente, perfil visível, dados armazenados de forma segura         | Falha: Nome do vendedor ausente |
 | Caso 3        | 1, 4, 5                 | Nome do vendedor visível, perfil ausente, dados armazenados de forma segura         | Falha: Perfil do vendedor ausente |
 | Caso 4        | 1, 3, 6                 | Nome e perfil visíveis, mas dados armazenados de forma não criptografada/insegura   | Falha: Dados não protegidos |
-
-
