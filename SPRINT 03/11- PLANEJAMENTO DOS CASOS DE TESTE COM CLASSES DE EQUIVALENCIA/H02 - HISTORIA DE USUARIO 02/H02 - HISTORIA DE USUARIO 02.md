@@ -23,13 +23,12 @@
 
 ### Classes de Equivalência 
 
-| Condição de Entrada                                      | Classes Válidas                                          | Classes Inválidas                                  | Classes Inválidas                                       |
-|----------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
-| Cadastro de informações de contato                       | Fornecedor informa telefone, e-mail e endereço **(1)**   | Fornecedor informa apenas parte dos dados **(2)**    | Fornecedor não informa nenhum dado de contato **(3)** |
-| Disponibilidade de botão de contato                      | Botão de contato disponível na página de produto **(4)** | Botão de contato não disponível **(5)**              |                                                       |
-| Canal de comunicação                                     | Contato permitido por chat, telefone ou e-mail **(6)**   | Contato por outro canal **(7)**                      | Contato indisponível (nenhum canal funcional) **(8)** |
-| Exibição do nome e perfil do fornecedor                  | Nome e perfil visíveis ao consumidor **(9)**             | Nome ou perfil ausente **(10)**                      |                                                       |
-| Conformidade com a LGPD                                  | Dados tratados conforme LGPD com criptografia **(11)**   | Dados tratados sem LGPD ou sem criptografia **(12)** |                                                       |
+| Condição de Entrada                  | Classes Válidas                        | Classes Inválidas                                    |
+|--------------------------------------|----------------------------------------|------------------------------------------------------|
+| Telefone com 10 ou 11 dígitos numéricos | Telefone com 10 ou 11 dígitos numéricos (1) | Telefone ausente ou com letras/símbolos/formato incorreto (2) |
+| E-mail no formato válido             | E-mail contendo "@" e domínio (3)       | E-mail ausente ou com formato inválido (4)           |
+| Endereço com pelo menos 5 caracteres | Endereço com 5 ou mais caracteres (5)   | Endereço ausente ou com menos de 5 caracteres (6)    |
+
 
 ### Casos de Teste
 
