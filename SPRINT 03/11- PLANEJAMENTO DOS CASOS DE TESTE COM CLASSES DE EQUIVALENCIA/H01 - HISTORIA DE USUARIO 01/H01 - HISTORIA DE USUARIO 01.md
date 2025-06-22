@@ -97,5 +97,5 @@
 | Caso 1         | 1, 3                          | Envio de 1, 2 ou 3 dicas para o mesmo produtor em um único dia                                   | Dicas enviadas com sucesso; botão permanece habilitado                |
 | Caso 2         | **2**, **4**, **6**          | Tentativa de enviar 4ª dica no mesmo dia; botão continua habilitado; nenhuma mensagem exibida    | **Erro: sistema permite envio além do limite e não exibe mensagem**   |
 | Caso 3         | **2**, 4, 5                   | 4ª tentativa de envio; botão é desabilitado; mensagem correta exibida                            | Dica não enviada; sistema bloqueia corretamente após 3 envios         |
-| Caso 4         | 1, **4**, **6**              | Envio de 2 dicas, botão desabilitado por engano e sem mensagem                                   | **Erro: botão desabilitado antes do limite e ausência de mensagem**   |
+| Caso 4         | 1, **4**, **6**              | Envio de 2 dicas, botão desabilitado e sem mensagem                                   | **Erro: botão desabilitado antes do limite e ausência de mensagem**   |
 | Caso 5         | 1, 3, **6**                   | Envio de 3 dicas; botão desabilitado corretamente, mas mensagem não é exibida                    | **Erro: mensagem de limite não exibida**                              |
