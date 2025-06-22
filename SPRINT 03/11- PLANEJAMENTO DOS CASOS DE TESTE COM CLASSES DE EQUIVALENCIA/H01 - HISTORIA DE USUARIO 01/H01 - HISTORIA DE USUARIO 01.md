@@ -132,18 +132,65 @@
 
 ---
 
+* RN02 - Histórico de Dicas no Perfil do Usuário: O sistema armazenará o histórico das dicas enviadas pela agrônoma, visível em seu perfil.
+
 ###  Tabela de Classes de Equivalência - RN02
+
+| Condição de Entrada                    | Classes Válidas                                       | Classes Inválidas                                         |
+|---------------------------------------|--------------------------------------------------------|------------------------------------------------------------|
+| Armazenamento das dicas enviadas      | Dicas enviadas ficam salvas e acessíveis no perfil (1) | Dicas não são salvas ou desaparecem do histórico (2)       |
+| Visibilidade do histórico              | Histórico é exibido corretamente no perfil (3)         | Histórico não aparece, aparece vazio ou incompleto (4)     |
 
 ###  Tabela de Casos de Teste - RN02
 
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                  |
+|----------------|------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Caso 1         | 1, 3                          | Agrônoma envia uma dica e acessa o perfil                                | Dica aparece no histórico do perfil                                 |
+| Caso 2         | **2**, 3                      | Agrônoma envia uma dica, mas ela não aparece no perfil                   | **Erro: dica não foi armazenada corretamente**                      |
+| Caso 3         | 1, **4**                      | Agrônoma acessa o perfil, mas histórico aparece vazio                    | **Erro: histórico não visível ou incompleto**                       |
+| Caso 4         | 1, 3                          | Agrônoma envia várias dicas em dias diferentes                           | Todas as dicas aparecem organizadas no histórico                    |
+| Caso 5         | 1, **4**                      | Dicas mais antigas somem do histórico após certo tempo                   | **Erro: histórico perde informações antigas indevidamente**         |
+
 ---
+
+* RN03 - Sistema de Feedback do Produtor: O produtor poderá marcar a dica como “útil”, “já aplicada” ou “não aplicável”, utilizando um botão de seleção única (tipo radio button) com as três opções, para fins de engajamento e retorno.
 
 ###  Tabela de Classes de Equivalência - RN03
 
+| Condição de Entrada                      | Classes Válidas                                        | Classes Inválidas                                                |
+|-----------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------|
+| Opções de feedback disponíveis          | “Útil”, “Já aplicada” ou “Não aplicável” (1)           | Opções faltando, texto incorreto ou mais de três opções (2)       |
+| Tipo de seleção                         | Apenas uma opção pode ser selecionada (radio button) (3) | Mais de uma opção selecionável ao mesmo tempo (4)                |
+| Registro do feedback                    | Feedback selecionado é armazenado corretamente (5)     | Feedback não é registrado ou é sobrescrito incorretamente (6)     |
+
 ###  Tabela de Casos de Teste - RN03
+
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                  |
+|----------------|------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Caso 1         | 1, 3, 5                       | Produtor marca “Útil” e a escolha é salva corretamente                   | Feedback salvo com sucesso, apenas essa opção marcada               |
+| Caso 2         | **2**, 3, 5                   | Interface exibe opções com texto incorreto ou faltando                   | **Erro: opções de feedback inconsistentes com especificação**       |
+| Caso 3         | 1, **4**, 5                   | Produtor consegue marcar mais de uma opção ao mesmo tempo                | **Erro: seleção múltipla em campo de escolha única**                |
+| Caso 4         | 1, 3, **6**                   | Produtor marca “Não aplicável”, mas nada é salvo                         | **Erro: feedback não registrado**                                   |
+| Caso 5         | 1, 3, 5                       | Produtor altera de “Útil” para “Já aplicada” e mudança é registrada      | Feedback atualizado corretamente                                    |
 
 ---
 
+* RN04 - Notificação Opcional para o Produtor: Quando uma dica for enviada, o produtor receberá uma notificação por e-mail, respeitando suas configurações de alerta.
+
 ###  Tabela de Classes de Equivalência - RN04
 
+| Condição de Entrada                        | Classes Válidas                                        | Classes Inválidas                                                    |
+|-------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------------|
+| Configuração de notificação do produtor   | Notificações por e-mail ativadas (1)                   | Notificações por e-mail desativadas (2)                             |
+| Envio da dica                             | Dica enviada com sucesso (3)                           | Falha no envio da dica (4)                                          |
+| Comportamento do sistema                  | Envia e-mail se config. estiver ativada (5)            | Envia mesmo com config. desativada ou não envia com ativada (6)     |
+
 ###  Tabela de Casos de Teste - RN04
+
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                      |
+|----------------|------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Caso 1         | 1, 3, 5                       | Produtor com notificações ativas recebe uma dica                         | E-mail de notificação enviado corretamente                               |
+| Caso 2         | **2**, 3, **6**               | Produtor desativou notificações, mas e-mail é enviado                    | **Erro: notificação enviada contra configuração do usuário**            |
+| Caso 3         | 1, **4**, **6**               | Notificações ativas, mas falha no envio da dica                          | **Erro: sistema tentou notificar sem que dica fosse enviada com sucesso** |
+| Caso 4         | **2**, 3, 5                   | Notificações desativadas e sistema não envia e-mail                      | Comportamento correto, nenhuma notificação enviada                      |
+| Caso 5         | 1, 3, **6**                   | Notificações ativas, dica enviada, mas nenhum e-mail é disparado         | **Erro: notificação esperada não enviada**                              |
