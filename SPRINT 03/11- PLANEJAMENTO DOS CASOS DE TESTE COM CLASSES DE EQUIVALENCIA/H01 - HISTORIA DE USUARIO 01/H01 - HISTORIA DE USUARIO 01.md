@@ -15,26 +15,22 @@
 * RN04 -	Notificação Opcional para o Produtor: Quando uma dica for enviada, o produtor receberá uma notificação por e-mail, respeitando suas configurações de alerta.
 
 ---
-###  Tabela de Classes de Equivalência
+###  Tabela de Classes de Equivalência - AC01
 
-| Condição de Entrada                  | Classes Válidas                                      | Classes Inválidas                            |
-|-------------------------------------|------------------------------------------------------|-----------------------------------------------|
-| Título                              | Título ≤ 100 caracteres ou vazio (1)             | Título > 100 caracteres (2)               |
-| Conteúdo da dica                    | Texto não vazio até 500 caracteres (3)           | Vazio (4), >500 caracteres (5)        |
-| Enviar anonimamente (checkbox)      | Verdadeiro / Falso (6)                           | Tipo inválido ou nulo (7)                 |
-| Categoria                           | Categoria válida ou vazio (8)                    | Categoria inválida/inexistente (9)        |
-| Limite diário                       | Até 3 dicas por dia (10)                         | Mais de 3 dicas (**11**)                      |
-| Verificação de conteúdo             | Sem termos ofensivos (12)                        | Termos ofensivos/inadequados (13)         |
+* AC01 - Campo de Envio de Dicas no Perfil do Agrônomo: A agrônoma poderá acessar o perfil de um produtor e enviar uma dica utilizando um formulário com até 4 campos: título (opcional - máximo 100 caracteres), conteúdo da dica (obrigatório), caixa de seleção (checkbox) com o texto “Enviar dica anonimamente”, categoria da dica (opcional), e botão de envio. O conteúdo deve ter no máximo 500 caracteres.
 
----
-###  Tabela de Casos de Teste
+| Condição de Entrada                  | Classes Válidas                                      | Classes Inválidas                             |
+|-------------------------------------|------------------------------------------------------|------------------------------------------------|
+| Título da dica                      | Texto até 100 caracteres ou vazio (1)            | Texto acima de 100 caracteres (2)          |
+| Conteúdo da dica                    | Texto obrigatório até 500 caracteres (3)         | Vazio (4) ou acima de 500 caracteres (5)|
+| Enviar anonimamente (checkbox)      | Verdadeior ou Falso (6)                                | Valor não definido(verdadeiro ou falso) (7)    |
 
-| Casos de Teste | Classes de Equivalência   | Entradas                                                                 | Resultado Esperado                |
-|----------------|---------------------------|--------------------------------------------------------------------------|-----------------------------------|
-| Caso 1         | 1, 3, 6, 8, 10, 12     | Título: “Solo”, Conteúdo: “Adube após a chuva”, Anônimo: sim, Categoria: “Plantio”, 1ª dica do dia | Dica válida enviada               |
-| Caso 2         | **2**, 3, 6, 8, 10, 12     | Título: 150 caracteres, Conteúdo: “Regue à tarde”, Anônimo: não         | **Dica inválida** (título longo) |
-| Caso 3         | 1, **4**, 6, 8, 10, 12     | Título: “”, Conteúdo: “”, Anônimo: sim                                  | **Dica inválida** (sem conteúdo) |
-| Caso 4         | 1, **5**, 6, 8, 10, 12     | Título: “Raízes”, Conteúdo: texto com 501 caracteres                    | **Dica inválida** (excede limite) |
-| Caso 5         | 1, 3, 6, 8, **11**, 12     | Título: “Dica 4”, Conteúdo: “Evite encharcar”, 4ª dica do dia           | **Dica bloqueada** (limite diário) |
-| Caso 6         | 1, 3, 6, **9**, 10, 12     | Categoria: “Xpto”                                                       | **Dica inválida** (categoria inexistente) |
-| Caso 7         | 1, 3, 6, 8, 10, **13**     | Conteúdo: “Essa ideia é idiota”                                         | **Dica rejeitada pela moderação** |
+###  Tabela de Casos de Teste - AC01
+
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                              |
+|----------------|------------------------------|--------------------------------------------------------------------------|-------------------------------------------------|
+| Caso 1         | **1, 3, 6**                  | Título: “Adubação correta”, Conteúdo: “Use compostagem”, Anônimo: sim   | Dica enviada com sucesso                        |
+| Caso 2         | **2**, 3, 6                  | Título com 150 caracteres                                                | **Erro: título excede limite**                  |
+| Caso 3         | 1, **4**, 6                  | Conteúdo vazio                                                           | **Erro: campo obrigatório ausente**             |
+| Caso 4         | 1, **5**, 6                  | Conteúdo com 501 caracteres                                              | **Erro: conteúdo excede 500 caracteres**        |
+| Caso 5         | 1, 3, **7**                  | Checkbox com valor indefinido                                            | **Erro: valor inválido para checkbox**          |
