@@ -63,14 +63,99 @@
 
 ---
 
+* AC39 - O sistema deve alertar descontos para pagamentos via Pix.
+
 ###  Tabela de Classes de Equivalência - AC39
+
+| Condição de Entrada                    | Classes Válidas                                          | Classes Inválidas                                                    |
+|---------------------------------------|----------------------------------------------------------|----------------------------------------------------------------------|
+| Forma de pagamento selecionada        | Pix (1)                                                  | Outra forma de pagamento (2)                                        |
+| Exibição do alerta de desconto        | Alerta visível e claro indicando o desconto (3)          | Alerta ausente, incompleto ou confuso (4)                           |
 
 ###  Tabela de Casos de Testes - AC39
 
+| Casos de Teste | Classes de Equivalência     | Entradas                                                        | Resultado Esperado                                                  |
+|----------------|-----------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
+| Caso 1         | 1, 3                         | Usuário escolhe Pix como forma de pagamento                     | Alerta de desconto é exibido de forma clara                         |
+| Caso 2         | **2**, **4**                 | Usuário escolhe cartão de crédito e o sistema exibe alerta de desconto | **Erro: alerta de desconto exibido para método sem desconto**       |
+| Caso 3         | 1, **4**                     | Usuário escolhe Pix, mas o sistema não mostra nenhum alerta     | **Erro: alerta de desconto não exibido mesmo com Pix selecionado**  |
+| Caso 4         | 1, 3                         | Usuário escolhe Pix e o alerta informa valor final com desconto | Alerta correto e valor ajustado visivelmente                       |
+| Caso 5         | 2, 3                         | Usuário troca de Pix para boleto e o alerta desaparece          | Alerta é removido corretamente ao trocar forma de pagamento         |
+
 ---
+
+* AC40 - O aplicativo deve ter a opção de salvar os dados de pagamento.
 
 ###  Tabela de Classes de Equivalência - AC40
 
+| Condição de Entrada                    | Classes Válidas                                             | Classes Inválidas                                                   |
+|---------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| Opção de salvar dados visível         | Opção clara e acessível na interface (1)                    | Opção ausente ou difícil de localizar (2)                           |
+| Escolha do usuário                    | Usuário marca opção de salvar dados (3)                     | Usuário não marca ou opção ignorada (4)                             |
+| Comportamento do sistema              | Dados são salvos com segurança e disponíveis para uso (5)   | Dados não são salvos ou são armazenados incorretamente (6)          |
+
 ###  Tabela de Casos de Testes - AC40
 
+| Casos de Teste | Classes de Equivalência     | Entradas                                                              | Resultado Esperado                                                    |
+|----------------|-----------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
+| Caso 1         | 1, 3, 5                      | Usuário vê a opção, marca “Salvar dados” e conclui o pagamento        | Dados salvos com sucesso para uso futuro                             |
+| Caso 2         | **2**, 3, **6**              | Opção não aparece na tela, mas sistema tenta salvar mesmo assim       | **Erro: comportamento incorreto sem consentimento do usuário**        |
+| Caso 3         | 1, **4**, **6**              | Opção visível, mas usuário não marca e sistema salva mesmo assim      | **Erro: dados salvos sem autorização do usuário**                     |
+| Caso 4         | 1, 3, **6**                  | Usuário marca para salvar, mas dados não ficam disponíveis depois     | **Erro: falha no salvamento ou recuperação dos dados de pagamento**   |
+| Caso 5         | 1, 3, 5                      | Usuário marca a opção e na próxima compra os dados estão preenchidos  | Funcionalidade de salvar dados funcionando corretamente               |
 
+---
+
+* RN33 - Todos os pagamentos devem ser realizados por plataformas certificadas.
+
+###  Tabela de Classes de Equivalência - RN33
+
+| Condição de Entrada                  | Classes Válidas                                 | Classes Inválidas                                               |
+|-------------------------------------|-------------------------------------------------|------------------------------------------------------------------|
+| Plataforma de pagamento utilizada   | Plataforma certificada e homologada (1)         | Plataforma não certificada ou com origem duvidosa (2)            |
+
+###  Tabela de Casos de Testes - RN33
+
+| Casos de Teste | Classes de Equivalência | Entradas                                                             | Resultado Esperado                                               |
+|----------------|--------------------------|----------------------------------------------------------------------|------------------------------------------------------------------|
+| Caso 1         | 1                        | Sistema realiza pagamento via plataforma certificada (ex: Pagar.me)  | Pagamento autorizado e conforme com segurança esperada           |
+| Caso 2         | **2**                    | Sistema tenta usar plataforma não homologada                         | **Erro: uso de plataforma não certificada não é permitido**       |
+
+---
+
+* RN34 - Cartões devem ser aceitos nas principais bandeiras.
+
+###  Tabela de Classes de Equivalência - RN34
+
+| Condição de Entrada             | Classes Válidas                                     | Classes Inválidas                                           |
+|--------------------------------|-----------------------------------------------------|--------------------------------------------------------------|
+| Bandeira do cartão             | Visa, Mastercard, Elo, Hipercard, Amex, etc. (1)    | Bandeiras não suportadas ou cartões internacionais restritos (2) |
+
+###  Tabela de Casos de Testes - RN34
+
+| Casos de Teste | Classes de Equivalência | Entradas                                             | Resultado Esperado                                    |
+|----------------|--------------------------|------------------------------------------------------|-------------------------------------------------------|
+| Caso 1         | 1                        | Usuário paga com cartão Visa                         | Pagamento aceito normalmente                          |
+| Caso 2         | 1                        | Cartão Mastercard é processado                       | Pagamento aceito com sucesso                          |
+| Caso 3         | **2**                    | Cartão de bandeira não suportada é inserido          | **Erro: bandeira de cartão não aceita**               |
+
+---
+
+* RN35 - A opção Pix deve gerar um QR Code dinâmico utilizando uma API de pagamento homologada e compatível com os principais bancos cadastrados no Banco Central.
+
+###  Tabela de Classes de Equivalência - RN35
+
+| Condição de Entrada                  | Classes Válidas                                           | Classes Inválidas                                                   |
+|-------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Tipo de QR Code gerado              | Dinâmico e exclusivo por transação (1)                    | QR Code estático ou reutilizado (2)                                  |
+| API utilizada                       | API homologada e reconhecida (3)                          | API desconhecida ou fora dos padrões do BACEN (4)                   |
+| Compatibilidade bancária            | Compatível com bancos registrados no Banco Central (5)    | Incompatível com instituições financeiras habilitadas (6)           |
+
+###  Tabela de Casos de Testes - RN35
+
+| Casos de Teste | Classes de Equivalência     | Entradas                                                                 | Resultado Esperado                                                  |
+|----------------|-----------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Caso 1         | 1, 3, 5                      | Pix gera QR dinâmico via API homologada, compatível com banco do usuário| Pagamento iniciado com sucesso                                       |
+| Caso 2         | **2**, 3, 5                  | Sistema utiliza QR estático reutilizado                                 | **Erro: QR Code inválido para pagamento Pix dinâmico**              |
+| Caso 3         | 1, **4**, 5                  | API utilizada não está homologada                                        | **Erro: uso de API de pagamento não homologada**                    |
+| Caso 4         | 1, 3, **6**                  | QR Code gerado corretamente, mas usuário de banco não compatível         | **Erro: pagamento não pode ser processado com banco informado**     |
