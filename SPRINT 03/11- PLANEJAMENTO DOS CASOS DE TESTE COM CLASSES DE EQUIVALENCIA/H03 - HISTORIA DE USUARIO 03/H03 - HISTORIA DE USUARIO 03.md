@@ -4,44 +4,102 @@
 
 ## Critérios de Aceitação 
 
-- Exibição de Selos/Ícones: O app deve exibir selos visuais, como "Livre de Agrotóxicos", dado ao certificação emitido pelo Ministério da Agricultura e Pecuária, esse selo é exibido nos perfis dos produtores.
-- Filtro de Pesquisa por Método Agrícola: A agrônoma deve conseguir filtrar os produtores com base em métodos agrícolas (ex: Permacultura, Produção Convencional, Agricultura Familiar).
-- Descrição Transparente no Perfil: Cada produtor deve apresentar uma seção no perfil com a descrição dos métodos agrícolas utilizados.
+| Código | Descrição |
+|--------|-----------|
+| AC11   | Exibição de Selos/Ícones: O app deve exibir selos visuais , (“Livre de Agrotóxicos”) dado ao certificação emitido pelo Ministério da Agricultura e Pecuária, esse sele é exibido nos perfis dos produtores. |
+| AC12   | Filtro de Pesquisa por Método Agrícola: A agrônoma deve conseguir filtrar os produtores com base em métodos agrícolas (ex: Permacultura, Produção Convencional, Agricultura Familiar). |
+| AC13   | Descrição Transparente no Perfil: Cada produtor deve apresentar uma seção no perfil com a descrição dos métodos agrícolas utilizados. |
 
 
 ## Regras de Negócio 
 
-- Classificação Obrigatória no Cadastro do Produtor: Todo produtor deve, no momento do cadastro, indicar o tipo de agricultura praticado.
-- Uso Controlado de Selos de Produção: Selos como "Orgânico" ou "Agroecológico" só poderão ser exibidos se o produtor apresentar documentação comprobatória via Ministério da Agricultura e Pecuária.
-- Atualização Regular do Perfil Agrícola: Produtores devem atualizar as informações sobre seus métodos agrícolas a cada 6 meses, com aviso prévio de 15 dias via e-mail e notificação no app. Caso contrário, o selo será removido.
-- O filtro pode ser desativado e ativado conforme a vontade do usuário.
-- Sistema de Denúncia e Informações Falsas: Consumidores poderão denunciar perfis com informações agrícolas inconsistentes, iniciando uma verificação manual pela administração do app.
+| Código | Descrição |
+|--------|-----------|
+| RN09   | Classificação Obrigatória no Cadastro do Produtor: Todo produtor deve, no momento do cadastro, indicar o tipo de agricultura praticado. |
+| RN10   | Uso Controlado de Selos de Produção: Selos como “Orgânico” ou “Agroecológico” só poderão ser exibidos se o produtor apresentar documentação comprobatória via Ministério da Agricultura e Pecuária |
+| RN11   | Atualização Regular do Perfil Agrícola: Produtores devem atualizar as informações sobre seus métodos agrícolas a cada 6 meses, havendo um aviso prévio de 15 dias de antecedência para atualização via e-mail e pela notificação no aplicativo, caso contrario o celo será removido. |
+| RN12   | O filtro pode ser desativado e ativado conforme a vontade do usuário |
+| RN13   | Sistema de Denúncia de Informações Falsas: Consumidores poderão denunciar perfis com informações agrícolas inconsistentes, o que iniciará uma verificação manual pela administração do app. |
 
-### Classes de Equivalência 
+# Grupo 1 – Selos Visuais (AC11 + RN10)
+### Classes de Equivalência (AC11 + RN10)
+| Condição de Entrada                          | Classes Válidas                   | Classes Inválidas                    |
+|----------------------------------------------|-----------------------------------|--------------------------------------|
+| Produtor apresentou documentação comprobatória | Sim (1)                          | Não (2)                              |
+| Tipo de selo                                 | Selo autorizado pelo Ministério (3) | Selo não autorizado (4)            |
 
-| Condição de Entrada                                    | Classes Válidas                                              | Classes Inválidas                                        | Classes Inválidas                            |
-|--------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------|
-| Exibição de selos no perfil do produtor                | Selo visível e correto conforme certificação oficial **(1)** | Selo ausente mesmo com certificação **(2)**              | Selo exibido sem ter certificação válida **(3)** |
-| Filtro de pesquisa por método agrícola                 | Filtro disponível e funcional **(4)**                        | Filtro indisponível **(5)**                              | Filtro disponível, mas sem funcionalidade correta **(6)** |
-| Descrição de métodos agrícolas no perfil               | Descrição clara e completa no perfil **(7)**                 | Descrição incompleta ou vaga **(8)**                     | Nenhuma descrição disponível **(9)** |
-| Classificação obrigatória no cadastro                  | Produtor informa tipo de agricultura ao cadastrar **(10)**   | Produtor não informa tipo de agricultura **(11)**        | Informação inconsistente ou inválida **(12)** |
-| Documentação de selos (Orgânico/Agroecológico)         | Documentação válida e aceita pelo sistema **(13)**           | Documentação inválida ou ausente **(14)**                | Selo sendo exibido sem documentação **(15)** |
-| Atualização de perfil agrícola                         | Informações atualizadas dentro do prazo **(16)**             | Informações desatualizadas **(17)**                      | Selo ativo mesmo com informações desatualizadas **(18)** |
-| Sistema de denúncia de informações falsas              | Denúncia recebida e processada corretamente **(19)**         | Denúncia ignorada pelo sistema **(20)**                  | Sistema de denúncia indisponível **(21)** |
-| Controle de exibição do filtro pelo usuário            | Usuário pode ativar/desativar o filtro **(22)**              | Filtro sempre ativo (sem controle pelo usuário) **(23)** | Filtro nunca ativo (mesmo quando usuário deseja) **(24)** |
+### Casos de Teste (AC11 + RN10)
+
+| Caso de Teste | Classes de Equivalência | Entrada                         | Resultado Esperado        |
+|---------------|-------------------------|---------------------------------|---------------------------|
+| Caso 1        | 1, 3                    | Documento válido + selo autorizado | Selo exibido corretamente |
+| Caso 2        | 2, 3                    | Sem documentação + selo autorizado | Selo bloqueado            |
+| Caso 3        | 1, 4                    | Documento válido + selo não autorizado | Selo bloqueado            |
+
+# Grupo 2 – Filtro de Pesquisa (AC12 + RN12)
+### Classes de Equivalência (AC12 + RN12)
+| Condição de Entrada                | Classes Válidas             | Classes Inválidas          |
+|------------------------------------|-----------------------------|----------------------------|
+| Filtro de pesquisa ativado         | Filtro ativo (1)           | Filtro desativado (2)      |
+| Método agrícola selecionado        | Método válido (ex: Permacultura, Agricultura Familiar) (3) | Método inexistente (4) |
+
+### Casos de Teste (AC12 + RN12)
+| Caso de Teste | Classes de Equivalência | Entrada                              | Resultado Esperado          |
+|---------------|-------------------------|--------------------------------------|-----------------------------|
+| Caso 1        | 1, 3                    | Filtro ativo + método válido selecionado | Lista de produtores filtrada |
+| Caso 2        | 2, 3                    | Filtro desativado + método válido    | Todos os produtores exibidos |
+| Caso 3        | 1, 4                    | Filtro ativo + método inválido       | Nenhum produtor retornado ou mensagem de erro |
+
+# Grupo 3 – Perfil do Produtor (AC13 + RN09)
+###  Classes de Equivalência (AC13 + RN09)
+
+| Condição de Entrada                 | Classes Válidas             | Classes Inválidas          |
+|-------------------------------------|-----------------------------|----------------------------|
+| Tipo de agricultura cadastrado      | Tipo preenchido (1)         | Tipo não preenchido (2)    |
+| Descrição dos métodos agrícolas     | Descrição presente (3)      | Descrição ausente (4)      |
+
+### Casos de Teste (AC13 + RN09)
+
+| Caso de Teste | Classes de Equivalência | Entrada                              | Resultado Esperado          |
+|---------------|-------------------------|--------------------------------------|-----------------------------|
+| Caso 1        | 1, 3                    | Tipo cadastrado + descrição preenchida | Perfil exibido corretamente |
+| Caso 2        | 2, 3                    | Tipo não cadastrado + descrição presente | Erro: cadastro incompleto |
+| Caso 3        | 1, 4                    | Tipo cadastrado + descrição ausente   | Erro: perfil incompleto |
+| Caso 4        | 2, 4                    | Tipo não cadastrado + descrição ausente | Erro geral: perfil inválido |
+
+# Grupo 4 – Atualização do Perfil (RN11)
+###  Classes de Equivalência (RN11)
+
+| Condição de Entrada                 | Classes Válidas             | Classes Inválidas          |
+|-------------------------------------|-----------------------------|----------------------------|
+| Tempo desde a última atualização    | Menos de 6 meses (1)        | Mais de 6 meses (2)        |
+| Aviso de atualização enviado        | Aviso enviado 15 dias antes (3) | Aviso não enviado (4)    |
+| Perfil atualizado após o aviso      | Perfil atualizado (5)       | Perfil não atualizado (6)  |
+
+###  Casos de Teste (RN11)
+
+| Caso de Teste | Classes de Equivalência | Entrada                              | Resultado Esperado          |
+|---------------|-------------------------|--------------------------------------|-----------------------------|
+| Caso 1        | 1, 3, 5                 | Atualização dentro do prazo com aviso | Perfil mantido com selo |
+| Caso 2        | 2, 3, 6                 | Mais de 6 meses, aviso enviado, sem atualização | Selo removido |
+| Caso 3        | 2, 4, 6                 | Mais de 6 meses, aviso não enviado, sem atualização | Erro de processo: notificação não enviada |
+
+#  Grupo 5 – Denúncia de Informações Falsas (RN13)
+###  Classes de Equivalência (RN13)
+
+| Condição de Entrada             | Classes Válidas                  | Classes Inválidas                |
+|---------------------------------|----------------------------------|---------------------------------|
+| Existência de denúncia          | Denúncia realizada (1)          | Nenhuma denúncia (2)            |
+| Processo de verificação manual  | Verificação realizada (3)       | Verificação não realizada (4)   |
+| Resultado da verificação        | Informação confirmada (5)       | Informação falsa comprovada (6) |
+
+###  Casos de Teste (RN13)
+
+| Caso de Teste | Classes de Equivalência | Entrada                                      | Resultado Esperado          |
+|---------------|-------------------------|---------------------------------------------|-----------------------------|
+| Caso 1        | 1, 3, 5                 | Denúncia feita, verificação realizada, dados confirmados | Perfil permanece sem alteração |
+| Caso 2        | 1, 3, 6                 | Denúncia feita, verificação realizada, informação falsa detectada | Perfil bloqueado ou informação removida |
+| Caso 3        | 2, 4, 5                 | Nenhuma denúncia, nenhuma verificação        | Sem alteração no perfil |
 
 
-### Casos de Teste
 
-| Caso de Teste | Classes de Equivalência                       | Cenário / Entrada                                                                                                                                   | Resultado Esperado        |
-|---------------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| Caso 1        | 1, 4, 7, 10, 13, 16, 19, 22                   | Produtor cadastra o tipo de agricultura, apresenta documentação válida, exibe selo correto, filtro funciona, descrição no perfil está clara e atualizada, sistema de denúncia funcional, e usuário pode  ativar/desativar filtro. | Requisito atendido        |
-| Caso 2        | **2**, 4, 7, 10, 13, 16, 19, 22               | Produtor tem certificação válida mas o selo não é exibido no perfil.                                                                                 | Requisito não atendido    |
-| Caso 3        | 1, **5**, 7, 10, 13, 16, 19, 22               | Filtro de pesquisa por método agrícola não está disponível no app.                                                                                    | Requisito não atendido    |
-| Caso 4        | 1, 4, **8**, 10, 13, 16, 19, 22               | Descrição do método agrícola está incompleta ou vaga no perfil do produtor.                                                                           | Requisito não atendido    |
-| Caso 5        | 1, 4, 7, **11**, 13, 16, 19, 22               | Produtor não informou o tipo de agricultura ao se cadastrar.                                                                                         | Requisito não atendido    |
-| Caso 6        | 1, 4, 7, 10, **14**, 16, 19, 22               | Produtor não apresentou documentação para o selo, mas tentou exibir o selo mesmo assim.                                                              | Requisito não atendido    |
-| Caso 7        | 1, 4, 7, 10, 13, **17**, 19, 22               | Informações do perfil agrícola estão desatualizadas (última atualização há mais de 6 meses).                                                         | Requisito não atendido    |
-| Caso 8        | 1, 4, 7, 10, 13, 16, **20**, 22               | Consumidor fez uma denúncia de perfil com informação falsa, mas o sistema ignorou e não processou a denúncia.                                        | Requisito não atendido    |
-| Caso 9        | 1, 4, 7, 10, 13, 16, 19, **23**               | Filtro sempre ativo, mesmo quando o usuário tenta desativar.                                                                                          | Requisito não atendido    |
-| Caso 10       | 1, 4, 7, 10, 13, 16, 19, **24**               | Filtro nunca fica ativo, mesmo quando o usuário tenta ativar.                                                                                         | Requisito não atendido    |
