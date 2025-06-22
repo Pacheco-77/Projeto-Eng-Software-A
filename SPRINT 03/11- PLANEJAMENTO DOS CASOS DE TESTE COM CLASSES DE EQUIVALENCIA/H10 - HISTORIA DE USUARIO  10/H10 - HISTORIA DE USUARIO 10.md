@@ -18,30 +18,59 @@
 | RN35   | A opção Pix deve gerar um QR Code dinâmico utilizando uma API de pagamento homologada e compatível com os principais bancos cadastrados no Banco Central. |
 
 ---
-###  Tabela de Classes de Equivalência
 
-| Condição de Entrada                          | Classes Válidas                                                | Classes Inválidas                                |
-|---------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------|
-| Forma de pagamento escolhida                | Pix, cartão de crédito ou débito (1)                        | Forma inexistente ou não suportada (2)        |
-| Início e monitoramento do Pix               | Iniciado imediatamente + status atualizado (3)              | Atraso no início ou ausência de atualização (4)|
-| Envio de comprovante e resumo               | Enviado corretamente por e-mail (5)                         | Não enviado ou enviado incorretamente (6)     |
-| Alerta de desconto                          | Alerta exibido para pagamento via Pix (7)                   | Nenhum alerta exibido ou para outra forma (8) |
-| Salvamento de dados de pagamento            | Aplicativo permite salvar dados (9)                         | Aplicativo não oferece essa opção (10)         |
-| Plataforma de pagamento utilizada           | Plataforma certificada (11)                                 | Plataforma não certificada (12)               |
-| Bandeira do cartão                          | Aceita (Visa, MasterCard, Elo etc.) (13)                   | Não aceita (14)                               |
-| Geração de QR Code (Pix)                    | QR Code dinâmico gerado por API homologada (15)             | QR Code fixo ou API incompatível (16)         |
+* AC37 - Pagamentos via Pix devem ser iniciados imediatamente, e o sistema deve exibir status atualizado de forma contínua até a confirmação da transação.
+
+###  Tabela de Classes de Equivalência - AC37
+
+| Condição de Entrada                          | Classes Válidas                                           | Classes Inválidas                                                     |
+|---------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------------|
+| Início do processo de pagamento              | Pagamento Pix iniciado imediatamente após solicitação (1) | Atraso ou falha na inicialização do Pix (2)                           |
+| Atualização do status da transação           | Status atualizado continuamente até a confirmação (3)     | Status parado, desatualizado ou ausente durante o processo (4)        |
+| Exibição do status para o usuário            | Exibição clara e contínua na interface (5)                | Status não exibido, incompleto ou com mensagens confusas (6)          |
+
+###  Tabela de Casos de Testes - AC37
+
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                       |
+|----------------|------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Caso 1         | 1, 3, 5                       | Usuário inicia pagamento Pix; sistema exibe status "Aguardando pagamento", depois "Confirmado" | Fluxo de pagamento executado corretamente com feedback contínuo          |
+| Caso 2         | **2**, **4**, **6**           | Sistema demora a iniciar o Pix e não exibe nenhuma informação de status  | **Erro: pagamento não iniciado corretamente e ausência de atualização**  |
+| Caso 3         | 1, **4**, **6**               | Pagamento iniciado, mas status trava em "Aguardando pagamento" e não muda | **Erro: status não atualizado continuamente**                            |
+| Caso 4         | 1, 3, **6**                   | Pagamento ocorre corretamente, mas interface não exibe status pro usuário | **Erro: ausência de feedback visual durante o processo**                 |
+| Caso 5         | 1, 3, 5                       | Transação confirmada em menos de 10 segundos; status reflete a confirmação imediatamente | Pagamento Pix processado e confirmado com sucesso, status exibido em tempo real |
 
 ---
-###  Tabela de Casos de Testes
 
-| Casos de Teste | Classes de Equivalência        | Entradas                                                                                  | Resultado Esperado                            |
-|----------------|--------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Caso 1         | **1, 3, 5, 7, 9, 11, 13, 15**   | Pagamento via Pix iniciado na hora, status atualizado, QR dinâmico, dados salvos         | Pagamento realizado e e-mail enviado          |
-| Caso 2         | **2**, 3, 5, 7, 9, 11, 13, 15   | Pagamento com forma inválida ("boleto")                                                  | **Erro: forma de pagamento não suportada**    |
-| Caso 3         | 1, **4**, 5, 7, 9, 11, 13, 15   | Pix com atraso ou sem atualização de status                                               | **Erro: problema no fluxo do Pix**            |
-| Caso 4         | 1, 3, **6**, 7, 9, 11, 13, 15   | E-mail com comprovante não foi enviado                                                    | **Erro: ausência de comprovante**             |
-| Caso 5         | 1, 3, 5, **8**, 9, 11, 13, 15   | Nenhum alerta de desconto exibido para Pix                                                | **Erro: alerta ausente**                      |
-| Caso 6         | 1, 3, 5, 7, **10**, 11, 13, 15  | Aplicativo não oferece opção de salvar dados                                              | **Erro: falta de opção de salvamento**        |
-| Caso 7         | 1, 3, 5, 7, 9, **12**, 13, 15   | Plataforma usada não é certificada                                                        | **Erro: pagamento por plataforma inválida**   |
-| Caso 8         | 1, 3, 5, 7, 9, 11, **14**, 15   | Cartão da bandeira XYZ (não aceita)                                                       | **Erro: bandeira do cartão não aceita**       |
-| Caso 9         | 1, 3, 5, 7, 9, 11, 13, **16**   | QR Code fixo ou gerado por API não homologada                                             | **Erro: QR Code inválido**                    |
+* AC38 - O consumidor deve receber o comprovante e resumo de compra no e-mail.
+
+###  Tabela de Classes de Equivalência - AC38
+
+| Condição de Entrada                 | Classes Válidas                                  | Classes Inválidas                                  |
+|------------------------------------|-------------------------------------------------|---------------------------------------------------|
+| Compra realizada                   | Compra concluída com sucesso (1)                 | Compra não concluída ou falha no pagamento (2)    |
+| Envio do e-mail                   | E-mail enviado com comprovante e resumo (3)     | E-mail não enviado ou enviado incompleto (4)      |
+| Conteúdo do e-mail                | Comprovante e resumo claros e completos (5)     | Informação faltando, incorreta ou confusa (6)     |
+
+###  Tabela de Casos de Testes - AC38
+
+| Casos de Teste | Classes de Equivalência     | Entradas                                                | Resultado Esperado                                |
+|----------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------|
+| Caso 1         | 1, 3, 5                     | Compra realizada e e-mail enviado com comprovante      | Consumidor recebe e-mail com comprovante completo |
+| Caso 2         | **2**, **4**, **6**         | Compra falhou ou não foi concluída; e-mail não enviado | **Erro: não deve enviar e-mail sem compra concluída** |
+| Caso 3         | 1, **4**, **6**             | Compra concluída, e-mail enviado incompleto ou incorreto| **Erro: e-mail enviado, mas falta comprovante ou resumo** |
+| Caso 4         | 1, 3, **6**                 | Compra concluída, e-mail enviado, mas conteúdo confuso  | **Erro: conteúdo do e-mail não está claro para o consumidor** |
+| Caso 5         | 1, 3, 5                     | Compra realizada, e-mail recebido e conteúdo revisado   | E-mail recebido com comprovante e resumo claros   |
+
+---
+
+###  Tabela de Classes de Equivalência - AC39
+
+###  Tabela de Casos de Testes - AC39
+
+---
+
+###  Tabela de Classes de Equivalência - AC40
+
+###  Tabela de Casos de Testes - AC40
+
+
