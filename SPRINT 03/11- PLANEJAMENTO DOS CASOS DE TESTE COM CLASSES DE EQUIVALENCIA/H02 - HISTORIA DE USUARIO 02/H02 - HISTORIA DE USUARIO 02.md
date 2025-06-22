@@ -40,8 +40,6 @@
 | Caso 2        | 2, 3, 5                 | Telefone: 11A2345678<br>Email: vendedor@loja.com<br>Endereço: Rua das Flores   | Dados inválidos    |
 | Caso 3        | 1, 4, 5                 | Telefone: 11987654321<br>Email: vendedorloja.com<br>Endereço: Rua das Flores   | Dados inválidos    |
 | Caso 4        | 1, 3, 6                 | Telefone: 11987654321<br>Email: vendedor@loja.com<br>Endereço: Rua             | Dados inválidos    |
-| Caso 5        | 2, 4, 6                 | Telefone: ABC123<br>Email: vendedorloja<br>Endereço: Rua                       | Dados inválidos    |
-| Caso 6        | 1, 3, 5                 | Telefone: 21999999999<br>Email: teste@exemplo.com<br>Endereço: Avenida Brasil  | Dados válidos      |
 
 ### Classes de Equivalência | AC07 | AC08 | RN05 |
 | Condição de Entrada                              | Classes Válidas                             | Classes Inválidas                           |
