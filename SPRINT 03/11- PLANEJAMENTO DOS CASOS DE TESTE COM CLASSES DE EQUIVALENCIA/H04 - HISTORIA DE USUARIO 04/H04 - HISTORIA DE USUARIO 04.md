@@ -59,3 +59,62 @@
 | CT1  | 1, 3, 4   | Usuário autenticado, produto cadastrado corretamente e vinculado ao perfil| Produto vinculado com sucesso|
 | CT2  | 2, 3, 4   | Usuário não autenticado,mas tenta cadastrar e vincular| Erro - Acesso Negado |
 | CT3  | 1, 3, 5   | Usuário autenticado, produto cadastrado mas não vinculado ao perfil| Erro - Produto não vinculado|
+
+
+# Regras de Negócio
+## RN14 - Apenas produtores autenticados podem cadastrar produtos.
+
+### Tabela de Classes de Equivalência
+
+| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
+|-----|---------------------------------------------|----------------|------------------|
+| C1  | Usuário autenticado   | Sim  (1)       | Usuário não autenticado (2) |
+| C2  | Perfil de usuário é do tipo "produtor" | Sim  (3)   |  Usuário não é produtor (4) |
+| C3  | Produto é cadastrado com sucesso | Sim  (4)  | Produto não cadastrado (5)
+
+
+### Tabela de Casos de Teste- RN14
+| Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
+|------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| CT1  | 1,3,5  | Usuário autenticado, perfil tipo produtor e produto cadastrado com sucesso | Produto cadastrado com sucesso|
+| CT2  | 2,3,5  | Usuário não autenticado, perfil tipo produtor e produto cadastrado com sucesso| Acesso Negado - Usuário não autenticado|
+| CT3  | 1,4,5  | Usuário autenticado mas o perfil não é do tipo produtor | Erro - Apenas produtores podem cadastrar|
+| CT4  | 1,3,6  | Usuário autenticado, perfil tipo produtor mas produto não é cadastrado | Erro no cadastro de produto |
+
+## RN15 - Produtos com campos obrigatórios não preenchidos não podem ser salvos.
+
+### Tabela de Classes de Equivalência
+
+| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
+|-----|---------------------------------------------|----------------|------------------|
+| C1  | Campo Nome do produto   | Sim  (1)      | Não (2) |
+| C2  | Campo Categoria  | Sim  (3)      | Não (4) |
+| C3  | Campo preço      | Sim  (5)      | Não (6) |
+
+
+### Tabela de Casos de Teste- 
+| Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
+|------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| CT1  | 1,3,5  | Campos Nome do produto, categoria e preço preenchidos corretamente| Produto cadastrado com sucesso|
+| CT2  | 2,3,5  | Campo Nome do produto não foi preenchido corretamente, categoria e preço preenchidos, produto cadastrado| Erro ao cadastrar - Nome do produto é obrigatório |
+| CT3  | 1,4,5  | Campo Nome do produto e preço preenchidos corretamente, campo categoria não preenchido | Erro ao cadastrar - Categoria do produto é obrigatório|
+| CT4  | 1,3,6  | Campo Nome do produto e categoria preenchidos corretamente, campo preço não preenchido | Erro ao cadastrar - Preço do produto é obrigatório|
+
+## RN16 - Produtos sem estoque (quantidade = 0) ficam ocultos para consumidores.
+
+### Tabela de Classes de Equivalência
+
+| ID  | Condição de Entrada                         | Classe Válida  | Classe Inválida |
+|-----|---------------------------------------------|----------------|------------------|
+| C1  | Quantidade Estoque > 0    | Sim  (1)       | Não (2) |
+| C2  | Produto está ativo        | Sim  (3)       | Não (4) |
+| C3  | Produto visível para o consumidor | Sim  (5)  | Não (6)
+
+
+### Tabela de Casos de Teste- RN16 
+| Caso | Classes de Equivalência                                   | Entrada                                               | Resultado Esperado |
+|------|------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| CT1  | 1, 3, 5   | Produto com estoque > 0, ativo e visível| Produto visível para o consumidor|
+| CT2  | 2, 3, 5   | Produto com estoque = 0, ativo e visível| Erro - Acesso Negado |
+| CT3  | 1, 4, 5   | Produto com estoque > 0, inativo| Produto inativo |
+| CT3  | 1, 3, 6   | Produto com estoque > 0, ativo mas não visível| Produto oculto para o consumidor |
