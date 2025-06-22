@@ -3,10 +3,13 @@
 # Critérios de Aceitação
 - AC17 - Cada produto deve ter uma seção de Avaliações ao final da página.
 - AC18 - Os consumidores devem poder avaliar os produtos com imagens e comentários escritos.
-AC19	O aplicativo deve exibir a média das avaliações de cada produto.
-AC20	Os fornecedores podem responder os usuários através de comentário público na própria avaliação.
+- AC19 - O aplicativo deve exibir a média das avaliações de cada produto.
+- AC20 - Os fornecedores podem responder os usuários através de comentário público na própria avaliação.
 
 # Regras de Negócio 
+- RN14 - Apenas produtores autenticados podem cadastrar produtos.
+- RN15 - Produtos com campos obrigatórios não preenchidos não podem ser salvos.
+- RN16 - Produtos sem estoque (quantidade = 0) ficam ocultos para consumidores.
 
 ### AC14 - O formulário deve permitir incluir nome, descrição, quantidade disponível e preço.
 
