@@ -10,7 +10,8 @@
 - RN14 - Apenas produtores autenticados podem cadastrar produtos.
 - RN15 - Produtos com campos obrigatórios não preenchidos não podem ser salvos.
 - RN16 - Produtos sem estoque (quantidade = 0) ficam ocultos para consumidores.
-
+  
+# Critérios de Aceitação
 ### AC14 - O formulário deve permitir incluir nome, descrição, quantidade disponível e preço.
 
 ### Tabela de Classes de Equivalência
