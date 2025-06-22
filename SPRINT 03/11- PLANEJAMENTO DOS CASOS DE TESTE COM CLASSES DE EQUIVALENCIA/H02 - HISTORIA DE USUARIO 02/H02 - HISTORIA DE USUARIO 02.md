@@ -3,11 +3,14 @@
 
 ## Critérios de Aceitação 
 
-| AC06   | O vendedor deverá inserir informações de contato, como telefone (com 10 ou 11 dígitos numéricos) , e-mail (exemplo@dominio.com) e endereço (pelo menos 5 caracteres) |
-| AC07   | É necessário que tenha um botão de Contato com fornecedor na página de cada produto. |
-| AC08   | O contato entre consumidor e fornecedor e opcional e ocorrer através do chat interno, telefone ou e-mail.  |
-| AC09   | Cada produto deve informar o nome e perfil do vendedor. |
-| AC10   | O aplicativo deve garantir a integridade dos dados fornecidos pelo fornecedor conforme a LGPD (Lei Geral de Proteção de Dados – Lei nº 13.709/2018) e criptografia dos dados. |
+| Código | Critério de Aceitação                                                                                                                                   |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AC06   | O vendedor deverá inserir informações de contato, como telefone (com 10 ou 11 dígitos numéricos), e-mail (exemplo@dominio.com) e endereço (com pelo menos 5 caracteres). |
+| AC07   | Deve haver um botão de **"Contato com o Fornecedor"** na página de cada produto.                                                                         |
+| AC08   | O contato entre consumidor e fornecedor é opcional e poderá ocorrer por meio de chat interno, telefone ou e-mail.                                         |
+| AC09   | Cada produto deve exibir o nome e o perfil do vendedor.                                                                                                    |
+| AC10   | O aplicativo deve garantir a integridade e a segurança dos dados fornecidos pelo fornecedor, conforme a LGPD (Lei nº 13.709/2018), incluindo a criptografia das informações. |
+
 
 
 ## Regras de Negócio 
