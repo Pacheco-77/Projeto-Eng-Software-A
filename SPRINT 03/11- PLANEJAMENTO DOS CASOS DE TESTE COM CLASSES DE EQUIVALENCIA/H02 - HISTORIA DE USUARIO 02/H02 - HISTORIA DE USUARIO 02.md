@@ -75,5 +75,5 @@
 | Caso 2        | 2, 3, 5                 | Nome do vendedor ausente, perfil visível, dados armazenados de forma segura         | Falha: Nome do vendedor ausente |
 | Caso 3        | 1, 4, 5                 | Nome do vendedor visível, perfil ausente, dados armazenados de forma segura         | Falha: Perfil do vendedor ausente |
 | Caso 4        | 1, 3, 6                 | Nome e perfil visíveis, mas dados armazenados de forma não criptografada/insegura   | Falha: Dados não protegidos |
-| Caso 5        | 2, 4, 6                 | Nome e perfil ausentes, dados armazenados de forma insegura                         | Falha geral: Nome, perfil e segurança ausentes |
+
 
