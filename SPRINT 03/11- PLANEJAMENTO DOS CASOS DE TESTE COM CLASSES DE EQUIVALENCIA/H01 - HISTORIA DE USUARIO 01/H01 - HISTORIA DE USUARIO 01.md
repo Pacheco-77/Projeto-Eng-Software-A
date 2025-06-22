@@ -3,7 +3,7 @@
 # Critérios de Aceitação
 
 * AC01 - Campo de Envio de Dicas no Perfil do Agrônomo: A agrônoma poderá acessar o perfil de um produtor e enviar uma dica utilizando um formulário com até 4 campos: título (opcional - máximo 100 caracteres), conteúdo da dica (obrigatório), caixa de seleção (checkbox) com o texto “Enviar dica anonimamente”, categoria da dica (opcional), e botão de envio. O conteúdo deve ter no máximo 500 caracteres.
-* AC02 - Confirmação de Envio: Após o envio da dica, o sistema deve exibir uma mensagem como “Sua dica foi enviada com sucesso!” por pelo menos 3 segundos ou até o usuário interagir com a tela.
+* AC02 - Confirmação de Envio: Após o envio da dica, o sistema deve exibir uma mensagem do tipo modal com o texto “Sua dica foi enviada com sucesso!”, que permaneça visível por 3 segundos ou até que o usuário interaja com a tela.
 * AC03 - Visualização das Dicas pelo Produtor: O produtor deve conseguir ver as dicas recebidas em seu painel, com separação entre lidas e não lidas. As dicas devem ser listadas em ordem cronológica e exibidas com indicadores visuais (ex: selo "Nova") para as não lidas. O produtor poderá marcar dicas como lidas manualmente.
 * AC04 - Limite de Envio de Dicas por Dia: A agrônoma poderá enviar até 3 dicas por dia para o mesmo produtor. Ao atingir o limite, o sistema deve desabilitar o botão de envio e exibir uma mensagem como: “Você atingiu o limite diário de envio de dicas para este produtor.”
 
@@ -29,8 +29,13 @@
 
 | Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                              |
 |----------------|------------------------------|--------------------------------------------------------------------------|-------------------------------------------------|
-| Caso 1         | **1, 3, 6**                  | Título: “Adubação correta”, Conteúdo: “Use compostagem”, Anônimo: sim   | Dica enviada com sucesso                        |
+| Caso 1         | 1, 3, 6                  | Título: “Adubação correta”, Conteúdo: “Use compostagem”, Anônimo: sim   | Dica enviada com sucesso                        |
 | Caso 2         | **2**, 3, 6                  | Título com 150 caracteres                                                | **Erro: título excede limite**                  |
 | Caso 3         | 1, **4**, 6                  | Conteúdo vazio                                                           | **Erro: campo obrigatório ausente**             |
 | Caso 4         | 1, **5**, 6                  | Conteúdo com 501 caracteres                                              | **Erro: conteúdo excede 500 caracteres**        |
 | Caso 5         | 1, 3, **7**                  | Checkbox com valor indefinido                                            | **Erro: valor inválido para checkbox**          |
+
+---
+###  Tabela de Classes de Equivalência - AC02
+
+* AC02 - Confirmação de Envio: Após o envio da dica, o sistema deve exibir uma mensagem do tipo modal com o texto “Sua dica foi enviada com sucesso!”, que permaneça visível por 3 segundos ou até que o usuário interaja com a tela.
