@@ -108,3 +108,42 @@
 | Caso 3         | **2**, 4, 5                   | 4ª tentativa de envio; botão é desabilitado; mensagem correta exibida                            | Dica não enviada; sistema bloqueia corretamente após 3 envios         |
 | Caso 4         | 1, **4**, **6**              | Envio de 2 dicas, botão desabilitado e sem mensagem                                   | **Erro: botão desabilitado antes do limite e ausência de mensagem**   |
 | Caso 5         | 1, 3, **6**                   | Envio de 3 dicas; botão desabilitado corretamente, mas mensagem não é exibida                    | **Erro: mensagem de limite não exibida**                              |
+
+---
+
+* RN01 - Moderação Automática de Conteúdo: Todas as dicas enviadas devem passar por uma verificação automática para bloquear conteúdos ofensivos ou inadequados (Ex: Lista de palavras e expressões proibidas, incluindo palavrões, termos discriminatórios, conteúdo sexual ou violento).
+
+###  Tabela de Classes de Equivalência - RN01
+
+| Condição de Entrada                        | Classes Válidas                                     | Classes Inválidas                                                |
+|-------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------|
+| Conteúdo da dica                          | Texto sem palavras ou expressões proibidas (1)      | Texto contendo palavrões, termos discriminatórios, etc. (2)      |
+| Resultado da verificação automática       | Dica permitida e enviada com sucesso (3)            | Dica bloqueada com mensagem de erro ao usuário (4)               |
+
+###  Tabela de Casos de Teste - RN01
+
+| Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                  |
+|----------------|------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Caso 1         | 1, 3                          | Dica com conteúdo limpo: “Plante em solo úmido para melhor germinação.” | Dica enviada com sucesso                                            |
+| Caso 2         | **2**, **4**                 | Dica com palavrão: “Essa planta é uma m***”                              | **Erro: conteúdo bloqueado por linguagem inapropriada**             |
+| Caso 3         | **2**, **4**                 | Dica com termo discriminatório                                           | **Erro: conteúdo bloqueado por violar política de uso**            |
+| Caso 4         | 1, 3                          | Dica com linguagem informal, mas não ofensiva                            | Dica enviada com sucesso                                            |
+| Caso 5         | **2**, **4**                 | Dica com insinuação sexual ou conteúdo violento                          | **Erro: conteúdo inapropriado bloqueado pela moderação automática** |
+
+---
+
+###  Tabela de Classes de Equivalência - RN02
+
+###  Tabela de Casos de Teste - RN02
+
+---
+
+###  Tabela de Classes de Equivalência - RN03
+
+###  Tabela de Casos de Teste - RN03
+
+---
+
+###  Tabela de Classes de Equivalência - RN04
+
+###  Tabela de Casos de Teste - RN04
