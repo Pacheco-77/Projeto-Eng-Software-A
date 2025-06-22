@@ -65,7 +65,7 @@
 | Caso 1        | 1, 3                    | Tipo cadastrado + descrição preenchida | Perfil exibido corretamente |
 | Caso 2        | 2, 3                    | Tipo não cadastrado + descrição presente | Erro: cadastro incompleto |
 | Caso 3        | 1, 4                    | Tipo cadastrado + descrição ausente   | Erro: perfil incompleto |
-| Caso 4        | 2, 4                    | Tipo não cadastrado + descrição ausente | Erro geral: perfil inválido |
+
 
 # Grupo 4 – Atualização do Perfil (RN11)
 ###  Classes de Equivalência (RN11)
@@ -82,7 +82,7 @@
 |---------------|-------------------------|--------------------------------------|-----------------------------|
 | Caso 1        | 1, 3, 5                 | Atualização dentro do prazo com aviso | Perfil mantido com selo |
 | Caso 2        | 2, 3, 6                 | Mais de 6 meses, aviso enviado, sem atualização | Selo removido |
-| Caso 3        | 2, 4, 6                 | Mais de 6 meses, aviso não enviado, sem atualização | Erro de processo: notificação não enviada |
+| Caso 3        | 1, 3, 6                 | Mais de 6 meses sem atualização  |
 
 #  Grupo 5 – Denúncia de Informações Falsas (RN13)
 ###  Classes de Equivalência (RN13)
