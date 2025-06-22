@@ -39,3 +39,10 @@
 ###  Tabela de Classes de Equivalência - AC02
 
 * AC02 - Confirmação de Envio: Após o envio da dica, o sistema deve exibir uma mensagem do tipo modal com o texto “Sua dica foi enviada com sucesso!”, que permaneça visível por 3 segundos ou até que o usuário interaja com a tela.
+
+| Condição de Entrada                  | Classes Válidas                                      | Classes Inválidas                                        |
+|-------------------------------------|------------------------------------------------------|-----------------------------------------------------------|
+| Tipo da mensagem exibida            | Modal (1)                                            | Toast, banner, nenhuma mensagem, ou outro tipo (2)        |
+| Texto da mensagem                   | “Sua dica foi enviada com sucesso!” (3)             | Texto diferente ou ausente (4)                            |
+| Tempo de exibição da mensagem       | ≥ 3 segundos ou até interação do usuário (5)        | < 3 segundos sem interação (6)                            |
+| Permitir fechamento por interação   | Usuário pode fechar ao clicar/tocar (7)             | Não permite interação ou bloqueia fechamento (8)          |
