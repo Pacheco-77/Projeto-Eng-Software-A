@@ -60,7 +60,7 @@
 | Caso 4        | 1, 3, 6, 7              | Botão visível, opções de contato disponíveis, mensagem com spam ou link, consumidor tenta contato | Falha: mensagem bloqueada           |
 | Caso 5        | 1, 3, 5, 8              | Botão visível, opções de contato disponíveis, mensagem válida, consumidor não inicia contato      | Sem interação (opcionalidade mantida) |
 
-### Classes de Equivalência 
+### Classes de Equivalência  | AC09 | AC10 |
 | Condição de Entrada                                     | Classes Válidas                                 | Classes Inválidas                               |
 |---------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
 | Exibição do nome do vendedor                           | Nome do vendedor visível na página do produto (1) | Nome do vendedor ausente (2)                  |
