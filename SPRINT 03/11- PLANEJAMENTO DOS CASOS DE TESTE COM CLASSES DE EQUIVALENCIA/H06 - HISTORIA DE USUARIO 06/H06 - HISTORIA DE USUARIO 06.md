@@ -17,71 +17,26 @@
 | RN21   | Produtos sem imagens não poderão ser cadastrados. |
 | RN22   | As imagens devem seguir um padrão de tamanho e qualidade. |
 
-# ✅ Grupo 1 – Quantidade Mínima de Imagens (AC21 | RN21)
+# ✅ Grupo Único – Requisitos Funcionais de Imagens (AC21 | AC22 | AC23 | AC24 | RN21)
 
 ### Classes de Equivalência
 
-| Condição de Entrada                  | Classes Válidas        | Classes Inválidas                          |
-|--------------------------------------|------------------------|-------------------------------------------|
-| Quantidade de imagens por produto    | Pelo menos 1 imagem real (1) | Nenhuma imagem (2)                      |
+| Condição de Entrada                      | Classes Válidas                                | Classes Inválidas                            |
+|------------------------------------------|----------------------------------------------|---------------------------------------------|
+| Quantidade de imagens por produto        | Pelo menos 1 imagem real (1)                 | Nenhuma imagem (2)                          |
+| Funcionalidade de zoom                   | Zoom funcional (3)                           | Zoom inoperante (4)                         |
+| Atualização das imagens                  | Atualizada nos últimos 3 meses (5)           | Mais de 3 meses sem atualização (6)         |
+| Exibição da data da última modificação   | Data visível (7)                             | Data ausente (8)                            |
 
 ### Casos de Teste
 
-| Caso de Teste | Classes de Equivalência | Entrada                       | Resultado Esperado                         |
-|---------------|-------------------------|-------------------------------|-------------------------------------------|
-| Caso 1        | 1                      | Produto com 1 ou mais imagens | Cadastro permitido                        |
-| Caso 2        | 2                      | Produto sem nenhuma imagem    | Falha: Cadastro bloqueado                |
-
----
-
-# ✅ Grupo 2 – Funcionalidade de Zoom (AC22)
-
-### Classes de Equivalência
-
-| Condição de Entrada           | Classes Válidas  | Classes Inválidas   |
-|-------------------------------|------------------|---------------------|
-| Funcionalidade de zoom        | Zoom funcional (3) | Zoom inoperante (4) |
-
-### Casos de Teste
-
-| Caso de Teste | Classes de Equivalência | Entrada                | Resultado Esperado       |
-|---------------|-------------------------|------------------------|--------------------------|
-| Caso 1        | 3                      | Usuário consegue ampliar a imagem | Zoom funcionando        |
-| Caso 2        | 4                      | Usuário tenta ampliar e não consegue | Falha: Zoom não funcional |
-
----
-
-# ✅ Grupo 3 – Atualização Periódica das Imagens (AC23)
-
-### Classes de Equivalência
-
-| Condição de Entrada           | Classes Válidas               | Classes Inválidas                       |
-|-------------------------------|-------------------------------|-----------------------------------------|
-| Atualização das imagens       | Atualizada nos últimos 3 meses (5) | Mais de 3 meses sem atualização (6) |
-
-### Casos de Teste
-
-| Caso de Teste | Classes de Equivalência | Entrada                          | Resultado Esperado               |
-|---------------|-------------------------|----------------------------------|---------------------------------|
-| Caso 1        | 5                      | Imagem com data de modificação dentro de 3 meses | OK: Atualização válida         |
-| Caso 2        | 6                      | Imagem com data superior a 3 meses | Falha: Imagem desatualizada     |
-
----
-
-# ✅ Grupo 4 – Exibição da Data da Última Modificação (AC24)
-
-### Classes de Equivalência
-
-| Condição de Entrada                  | Classes Válidas        | Classes Inválidas           |
-|--------------------------------------|------------------------|-----------------------------|
-| Exibição da data da última modificação | Data visível (7)      | Data ausente (8)            |
-
-### Casos de Teste
-
-| Caso de Teste | Classes de Equivalência | Entrada                     | Resultado Esperado          |
-|---------------|-------------------------|-----------------------------|-----------------------------|
-| Caso 1        | 7                      | Data de modificação visível | OK: Data exibida            |
-| Caso 2        | 8                      | Sem data de modificação     | Falha: Data ausente         |
+| Caso de Teste | Classes de Equivalência | Entrada                                                                 | Resultado Esperado                     |
+|---------------|-------------------------|------------------------------------------------------------------------|---------------------------------------|
+| Caso 1        | 1, 3, 5, 7              | Produto com 1 imagem, zoom funcional, imagem atualizada e data visível | Cadastro permitido                    |
+| Caso 2        | 2, 3, 5, 7              | Produto sem imagem, com zoom, imagem atualizada e data visível         | Falha: Cadastro bloqueado             |
+| Caso 3        | 1, 4, 5, 7              | Produto com imagem, zoom inoperante, imagem atualizada e data visível  | Falha: Zoom não funcional             |
+| Caso 4        | 1, 3, 6, 7              | Produto com imagem, zoom funcional, imagem desatualizada e data visível | Falha: Imagem desatualizada          |
+| Caso 5        | 1, 3, 5, 8              | Produto com imagem, zoom funcional, imagem atualizada, mas sem data visível | Falha: Data ausente               |
 
 ---
 
@@ -89,11 +44,11 @@
 
 ### Classes de Equivalência
 
-| Condição de Entrada              | Classes Válidas                                      | Classes Inválidas                          |
-|----------------------------------|------------------------------------------------------|-------------------------------------------|
-| Tamanho da imagem                | Até 10MB (9)                                         | Maior que 10MB (10)                       |
-| Formato da imagem                | PNG, JPEG ou JPG (11)                                | Outro formato (ex.: GIF, BMP, etc.) (12) |
-| Qualidade da imagem (visível e legível) | Qualidade adequada (13)                          | Imagem de baixa qualidade (14)           |
+| Condição de Entrada                      | Classes Válidas                          | Classes Inválidas                          |
+|------------------------------------------|------------------------------------------|-------------------------------------------|
+| Tamanho da imagem                        | Até 10MB (9)                              | Maior que 10MB (10)                       |
+| Formato da imagem                        | PNG, JPEG ou JPG (11)                    | Outro formato (ex.: GIF, BMP, etc.) (12) |
+| Qualidade da imagem (visível e legível)  | Qualidade adequada (13)                  | Imagem de baixa qualidade (14)           |
 
 ### Casos de Teste
 
