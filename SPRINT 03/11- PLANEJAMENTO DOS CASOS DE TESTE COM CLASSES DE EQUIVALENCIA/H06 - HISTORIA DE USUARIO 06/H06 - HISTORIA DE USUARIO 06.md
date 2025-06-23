@@ -17,7 +17,7 @@
 | RN21   | Produtos sem imagens não poderão ser cadastrados. |
 | RN22   | As imagens devem seguir um padrão de tamanho e qualidade. |
 
-# ✅ Grupo Único – Requisitos Funcionais de Imagens (AC21 | AC22 | AC23 | AC24 | RN21)
+#  Grupo 1 – Requisitos Funcionais de Imagens (AC21 + AC22 + AC23 + AC24 + RN21)
 
 ### Classes de Equivalência
 
@@ -40,7 +40,7 @@
 
 ---
 
-# ✅ Grupo 5 – Padrão de Qualidade, Tamanho e Formato das Imagens (RN22 | RN20)
+#  Grupo 2 – Padrão de Qualidade, Tamanho e Formato das Imagens (RN22 + RN20)
 
 ### Classes de Equivalência
 
