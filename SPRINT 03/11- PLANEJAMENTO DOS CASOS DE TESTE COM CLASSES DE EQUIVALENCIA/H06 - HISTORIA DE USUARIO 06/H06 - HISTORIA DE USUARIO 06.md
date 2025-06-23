@@ -17,24 +17,24 @@
 | RN21   | Produtos sem imagens não poderão ser cadastrados. |
 | RN22   | As imagens devem seguir um padrão de tamanho e qualidade. |
 
-#  Grupo 1 – Quantidade Mínima de Imagens (AC21 | RN21)
+# ✅ Grupo 1 – Quantidade Mínima de Imagens (AC21 | RN21)
 
 ### Classes de Equivalência
 
 | Condição de Entrada                  | Classes Válidas        | Classes Inválidas                          |
 |--------------------------------------|------------------------|-------------------------------------------|
-| Quantidade de imagens por produto    | Pelo menos 2 imagens (1) | Menos de 2 imagens ou nenhuma (2)         |
+| Quantidade de imagens por produto    | Pelo menos 1 imagem real (1) | Nenhuma imagem (2)                      |
 
 ### Casos de Teste
 
 | Caso de Teste | Classes de Equivalência | Entrada                       | Resultado Esperado                         |
 |---------------|-------------------------|-------------------------------|-------------------------------------------|
-| Caso 1        | 1                      | Produto com 2 imagens          | Cadastro permitido                        |
-| Caso 2        | 2                      | Produto com 1 ou nenhuma imagem | Falha: Cadastro bloqueado                |
+| Caso 1        | 1                      | Produto com 1 ou mais imagens | Cadastro permitido                        |
+| Caso 2        | 2                      | Produto sem nenhuma imagem    | Falha: Cadastro bloqueado                |
 
 ---
 
-#  Grupo 2 – Funcionalidade de Zoom (AC22)
+# ✅ Grupo 2 – Funcionalidade de Zoom (AC22)
 
 ### Classes de Equivalência
 
@@ -51,7 +51,7 @@
 
 ---
 
-# Grupo 3 – Atualização Periódica das Imagens (AC23)
+# ✅ Grupo 3 – Atualização Periódica das Imagens (AC23)
 
 ### Classes de Equivalência
 
@@ -68,7 +68,7 @@
 
 ---
 
-#  Grupo 4 – Exibição da Data da Última Modificação (AC24)
+# ✅ Grupo 4 – Exibição da Data da Última Modificação (AC24)
 
 ### Classes de Equivalência
 
@@ -85,22 +85,24 @@
 
 ---
 
-#  Grupo 5 – Padrão de Qualidade e Tamanho das Imagens (RN22 | RN20)
+# ✅ Grupo 5 – Padrão de Qualidade, Tamanho e Formato das Imagens (RN22 | RN20)
 
 ### Classes de Equivalência
 
-| Condição de Entrada              | Classes Válidas               | Classes Inválidas          |
-|----------------------------------|-------------------------------|----------------------------|
-| Qualidade e tamanho da imagem    | Imagem dentro do padrão de qualidade e tamanho (9) | Imagem fora do padrão (10) |
+| Condição de Entrada              | Classes Válidas                                      | Classes Inválidas                          |
+|----------------------------------|------------------------------------------------------|-------------------------------------------|
+| Tamanho da imagem                | Até 10MB (9)                                         | Maior que 10MB (10)                       |
+| Formato da imagem                | PNG, JPEG ou JPG (11)                                | Outro formato (ex.: GIF, BMP, etc.) (12) |
+| Qualidade da imagem (visível e legível) | Qualidade adequada (13)                          | Imagem de baixa qualidade (14)           |
 
 ### Casos de Teste
 
-| Caso de Teste | Classes de Equivalência | Entrada                          | Resultado Esperado               |
-|---------------|-------------------------|----------------------------------|---------------------------------|
-| Caso 1        | 9                      | Imagem com qualidade e tamanho corretos | OK: Padrão atendido          |
-| Caso 2        | 10                     | Imagem com baixa resolução ou tamanho incorreto | Falha: Imagem fora do padrão |
-
-
+| Caso de Teste | Classes de Equivalência | Entrada                               | Resultado Esperado               |
+|---------------|-------------------------|---------------------------------------|---------------------------------|
+| Caso 1        | 9, 11, 13               | Imagem com até 10MB, formato JPEG e boa qualidade | OK: Imagem aceita             |
+| Caso 2        | 10, 11, 13              | Imagem com 15MB, formato JPEG e boa qualidade     | Falha: Tamanho excedido        |
+| Caso 3        | 9, 12, 13               | Imagem com 5MB, formato GIF, boa qualidade        | Falha: Formato inválido        |
+| Caso 4        | 9, 11, 14               | Imagem com 8MB, formato PNG, baixa qualidade      | Falha: Qualidade insuficiente  |
 
 
 
