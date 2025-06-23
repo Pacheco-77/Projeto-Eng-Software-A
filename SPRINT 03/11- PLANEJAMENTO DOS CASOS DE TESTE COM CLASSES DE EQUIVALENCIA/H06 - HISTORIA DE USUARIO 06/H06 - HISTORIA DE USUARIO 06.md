@@ -4,7 +4,7 @@
 
 | Código | Descrição |
 |--------|-----------|
-| AC21   | Cada produto deve conter pelo menos duas imagens reais. |
+| AC21   | Todo produto cadastrado deve conter no mínimo uma imagem real do mesmo. |
 | AC22   | O usuário deve poder ampliar as imagens. |
 | AC23   | As imagens devem ser atualizadas a cada 3 meses. |
 | AC24   | O aplicativo deve informar a data da última modificação da imagem. |
@@ -15,7 +15,8 @@
 |--------|-----------|
 | RN20   | O vendedor é responsável pela qualidade e envio de imagens reais. |
 | RN21   | Produtos sem imagens não poderão ser cadastrados. |
-| RN22   | As imagens devem seguir um padrão de tamanho e qualidade. |
+| RN22   | As imagens devem seguir um padrão de tamanho(MÁXIMO 10MB) e formato (PNG, JPEG ou JPG) |
+
 
 #  Grupo 1 – Requisitos Funcionais de Imagens (AC21 + AC22 + AC23 + AC24 + RN21)
 
