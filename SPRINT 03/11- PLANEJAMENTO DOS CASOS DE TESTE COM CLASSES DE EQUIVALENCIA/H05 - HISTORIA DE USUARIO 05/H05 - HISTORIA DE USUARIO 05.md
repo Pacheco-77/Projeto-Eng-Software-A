@@ -1,15 +1,22 @@
 # H5 - Como consumidor, eu gostaria que o aplicativo fornecesse feedbacks de outros usuários sobre os produtos, para que eu tenha maior segurança em comprá-los.
-## História do Usuário
 
 # Critérios de Aceitação
-- AC17 - Cada produto deve ter uma seção de Avaliações ao final da página.
-- AC18 - Os consumidores devem poder avaliar os produtos com imagens e comentários escritos.
-- AC19 - O aplicativo deve exibir a média das avaliações de cada produto.
-- AC20 - Os fornecedores podem responder os usuários através de comentário público na própria avaliação.
-  # Regras de Negócio
-- RN17 - O aplicativo deve destacar os produtos com melhores avaliações.
-- RN18 - Os usuários devem editar o comentário em até 1 mês após a postagem.
-- RN19 - O perfil do comprador deve ser visível.
+
+| Código | Descrição |
+|--------|-----------|
+| AC17   | Cada produto deve ter uma seção de Avaliações ao final da página, contendo os campos: Nota (Estrelas de 1 - 5, obrigatório) , Título ( Texto - max, 50 caracteres, obrigatório), Texto ( Texto - max, 300 caracteres, opcional), Imagem (Máx. 3 imagens por avaliação, Formatos: JPG/PNG (até 2MB cada), Pré-visualização antes de enviar - Não obrigatório). |
+| AC18   | Os consumidores devem poder avaliar os produtos com Imagens (Máx. 3 imagens por avaliação, Formatos: JPG/PNG (até 2MB cada), Pré-visualização antes de enviar - Não obrigatório) e comentários escritos. |
+| AC19   | O aplicativo deve exibir a média das avaliações de cada produto. |
+| AC20   | Os fornecedores podem responder os usuários através de comentário público na própria avaliação. |
+
+# Regras de Negócio
+
+| Código | Descrição |
+|--------|-----------|
+| RN17   | O aplicativo deve filtrar os produtos com melhores avaliações com base na média das notas recebidas (de 1 a 5 estrelas), no número total de avaliações e na presença de comentários escritos e imagens.  |
+| RN18   | Os usuários podem (opcional) editar seus comentários no prazo de até 1 mês após a postagem |
+| RN19   | O perfil do comprador deve ser visível. |
+
 
 
 # Critérios de Aceitação
