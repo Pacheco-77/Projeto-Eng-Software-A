@@ -1,15 +1,19 @@
 # H4 - Como produtor rural, quero cadastrar meus produtos com fotos e descrições simples, para que os consumidores saibam o que estou vendendo e de onde vem.
 
 # Critérios de Aceitação
-- AC17 - Cada produto deve ter uma seção de Avaliações ao final da página.
-- AC18 - Os consumidores devem poder avaliar os produtos com imagens e comentários escritos.
-- AC19 - O aplicativo deve exibir a média das avaliações de cada produto.
-- AC20 - Os fornecedores podem responder os usuários através de comentário público na própria avaliação.
+| Código | Descrição |
+|--------|-----------|
+| AC14   | O formulário deve conter os campos obrigatórios: Nome (Varchar (100)), Descrição (tipo Text), Estoque disponível (inteiro positivo) e Preço dos produtos ( decimal com 2 casas decimais). |
+| AC15   | Deve ser possível adicionar ao menos uma foto por produto. |
+| AC16   | O produto deve ser vinculado automaticamente ao perfil do produtor. |
 
-# Regras de Negócio 
-- RN14 - Apenas produtores autenticados podem cadastrar produtos.
-- RN15 - Produtos com campos obrigatórios não preenchidos não podem ser salvos.
-- RN16 - Produtos sem estoque (quantidade = 0) ficam ocultos para consumidores.
+# Regras de Negócio
+
+| Código | Descrição |
+|--------|-----------|
+| RN14   | Apenas produtores autenticados podem cadastrar produtos. |
+| RN15   | Produtos com campos obrigatórios não preenchidos não podem ser salvos. |
+| RN16   | Produtos sem estoque (quantidade = 0) ficam ocultos para consumidores. |
   
 # Critérios de Aceitação
 ### AC14 - O formulário deve permitir incluir nome, descrição, quantidade disponível e preço.
