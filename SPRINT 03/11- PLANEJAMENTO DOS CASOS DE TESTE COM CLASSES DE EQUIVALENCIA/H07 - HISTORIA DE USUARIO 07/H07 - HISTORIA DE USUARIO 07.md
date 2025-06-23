@@ -2,15 +2,19 @@
 
 # Critérios de Aceitação
 
-* O produtor deve ser notificado ao receber um pedido.
-* O pedido deve conter os detalhes do consumidor e dos produtos solicitados.
-*	O produtor deve poder aceitar ou recusar o pedido.
+| Código | Descrição |
+|--------|-----------|
+| AC25   | O produtor deve ser notificado ao receber um pedido. |
+| AC26   | O pedido deve conter os detalhes do consumidor e dos produtos solicitados. |
+| AC27   | O produtor deve poder aceitar ou recusar o pedido. |
 
 # Regras de Negócio
 
-* 	Um pedido só é registrado se houver estoque suficiente.
-*	 Após a aceitação do pedido, o estoque dos produtos selecionados será automaticamente atualizado no cadastro do produtor
-* 	Se o pedido for recusado por falta de pagamento, o sistema exibirá  uma mensagem de alerta ao usuário.
+| Código | Descrição |
+|--------|-----------|
+| RN23   | Um pedido só é registrado se houver estoque suficiente. |
+| RN24   | Após aceito, o estoque dos produtos deve ser automaticamente atualizado. |
+| RN25   | Se o pedido for recusado por falta de pagamento, o sistema exibirá  uma mensagem de alerta ao usuário.|
 
 ---
 
