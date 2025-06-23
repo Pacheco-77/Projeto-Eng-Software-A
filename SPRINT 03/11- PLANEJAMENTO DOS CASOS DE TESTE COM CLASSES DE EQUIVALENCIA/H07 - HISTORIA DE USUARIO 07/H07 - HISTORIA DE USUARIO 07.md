@@ -101,3 +101,80 @@
 |---------------|-------------------------|-------------------------------------------------------|-------------------------------------------|
 | Caso 10       | 1, 3, 6, 9, 11, 15       | Pedido recusado por falta de pagamento, sem alerta   | Falha: Alerta não exibido                |
 | Caso 11       | 1, 3, 6, 9, 11, 16       | Pedido não recusado mesmo sem pagamento              | Falha: Pedido não recusado como deveria  |
+
+
+
+
+88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
+# ✅ Grupo 1 – Notificação e Detalhamento do Pedido (AC25 | AC26)
+
+### Classes de Equivalência
+
+| Condição de Entrada                      | Classes Válidas               | Classes Inválidas                   |
+|------------------------------------------|-------------------------------|------------------------------------|
+| Notificação enviada ao produtor          | Notificação recebida (1)       | Notificação não recebida (2)       |
+| Conteúdo do pedido                       | Detalhes completos: consumidor e produtos (3) | Detalhes incompletos (4) |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                                         | Resultado Esperado              |
+|---------------|-------------------------|------------------------------------------------|--------------------------------|
+| Caso 1        | 1, 3                    | Pedido enviado, produtor notificado com detalhes completos | Notificação recebida com sucesso |
+| Caso 2        | 2, 3                    | Pedido enviado, mas produtor não recebe notificação | Falha: Notificação ausente      |
+| Caso 3        | 1, 4                    | Pedido enviado, notificação recebida, mas sem detalhes completos | Falha: Dados incompletos        |
+
+---
+
+# ✅ Grupo 2 – Aceitar ou Recusar Pedido (AC27)
+
+### Classes de Equivalência
+
+| Condição de Entrada             | Classes Válidas         | Classes Inválidas       |
+|---------------------------------|-------------------------|-------------------------|
+| Ação do produtor                | Pedido aceito (5)       | Pedido recusado (6)     |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada               | Resultado Esperado           |
+|---------------|-------------------------|-----------------------|------------------------------|
+| Caso 1        | 5                      | Produtor aceita o pedido | Pedido confirmado          |
+| Caso 2        | 6                      | Produtor recusa o pedido | Pedido cancelado           |
+
+---
+
+# ✅ Grupo 3 – Estoque e Registro de Pedido (RN23 | RN24)
+
+### Classes de Equivalência
+
+| Condição de Entrada                  | Classes Válidas                      | Classes Inválidas                      |
+|--------------------------------------|--------------------------------------|---------------------------------------|
+| Estoque disponível no momento do pedido | Estoque suficiente (7)              | Estoque insuficiente (8)              |
+| Atualização automática de estoque após aceitação | Estoque atualizado (9)         | Estoque não atualizado (10)           |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                                  | Resultado Esperado                  |
+|---------------|-------------------------|-----------------------------------------|-------------------------------------|
+| Caso 1        | 7, 9                    | Pedido com estoque suficiente, aceito   | Pedido registrado, estoque reduzido |
+| Caso 2        | 8                      | Pedido feito sem estoque suficiente     | Falha: Pedido não registrado        |
+| Caso 3        | 7, 10                   | Pedido aceito, mas estoque não atualizou | Falha: Estoque não ajustado         |
+
+---
+
+# ✅ Grupo 4 – Recusa por Falta de Pagamento (RN25)
+
+### Classes de Equivalência
+
+| Condição de Entrada                      | Classes Válidas               | Classes Inválidas             |
+|------------------------------------------|-------------------------------|-------------------------------|
+| Motivo da recusa                         | Falta de pagamento (11)       | Outro motivo (12)             |
+| Exibição de mensagem de alerta           | Mensagem exibida (13)         | Mensagem não exibida (14)     |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                                    | Resultado Esperado          |
+|---------------|-------------------------|-------------------------------------------|-----------------------------|
+| Caso 1        | 11, 13                 | Pedido recusado por falta de pagamento    | Mensagem de alerta exibida  |
+| Caso 2        | 12, 14                 | Pedido recusado por outro motivo          | Nenhuma mensagem de alerta específica |
+
