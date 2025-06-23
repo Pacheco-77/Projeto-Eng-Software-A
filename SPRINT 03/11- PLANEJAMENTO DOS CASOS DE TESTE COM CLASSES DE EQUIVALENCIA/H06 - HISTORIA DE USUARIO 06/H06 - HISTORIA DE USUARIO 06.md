@@ -20,7 +20,7 @@
 
 #  Grupo 1 – Requisitos Funcionais de Imagens (AC21 + AC22 + AC23 + AC24 + RN21)
 
-### Classes de Equivalência
+## Classes de Equivalência
 
 | Condição de Entrada                      | Classes Válidas                                | Classes Inválidas                            |
 |------------------------------------------|----------------------------------------------|---------------------------------------------|
@@ -29,7 +29,7 @@
 | Atualização das imagens                  | Atualizada nos últimos 3 meses (5)           | Mais de 3 meses sem atualização (6)         |
 | Exibição da data da última modificação   | Data visível (7)                             | Data ausente (8)                            |
 
-### Casos de Teste
+## Casos de Teste
 
 | Caso de Teste | Classes de Equivalência | Entrada                                                                 | Resultado Esperado                     |
 |---------------|-------------------------|------------------------------------------------------------------------|---------------------------------------|
@@ -43,7 +43,7 @@
 
 # Grupo 2 – Padrão de Qualidade, Tamanho e Formato das Imagens (RN22 + RN20)
 
-##Classes de Equivalência
+## Classes de Equivalência
 
 | Condição de Entrada                      | Classes Válidas        | Classes Inválidas                |
 |------------------------------------------|------------------------|----------------------------------|
