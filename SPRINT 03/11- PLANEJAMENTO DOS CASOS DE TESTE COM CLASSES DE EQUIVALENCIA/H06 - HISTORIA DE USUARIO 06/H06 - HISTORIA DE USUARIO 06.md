@@ -1,5 +1,4 @@
 # **Como** consumidor, eu **gostaria** de um aplicativo com imagens reais dos produtos, **para que** eu possa verificar a qualidade dos produtos.
-# Critérios de Aceitação
 
 # Critérios de Aceitação
 
@@ -18,7 +17,98 @@
 | RN21   | Produtos sem imagens não poderão ser cadastrados. |
 | RN22   | As imagens devem seguir um padrão de tamanho e qualidade. |
 
+#  Grupo 1 – Quantidade Mínima de Imagens (AC21 | RN21)
+
+### Classes de Equivalência
+
+| Condição de Entrada                  | Classes Válidas        | Classes Inválidas                          |
+|--------------------------------------|------------------------|-------------------------------------------|
+| Quantidade de imagens por produto    | Pelo menos 2 imagens (1) | Menos de 2 imagens ou nenhuma (2)         |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                       | Resultado Esperado                         |
+|---------------|-------------------------|-------------------------------|-------------------------------------------|
+| Caso 1        | 1                      | Produto com 2 imagens          | Cadastro permitido                        |
+| Caso 2        | 2                      | Produto com 1 ou nenhuma imagem | Falha: Cadastro bloqueado                |
+
 ---
+
+#  Grupo 2 – Funcionalidade de Zoom (AC22)
+
+### Classes de Equivalência
+
+| Condição de Entrada           | Classes Válidas  | Classes Inválidas   |
+|-------------------------------|------------------|---------------------|
+| Funcionalidade de zoom        | Zoom funcional (3) | Zoom inoperante (4) |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                | Resultado Esperado       |
+|---------------|-------------------------|------------------------|--------------------------|
+| Caso 1        | 3                      | Usuário consegue ampliar a imagem | Zoom funcionando        |
+| Caso 2        | 4                      | Usuário tenta ampliar e não consegue | Falha: Zoom não funcional |
+
+---
+
+# Grupo 3 – Atualização Periódica das Imagens (AC23)
+
+### Classes de Equivalência
+
+| Condição de Entrada           | Classes Válidas               | Classes Inválidas                       |
+|-------------------------------|-------------------------------|-----------------------------------------|
+| Atualização das imagens       | Atualizada nos últimos 3 meses (5) | Mais de 3 meses sem atualização (6) |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                          | Resultado Esperado               |
+|---------------|-------------------------|----------------------------------|---------------------------------|
+| Caso 1        | 5                      | Imagem com data de modificação dentro de 3 meses | OK: Atualização válida         |
+| Caso 2        | 6                      | Imagem com data superior a 3 meses | Falha: Imagem desatualizada     |
+
+---
+
+#  Grupo 4 – Exibição da Data da Última Modificação (AC24)
+
+### Classes de Equivalência
+
+| Condição de Entrada                  | Classes Válidas        | Classes Inválidas           |
+|--------------------------------------|------------------------|-----------------------------|
+| Exibição da data da última modificação | Data visível (7)      | Data ausente (8)            |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                     | Resultado Esperado          |
+|---------------|-------------------------|-----------------------------|-----------------------------|
+| Caso 1        | 7                      | Data de modificação visível | OK: Data exibida            |
+| Caso 2        | 8                      | Sem data de modificação     | Falha: Data ausente         |
+
+---
+
+#  Grupo 5 – Padrão de Qualidade e Tamanho das Imagens (RN22 | RN20)
+
+### Classes de Equivalência
+
+| Condição de Entrada              | Classes Válidas               | Classes Inválidas          |
+|----------------------------------|-------------------------------|----------------------------|
+| Qualidade e tamanho da imagem    | Imagem dentro do padrão de qualidade e tamanho (9) | Imagem fora do padrão (10) |
+
+### Casos de Teste
+
+| Caso de Teste | Classes de Equivalência | Entrada                          | Resultado Esperado               |
+|---------------|-------------------------|----------------------------------|---------------------------------|
+| Caso 1        | 9                      | Imagem com qualidade e tamanho corretos | OK: Padrão atendido          |
+| Caso 2        | 10                     | Imagem com baixa resolução ou tamanho incorreto | Falha: Imagem fora do padrão |
+
+
+
+
+
+
+
+
+
+---aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ###  Tabela de Classes de Equivalência
 | Condição de Entrada                                  | Classes Válidas                                   | Classes Inválidas                                | Classes Inválidas                               |
 |------------------------------------------------------|---------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
