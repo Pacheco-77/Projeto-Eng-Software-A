@@ -1,4 +1,4 @@
-# H5 - Como consumidor, eu gostaria que o aplicativo fornecesse feedbacks de outros usuários sobre os produtos, para que eu tenha maior segurança em comprá-los.
+# H5 - H5 - Como consumidor, gostaria de receber feedbacks de outros usuários com sistema de moderação e métricas claras sobre os produtos, para que eu possa avaliar com segurança e transparência a qualidade dos itens antes de comprar.
 
 # Critérios de Aceitação
 
