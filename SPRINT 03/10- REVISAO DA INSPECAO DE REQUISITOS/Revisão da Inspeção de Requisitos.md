@@ -2,7 +2,7 @@
 Tabela conceitual que define os principais tipos de defeitos de software, com base em critérios de qualidade amplamente utilizados em engenharia de requisitos e testes.
 Cada tipo de defeito é acompanhado de uma justificativa clara que descreve seu significado e impacto. A tabela serve como referência teórica para fundamentar a análise dos erros encontrados no sistema, garantindo uma padronização na categorização dos problemas.
 
-![Tabela](https://github.com/user-attachments/assets/da9758af-c174-44d2-946d-eee1fa362c6f)
+![Tabela](https://github.com/user-attachments/assets/10c8d8b9-5b78-448c-acbc-002ee7b0d55e)
 
 
 # Principais erros identificados no Sistema 
