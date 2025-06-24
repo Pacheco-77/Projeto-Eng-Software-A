@@ -1,3 +1,24 @@
+# Defeitos de Software
+Tabela conceitual que define os principais tipos de defeitos de software, com base em critérios de qualidade amplamente utilizados em engenharia de requisitos e testes.
+Cada tipo de defeito é acompanhado de uma justificativa clara que descreve seu significado e impacto. A tabela serve como referência teórica para fundamentar a análise dos erros encontrados no sistema, garantindo uma padronização na categorização dos problemas.
+
+![Tabela](https://github.com/user-attachments/assets/da9758af-c174-44d2-946d-eee1fa362c6f)
+
+
+# Principais erros identificados no Sistema 
+Após a inspeção de requisitos, foram identificados diversos defeitos que comprometem a clareza, completude e consistência das informações documentadas. Esses defeitos foram classificados em quatro categorias principais: omissão, ambiguidade, inconsistência e informação estranha ou inadequada.
+O objetivo na análise é fornecer uma visão geral clara da quantidade de ocorrências por tipo de defeito e seu impacto potencial no funcionamento do sistema. Também são descritas as definições de cada tipo de defeito, facilitando o entendimento e a padronização de futuras análises.
+
+## Tabela dos Principais Defeitos
+![Tabela 2](https://github.com/user-attachments/assets/1966d01c-394c-426e-9fef-97361da47660)
+
+## Gráfico dos Defeitos
+![grafico](https://github.com/user-attachments/assets/79a88018-7e07-455a-b539-e289374221af)
+
+# Tabela de Inspeção 
+A tabela abaixo apresenta a Inspeção de Requisitos do sistema, com foco em critérios de aceitação e regras de negócio. Cada linha descreve o local do problema, o tipo de defeito identificado, uma breve descrição da falha e observações complementares sobre as ações tomadas para corrigi-la ou justificativas técnicas para seu apontamento.
+Esse detalhamento é essencial para garantir clareza nos requisitos, facilitar a comunicação entre equipe técnica e stakeholders, e reduzir retrabalho durante o desenvolvimento e os testes. As observações ajudam a demonstrar como o problema foi resolvido, reforçando o compromisso com a qualidade e rastreabilidade das melhorias implementadas.
+
 |  ID   | Localização / Tipo                 | Tipo de Defeito       | Descrição                                                                                     | Classificação   | Observações   |
 |:-----|:-----------------------------------|:----------------------|:----------------------------------------------------------------------------------------------|:----------------|:--------------|
 | H1   | Critério de Aceitação AC04         | Ambiguidade           | Critério para mudança do status da dica para “lida” não está definido.                        | Defeito         | AC04 passou a ser AC03 pois houve alteração no numero de criterio pois o antigo AC03 foi integrado ao AC01,e foi corrigido a ambiguidade em relação ao status de mensagens lidas.  |
