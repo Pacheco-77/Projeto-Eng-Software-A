@@ -1,4 +1,5 @@
-# 10. Defeitos de Software
+# 10. Revisão da Inspeção de Requisitos
+## 10.1 Defeitos de Software
 Tabela conceitual que define os principais tipos de defeitos de software, com base em critérios de qualidade amplamente utilizados em engenharia de requisitos e testes.
 Cada tipo de defeito é acompanhado de uma justificativa clara que descreve seu significado e impacto. A tabela serve como referência teórica para fundamentar a análise dos erros encontrados no sistema, garantindo uma padronização na categorização dos problemas.
 
