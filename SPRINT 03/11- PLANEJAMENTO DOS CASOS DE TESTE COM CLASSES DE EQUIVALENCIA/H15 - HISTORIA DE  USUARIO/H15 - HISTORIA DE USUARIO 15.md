@@ -1,3 +1,4 @@
+# H15 - Como usuária premium, quero agendar sessões com uma nutricionista integrada à plataforma para que eu possa receber orientações personalizadas de acordo com meus objetivos de saúde.
 # Critérios de Aceitação
 | Código | Descrição |
 |------- |---------- |
