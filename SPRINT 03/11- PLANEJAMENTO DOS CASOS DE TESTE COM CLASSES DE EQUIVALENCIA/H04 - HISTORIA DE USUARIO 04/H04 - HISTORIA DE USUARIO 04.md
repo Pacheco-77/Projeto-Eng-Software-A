@@ -84,7 +84,7 @@
 |-----|---------------------------------------------|----------------|------------------|
 | C1  | Usuário autenticado   | Sim  (1)       | Usuário não autenticado (2) |
 | C2  | Perfil de usuário é do tipo "produtor" | Sim  (3)   |  Usuário não é produtor (4) |
-| C3  | Produto é cadastrado com sucesso | Sim  (4)  | Produto não cadastrado (5)
+| C3  | Produto é cadastrado com sucesso | Sim  (5)  | Produto não cadastrado (6)
 
 
 ### Tabela de Casos de Teste- RN14
