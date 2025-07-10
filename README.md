@@ -100,6 +100,9 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
 10. [Revisão de Inspecão de Requisitos](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2003/10-%20REVISAO%20DA%20INSPECAO%20DE%20REQUISITOS/Revis%C3%A3o%20da%20Inspe%C3%A7%C3%A3o%20de%20Requisitos.md#10-revis%C3%A3o-da-inspe%C3%A7%C3%A3o-de-requisitos)  
     10.1 [Defeitos de Software](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2003/10-%20REVISAO%20DA%20INSPECAO%20DE%20REQUISITOS/Revis%C3%A3o%20da%20Inspe%C3%A7%C3%A3o%20de%20Requisitos.md#101-defeitos-de-software)
 12. [Planejamento dos Casos de Teste com Classes de Equivalencia]()
+13. [MVP-Produto Minimo Viavel]()
+14. [Rastreabilidade Com Histórias de Usuario]()
+15. [Rastreabilidade Com os Diagramas]()
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
