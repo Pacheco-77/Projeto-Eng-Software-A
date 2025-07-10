@@ -81,8 +81,9 @@
 | Caso de Teste | Classes de Equivalência | Entrada                              | Resultado Esperado          |
 |---------------|-------------------------|--------------------------------------|-----------------------------|
 | Caso 1        | 1, 3, 5                 | Atualização dentro do prazo com aviso | Perfil mantido com selo |
-| Caso 2        | 2, 3, 6                 | Mais de 6 meses, aviso enviado, sem atualização | Selo removido |
-| Caso 3        | 1, 3, 6                 | Mais de 6 meses sem atualização  |
+| Caso 2        | 2, 3, 5                 | Mais de 6 meses, aviso enviado, sem atualização | Selo removido |
+| Caso 3        | 1, 4, 5                 | Mais de 6 meses sem atualização  |
+| Caso 3        | 1, 3, 6                 |                                  |              |
 
 #  Grupo 5 – Denúncia de Informações Falsas (RN13)
 ###  Classes de Equivalência (RN13)
@@ -98,8 +99,9 @@
 | Caso de Teste | Classes de Equivalência | Entrada                                      | Resultado Esperado          |
 |---------------|-------------------------|---------------------------------------------|-----------------------------|
 | Caso 1        | 1, 3, 5                 | Denúncia feita, verificação realizada, dados confirmados | Perfil permanece sem alteração |
-| Caso 2        | 1, 3, 6                 | Denúncia feita, verificação realizada, informação falsa detectada | Perfil bloqueado ou informação removida |
-| Caso 3        | 2, 4, 5                 | Nenhuma denúncia, nenhuma verificação        | Sem alteração no perfil |
+| Caso 2        | 2, 3, 5                | Denúncia feita, verificação realizada, informação falsa detectada | Perfil bloqueado ou informação removida |
+| Caso 3        | 1, 4, 5                 | Nenhuma denúncia, nenhuma verificação        | Sem alteração no perfil |
+| Caso 4        | 1, 3, 6                 | Nenhuma denúncia, nenhuma verificação        | Sem alteração no perfil |
 
 
 
