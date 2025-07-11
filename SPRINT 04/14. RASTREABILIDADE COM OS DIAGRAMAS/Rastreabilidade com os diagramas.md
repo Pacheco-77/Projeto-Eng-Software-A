@@ -88,9 +88,9 @@ Utiliza as classes:
 
 ### Diagrama C4 (Container)  
 A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), integrado com os seguintes sistemas:
-- **API Backend** (Node.js + Express.js): processa os dados do produto recebidos do front-end.  
+- **API Backend** (Flutter): processa os dados do produto recebidos do front-end.  
 - **Firebase Storage**: armazena as imagens dos produtos reais enviadas pelo produtor.  
-- **Banco de Dados** (PostgreSQL): armazena as informações textuais dos produtos e dos produtores.  
+- **Banco de Dados** (Firebase): armazena as informações textuais dos produtos e dos produtores.  
 - **Firebase Authentication**: garante que apenas produtores autenticados consigam realizar o cadastro.
 
 ### Diagrama C4 (Componente)  
