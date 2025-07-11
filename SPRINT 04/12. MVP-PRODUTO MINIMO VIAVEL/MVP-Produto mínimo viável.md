@@ -45,7 +45,7 @@ Descubra pratos nutritivos feitos com ingredientes orgânicos e amor pela saúde
 ### 4.0 Descrição:
 ![consultas nutricionista ](https://github.com/user-attachments/assets/a3a252ae-63dd-47ec-a472-7cd33ea1e0f4)
 
-### 5.0 Descrição:A tela apresenta a interface dedicada à profissional Maria Silva, nutricionista especializada em nutrição esportiva e emagrecimento saudável. A experiência é pensada para oferecer orientação acessível e personalizada dentro da plataforma OrganoLife.
+### 5.0 Descrição: A tela apresenta a interface dedicada à profissional Maria Silva, nutricionista especializada em nutrição esportiva e emagrecimento saudável. A experiência é pensada para oferecer orientação acessível e personalizada dentro da plataforma OrganoLife.
 ###  Perfil da Nutricionista – OrganoLife
 
 Conheça profissionais dedicados ao seu bem-estar por meio de uma interface clara e acolhedora.
