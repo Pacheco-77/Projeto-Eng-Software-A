@@ -115,7 +115,7 @@ Sistema Desenvolvido: Vida Orgânica / OrganoLife
     11.13 [H13- User History 17](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2003/11-%20PLANEJAMENTO%20DOS%20CASOS%20DE%20TESTE%20COM%20CLASSES%20DE%20EQUIVALENCIA/H17%20-%20HISTORIA%20DE%20USUARIO%2017/H17%20-%20HISTORIA%20DE%20USUARIO%2017.md#h17---como-usu%C3%A1ria-premium-quero-que-o-sistema-sugira-automaticamente-a-lista-de-compras-com-base-nas-receitas-salvas-para-que-eu-otimize-meu-tempo-e-nunca-esque%C3%A7a-de-um-ingrediente)    
 14. [MVP-Produto Minimo Viavel](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2004/12.%20MVP-PRODUTO%20MINIMO%20VIAVEL/MVP-Produto%20m%C3%ADnimo%20vi%C3%A1vel.md#mvp-produto-m%C3%ADnimo-vi%C3%A1vel)
 15. [Rastreabilidade Com Histórias de Usuario]()
-16. [Rastreabilidade Com os Diagramas]()
+16. [Rastreabilidade Com os Diagramas](https://github.com/Pacheco-77/Projeto-Eng-Software-A/blob/main/SPRINT%2004/14.%20RASTREABILIDADE%20COM%20OS%20DIAGRAMAS/Rastreabilidade%20com%20os%20diagramas.md#rastreabilidade-com-os-diagramas)
 - **Metodologias Ágeis**: Scrum, Design Thinking
 - **Ferramentas de Versionamento**: Git, GitHub
 
