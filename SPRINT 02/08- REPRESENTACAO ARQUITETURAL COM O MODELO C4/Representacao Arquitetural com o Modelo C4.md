@@ -16,8 +16,7 @@ O Diagrama de Componentes apresenta a decomposição interna da API Backend em d
 
 ![image](https://github.com/user-attachments/assets/43d12cc5-a2bc-4de0-acdb-46ffb7fa335a)
 ---
-## 8.4 Diagrama de Código
+## 8.4 Diagrama de Código 
 O Diagrama de Código ilustra como as classes, funções e módulos estão organizados na aplicação, mostrando suas interações e detalhes de implementação.Esse diagrama é importante para que desenvolvedores entendam a estrutura técnica do sistema.
 
-
-![image](https://github.com/user-attachments/assets/d66d1165-9549-4413-b660-b3d914deb484)
+![diagrama de classes](https://github.com/user-attachments/assets/7df4c1ca-a968-40c8-a6f0-3064f168666d)
