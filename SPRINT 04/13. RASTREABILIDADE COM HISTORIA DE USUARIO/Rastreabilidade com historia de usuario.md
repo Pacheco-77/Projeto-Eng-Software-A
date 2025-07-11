@@ -1,22 +1,22 @@
-## Funcionalidade: Avaliação de Produto
+# História de Usuário: “Como usuário, quero acessar minha conta pelo aplicativo utilizando e-mail e senha, para visualizar meus pedidos, avaliar produtos e realizar novas compras com segurança.” Implementação no MVP: Para o usuário acessar o aplicativo ele deverá realizar o login através do e-mail e senha.
+
+## Funcionalidade: Autenticação de Usuário
 
 ### Diagrama de Classes  
 Utiliza as classes:
-- `Produto`: representa o item que será avaliado.  
-- `Avaliacao`: contém os atributos nota (1 a 5 estrelas), título, texto e imagens.  
-- `Usuario`: representa o consumidor que realiza a avaliação.  
-- `Moderador`: responsável por validar comentários antes da publicação.  
-- `RepositorioAvaliacao`: gerencia o armazenamento e recuperação das avaliações no banco de dados.
+- `Usuario`: contém atributos como e-mail, senha, nome, tipo de perfil e histórico de pedidos.  
+- `Autenticacao`: gerencia o processo de verificação de credenciais do usuário.  
+- `RepositorioUsuario`: responsável pela persistência e consulta de dados de autenticação e perfil.
 
 ### Diagrama C4 (Container)  
-A funcionalidade faz parte do container **Aplicativo Móvel**, que se comunica com:
-- **API de Backend**: recebe, valida e processa as avaliações.  
-- **Banco de Dados**: armazena as avaliações, usuários e produtos com suas respectivas métricas.  
-- **Serviço de Moderação**: opcional, conectado à API e responsável pela triagem de conteúdo.
+A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), que interage com:
+- **API Backend** (Node.js + Express.js): recebe credenciais e realiza a validação via serviço externo.  
+- **Firebase Authentication**: sistema responsável pela verificação segura de login e autenticação do usuário via e-mail e senha.  
+- **Banco de Dados** (PostgreSQL): armazena informações complementares do perfil do usuário e pedidos.
 
 ### Diagrama C4 (Componente)  
-- `Tela de Avaliação`: interface onde o usuário insere os dados da avaliação.  
-- `Serviço de Avaliação`: responsável por enviar os dados para a API.  
-- `Repositório de Avaliações`: faz a persistência e leitura no banco.  
-- `Painel de Moderação` (se aplicável): onde um moderador pode aprovar ou recusar comentários antes da publicação.
+- `Tela de Login`: interface onde o usuário insere e-mail e senha para acessar sua conta.  
+- `Serviço de Autenticação`: componente que envia as credenciais à API e interpreta a resposta.  
+- `Validador Firebase`: integra o aplicativo com o Firebase Authentication para autenticação segura.  
+- `Gerenciador de Sessão`: mantém o estado de autenticação do usuário e controle de acesso aos recursos protegidos.
 
