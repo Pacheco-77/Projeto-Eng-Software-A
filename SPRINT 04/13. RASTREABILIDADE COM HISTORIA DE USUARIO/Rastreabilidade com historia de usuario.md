@@ -20,7 +20,8 @@ A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), qu
 - `Serviço de Autenticação`: componente que envia as credenciais à API e interpreta a resposta.  
 - `Validador Firebase`: integra o aplicativo com o Firebase Authentication para autenticação segura.  
 - `Gerenciador de Sessão`: mantém o estado de autenticação do usuário e controle de acesso aos recursos protegidos.
-
+  
+  ---
   # Como consumidor, gostaria de comprar produtos orgânicos, para ter uma alimentação saudável.  
   ## Implementação no MVP: No perfil do consumidor, será possível navegar, adicionar ao carrinho e finalizar a compra do produto desejado, todos os produtos disponíveis tem o selo dado pelo agrônomo de que realmente é orgânico.  
   ## Funcionalidade: Compra de Produtos Orgânicos
