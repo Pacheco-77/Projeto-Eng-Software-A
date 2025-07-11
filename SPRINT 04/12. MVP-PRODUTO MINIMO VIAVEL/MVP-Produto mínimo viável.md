@@ -42,7 +42,20 @@ Descubra pratos nutritivos feitos com ingredientes orgânicos e amor pela saúde
 | Smoothie Bowl Energético    | Café da manhã saudável com frutas orgânicas              | ⭐ 4.9         | 10 min               |
 
 ![tela receita](https://github.com/user-attachments/assets/c85da8e2-d090-415c-9a56-c3b34f5fa4e6)
-### 4.0 Descrição:
+### 4.0 Descrição: A tela apresenta a interface dedicada à profissional Dra. Nutricionista, com registro CRN 12345, especialista em saúde personalizada. A experiência foi desenhada para facilitar o gerenciamento de consultas dentro da plataforma OrganoLife de forma ágil e humanizada.
+### Consultas Pendentes – Perfil da Nutricionista
+
+Gerencie facilmente suas solicitações de consulta e acompanhe o progresso dos atendimentos.
+
+### Dra. Nutricionista | CRN: 12345
+
+###  Consultas Pendentes
+
+| **Cliente**      | **Idade / Gênero**     | **Objetivo**                                           | **Disponibilidade**            | **Status**   | **Ações**             |
+|------------------|------------------------|--------------------------------------------------------|--------------------------------|--------------|------------------------|
+| Marcos Silva     | 28 anos • Masculino    | Perda de peso e reeducação alimentar                   | Segunda a Sexta, 14h às 18h    | PENDENTE     | Recusar / Aceitar      |
+| João Santos      | 35 anos • Masculino    | Ganho de massa muscular e dieta para treino            | Terça e Quinta, 8h às 12h       | PENDENTE     | Recusar / Aceitar      |
+| Ana Costa        | 42 anos • Feminino     | —                                                      | —                              | ACEITA       | —                      |
 ![consultas nutricionista ](https://github.com/user-attachments/assets/a3a252ae-63dd-47ec-a472-7cd33ea1e0f4)
 
 ### 5.0 Descrição: A tela apresenta a interface dedicada à profissional Maria Silva, nutricionista especializada em nutrição esportiva e emagrecimento saudável. A experiência é pensada para oferecer orientação acessível e personalizada dentro da plataforma OrganoLife.
