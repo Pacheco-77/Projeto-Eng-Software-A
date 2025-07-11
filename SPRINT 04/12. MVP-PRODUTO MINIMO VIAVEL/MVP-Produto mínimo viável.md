@@ -42,7 +42,18 @@ Descubra pratos nutritivos feitos com ingredientes orgânicos e amor pela saúde
 | Smoothie Bowl Energético    | Café da manhã saudável com frutas orgânicas              | ⭐ 4.9         | 10 min               |
 
 ![tela receita](https://github.com/user-attachments/assets/c85da8e2-d090-415c-9a56-c3b34f5fa4e6)
-
+### 4.0 Descrição:
 ![consultas nutricionista ](https://github.com/user-attachments/assets/a3a252ae-63dd-47ec-a472-7cd33ea1e0f4)
+
+### 5.0 Descrição:A tela apresenta a interface dedicada à profissional Maria Silva, nutricionista especializada em nutrição esportiva e emagrecimento saudável. A experiência é pensada para oferecer orientação acessível e personalizada dentro da plataforma OrganoLife.
+###  Perfil da Nutricionista – OrganoLife
+
+Conheça profissionais dedicados ao seu bem-estar por meio de uma interface clara e acolhedora.
+
+| **Seção**                 | **Descrição**                                                                                   |
+|---------------------------|--------------------------------------------------------------------------------------------------|
+| Perfil da Nutricionista   | Exibe o nome da profissional (Maria Silva), especialidade (Nutrição esportiva e emagrecimento saudável), avaliação ⭐ 4.9 com 127 reviews, e uma breve bio destacando sua experiência. |
+| Agendar Consulta          | Botão para selecionar data e horário, com opções de atendimento **Presencial** ou **Online**.   |
+| Chat com Nutricionista    | Canal de comunicação direto para dúvidas e orientações personalizadas em tempo real.            |
 
 ![tela nutricionista](https://github.com/user-attachments/assets/36a1832e-67d7-41ba-b2b3-52e727cf6519)
