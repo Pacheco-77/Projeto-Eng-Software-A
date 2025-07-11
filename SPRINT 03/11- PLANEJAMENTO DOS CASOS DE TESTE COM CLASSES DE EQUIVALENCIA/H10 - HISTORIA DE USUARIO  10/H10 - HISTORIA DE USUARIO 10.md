@@ -34,10 +34,9 @@
 | Casos de Teste | Classes de Equivalência      | Entradas                                                                 | Resultado Esperado                                                       |
 |----------------|------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | Caso 1         | 1, 3, 5                       | Usuário inicia pagamento Pix; sistema exibe status "Aguardando pagamento", depois "Confirmado" | Fluxo de pagamento executado corretamente com feedback contínuo          |
-| Caso 2         | **2**, **4**, **6**           | Sistema demora a iniciar o Pix e não exibe nenhuma informação de status  | **Erro: pagamento não iniciado corretamente e ausência de atualização**  |
-| Caso 3         | 1, **4**, **6**               | Pagamento iniciado, mas status trava em "Aguardando pagamento" e não muda | **Erro: status não atualizado continuamente**                            |
-| Caso 4         | 1, 3, **6**                   | Pagamento ocorre corretamente, mas interface não exibe status pro usuário | **Erro: ausência de feedback visual durante o processo**                 |
-| Caso 5         | 1, 3, 5                       | Transação confirmada em menos de 10 segundos; status reflete a confirmação imediatamente | Pagamento Pix processado e confirmado com sucesso, status exibido em tempo real |
+| Caso 2         | 2, 3, 5          | Sistema demora a iniciar o Pix e não exibe nenhuma informação de status  | **Erro: pagamento não iniciado corretamente e ausência de atualização**  |
+| Caso 3         | 1, 4, 5               | Pagamento iniciado, mas status trava em "Aguardando pagamento" e não muda | **Erro: status não atualizado continuamente**                            |
+| Caso 4         | 1, 3, 6                  | Pagamento ocorre corretamente, mas interface não exibe status pro usuário | **Erro: ausência de feedback visual durante o processo**                 |
 
 ---
 
@@ -56,10 +55,9 @@
 | Casos de Teste | Classes de Equivalência     | Entradas                                                | Resultado Esperado                                |
 |----------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------|
 | Caso 1         | 1, 3, 5                     | Compra realizada e e-mail enviado com comprovante      | Consumidor recebe e-mail com comprovante completo |
-| Caso 2         | **2**, **4**, **6**         | Compra falhou ou não foi concluída; e-mail não enviado | **Erro: não deve enviar e-mail sem compra concluída** |
-| Caso 3         | 1, **4**, **6**             | Compra concluída, e-mail enviado incompleto ou incorreto| **Erro: e-mail enviado, mas falta comprovante ou resumo** |
-| Caso 4         | 1, 3, **6**                 | Compra concluída, e-mail enviado, mas conteúdo confuso  | **Erro: conteúdo do e-mail não está claro para o consumidor** |
-| Caso 5         | 1, 3, 5                     | Compra realizada, e-mail recebido e conteúdo revisado   | E-mail recebido com comprovante e resumo claros   |
+| Caso 2         | 2, 3, 5         | Compra falhou ou não foi concluída; e-mail não enviado | **Erro: não deve enviar e-mail sem compra concluída** |
+| Caso 3         | 1, 4, 5             | Compra concluída, e-mail enviado incompleto ou incorreto| **Erro: e-mail enviado, mas falta comprovante ou resumo** |
+| Caso 4         | 1, 3, 6                 | Compra concluída, e-mail enviado, mas conteúdo confuso  | **Erro: conteúdo do e-mail não está claro para o consumidor** |
 
 ---
 
@@ -77,11 +75,8 @@
 | Casos de Teste | Classes de Equivalência     | Entradas                                                        | Resultado Esperado                                                  |
 |----------------|-----------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
 | Caso 1         | 1, 3                         | Usuário escolhe Pix como forma de pagamento                     | Alerta de desconto é exibido de forma clara                         |
-| Caso 2         | **2**, **4**                 | Usuário escolhe cartão de crédito e o sistema exibe alerta de desconto | **Erro: alerta de desconto exibido para método sem desconto**       |
-| Caso 3         | 1, **4**                     | Usuário escolhe Pix, mas o sistema não mostra nenhum alerta     | **Erro: alerta de desconto não exibido mesmo com Pix selecionado**  |
-| Caso 4         | 1, 3                         | Usuário escolhe Pix e o alerta informa valor final com desconto | Alerta correto e valor ajustado visivelmente                       |
-| Caso 5         | 2, 3                         | Usuário troca de Pix para boleto e o alerta desaparece          | Alerta é removido corretamente ao trocar forma de pagamento         |
-
+| Caso 2         | 2, 3                 | Usuário escolhe cartão de crédito e o sistema exibe alerta de desconto | **Erro: alerta de desconto exibido para método sem desconto**       |
+| Caso 3         | 1, 4                    | Usuário escolhe Pix, mas o sistema não mostra nenhum alerta     | **Erro: alerta de desconto não exibido mesmo com Pix selecionado**  |  
 ---
 
 * AC40 - O aplicativo deve ter a opção de salvar os dados de pagamento.
@@ -99,10 +94,9 @@
 | Casos de Teste | Classes de Equivalência     | Entradas                                                              | Resultado Esperado                                                    |
 |----------------|-----------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
 | Caso 1         | 1, 3, 5                      | Usuário vê a opção, marca “Salvar dados” e conclui o pagamento        | Dados salvos com sucesso para uso futuro                             |
-| Caso 2         | **2**, 3, **6**              | Opção não aparece na tela, mas sistema tenta salvar mesmo assim       | **Erro: comportamento incorreto sem consentimento do usuário**        |
-| Caso 3         | 1, **4**, **6**              | Opção visível, mas usuário não marca e sistema salva mesmo assim      | **Erro: dados salvos sem autorização do usuário**                     |
-| Caso 4         | 1, 3, **6**                  | Usuário marca para salvar, mas dados não ficam disponíveis depois     | **Erro: falha no salvamento ou recuperação dos dados de pagamento**   |
-| Caso 5         | 1, 3, 5                      | Usuário marca a opção e na próxima compra os dados estão preenchidos  | Funcionalidade de salvar dados funcionando corretamente               |
+| Caso 2         | 2, 3, 5              | Opção não aparece na tela, mas sistema tenta salvar mesmo assim       | **Erro: comportamento incorreto sem consentimento do usuário**        |
+| Caso 3         | 1, 4, 5              | Opção visível, mas usuário não marca e sistema salva mesmo assim      | **Erro: dados salvos sem autorização do usuário**                     |
+| Caso 4         | 1, 3, 6                  | Usuário marca para salvar, mas dados não ficam disponíveis depois     | **Erro: falha no salvamento ou recuperação dos dados de pagamento**   |
 
 ---
 
@@ -119,7 +113,7 @@
 | Casos de Teste | Classes de Equivalência | Entradas                                                             | Resultado Esperado                                               |
 |----------------|--------------------------|----------------------------------------------------------------------|------------------------------------------------------------------|
 | Caso 1         | 1                        | Sistema realiza pagamento via plataforma certificada (ex: Pagar.me)  | Pagamento autorizado e conforme com segurança esperada           |
-| Caso 2         | **2**                    | Sistema tenta usar plataforma não homologada                         | **Erro: uso de plataforma não certificada não é permitido**       |
+| Caso 2         | 2                    | Sistema tenta usar plataforma não homologada                         | **Erro: uso de plataforma não certificada não é permitido**       |
 
 ---
 
@@ -136,8 +130,7 @@
 | Casos de Teste | Classes de Equivalência | Entradas                                             | Resultado Esperado                                    |
 |----------------|--------------------------|------------------------------------------------------|-------------------------------------------------------|
 | Caso 1         | 1                        | Usuário paga com cartão Visa                         | Pagamento aceito normalmente                          |
-| Caso 2         | 1                        | Cartão Mastercard é processado                       | Pagamento aceito com sucesso                          |
-| Caso 3         | **2**                    | Cartão de bandeira não suportada é inserido          | **Erro: bandeira de cartão não aceita**               |
+| Caso 3         | 2                   | Cartão de bandeira não suportada é inserido          | **Erro: bandeira de cartão não aceita**               |
 
 ---
 
@@ -156,6 +149,6 @@
 | Casos de Teste | Classes de Equivalência     | Entradas                                                                 | Resultado Esperado                                                  |
 |----------------|-----------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
 | Caso 1         | 1, 3, 5                      | Pix gera QR dinâmico via API homologada, compatível com banco do usuário| Pagamento iniciado com sucesso                                       |
-| Caso 2         | **2**, 3, 5                  | Sistema utiliza QR estático reutilizado                                 | **Erro: QR Code inválido para pagamento Pix dinâmico**              |
-| Caso 3         | 1, **4**, 5                  | API utilizada não está homologada                                        | **Erro: uso de API de pagamento não homologada**                    |
-| Caso 4         | 1, 3, **6**                  | QR Code gerado corretamente, mas usuário de banco não compatível         | **Erro: pagamento não pode ser processado com banco informado**     |
+| Caso 2         | 2, 3, 5                  | Sistema utiliza QR estático reutilizado                                 | **Erro: QR Code inválido para pagamento Pix dinâmico**              |
+| Caso 3         | 1, 4, 5                  | API utilizada não está homologada                                        | **Erro: uso de API de pagamento não homologada**                    |
+| Caso 4         | 1, 3, 6                  | QR Code gerado corretamente, mas usuário de banco não compatível         | **Erro: pagamento não pode ser processado com banco informado**     |
