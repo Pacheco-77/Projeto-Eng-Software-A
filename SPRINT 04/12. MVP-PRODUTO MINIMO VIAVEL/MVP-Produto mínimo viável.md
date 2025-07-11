@@ -1,4 +1,4 @@
-lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll..# MVP-Produto mínimo viável
+# MVP-Produto mínimo viável
 
 ### 1.0 Descrição: Bem-vindo ao OrganoLife! Aqui, cada clique é um passo em direção a uma vida mais saudável, consciente e conectada com quem cultiva de verdade. A tela de login oferece acesso personalizado, promovendo uma rede colaborativa, sustentabilidade e alimentação consciente.
 ### Formulário de Cadastro – OrganoLife
