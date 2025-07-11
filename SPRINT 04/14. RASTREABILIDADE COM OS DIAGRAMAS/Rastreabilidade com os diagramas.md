@@ -1,7 +1,7 @@
 # Rastreabilidade com os diagramas  
 
 
-# Como possível usuário , quero me cadastrar no aplicativo informando meus dados pessoais para acessar funcionalidades como login, pedidos, avaliações e compras.
+# H19 - Como possível usuário , quero me cadastrar no aplicativo informando meus dados pessoais para acessar funcionalidades como login, pedidos, avaliações e compras.
 ## Funcionalidade: Cadastro de Novo Usuário
 
 ### Diagrama de Classes  
@@ -25,7 +25,7 @@ A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), co
 - `Verificador de Dados`: valida formatos, consistência e campos obrigatórios do formulário antes do envio.
 
 
-#  Como usuário, quero acessar minha conta pelo aplicativo utilizando e-mail e senha, para visualizar meus pedidos, avaliar produtos e realizar novas compras com segurança.” Implementação no MVP: Para o usuário acessar o aplicativo ele deverá realizar o login através do e-mail e senha.
+#  H18 - Como usuário, quero acessar minha conta pelo aplicativo utilizando e-mail e senha, para visualizar meus pedidos, avaliar produtos e realizar novas compras com segurança.” Implementação no MVP: Para o usuário acessar o aplicativo ele deverá realizar o login através do e-mail e senha.
 ## Funcionalidade: Autenticação de Usuário
 
 ### Diagrama de Classes  
@@ -47,7 +47,7 @@ A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), qu
 - `Gerenciador de Sessão`: mantém o estado de autenticação do usuário e controle de acesso aos recursos protegidos.
   
   ---
-  # Como consumidor, gostaria de comprar produtos orgânicos, para ter uma alimentação saudável.  
+  # H20 - Como consumidor, gostaria de comprar produtos orgânicos, para ter uma alimentação saudável.  
   ## Funcionalidade: Compra de Produtos Orgânicos
 
 ### Diagrama de Classes  
@@ -76,7 +76,7 @@ A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), qu
 - `Processador de Pagamento`: integra o aplicativo à API do Mercado Pago.  
 - `Notificador`: componente que envia atualizações sobre o status dos pedidos via Firebase Messaging.
 
-# Como produtor rural, quero cadastrar meus produtos com informações completas incluindo fotos, descrição detalhada e localização de origem, para que os consumidores possam conhecer o que estou vendendo e a procedência dos produtos.
+# H4 - Como produtor rural, quero cadastrar meus produtos com informações completas incluindo fotos, descrição detalhada e localização de origem, para que os consumidores possam conhecer o que estou vendendo e a procedência dos produtos.
 ## Funcionalidade: Cadastro de Produtos
 
 ### Diagrama de Classes  
@@ -99,5 +99,52 @@ A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), in
 - `Gerenciador de Imagens`: manipula e envia os arquivos ao Firebase Storage.  
 - `Repositório de Produtos`: salva os dados no PostgreSQL.  
 - `Validador de Autenticação`: garante que somente usuários produtores tenham acesso ao módulo.
+
+# Como consumidor, eu gostaria de um aplicativo com imagens reais dos produtos, para que eu possa verificar a qualidade dos produtos.
+## Funcionalidade: Visualização de Imagens Reais dos Produtos
+
+### Diagrama de Classes  
+Utiliza as classes:
+- `Produto`: armazena atributos como nome, descrição, origem e referências às imagens reais.  
+- `ImagemProduto`: representa os arquivos de imagem associados aos produtos.  
+- `Usuario`: representa o consumidor que acessa os detalhes dos produtos.  
+- `RepositorioProduto`: gerencia a persistência das informações e imagens no banco de dados.
+
+### Diagrama C4 (Container)  
+A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), com integração aos seguintes sistemas:
+- **API Backend** (Flutter): trata requisições para exibir detalhes dos produtos.  
+- **Firebase Storage**: armazena e disponibiliza as imagens reais dos produtos.  
+- **Banco de Dados** (Firebase): contém as informações textuais dos produtos e links das imagens.  
+
+### Diagrama C4 (Componente)  
+- `Tela de Detalhes do Produto`: interface onde o consumidor visualiza as imagens reais e a descrição do item.  
+- `Serviço de Produto`: solicita os dados do produto à API e renderiza as informações no aplicativo.  
+- `Gerenciador de Imagens`: recupera os arquivos do Firebase Storage para exibição.  
+- `Repositório de Produtos`: fornece os dados do produto à interface, conectando-se ao banco de dados.
+
+# H1 - Como Agrônoma, Quero dar dicas para os produtores, para que eu possa contribuir com práticas agrícolas melhores
+## Funcionalidade: Envio de Dicas Agrícolas pelo Agrônomo
+
+### Diagrama de Classes  
+Utiliza as classes:
+- `Agronomo`: representa o profissional que fornece orientações e dicas agrícolas.  
+- `Produto`: utilizado como referência para contextualizar as dicas enviadas.  
+- `DicaAgricola`: contém os atributos da dica, como título, conteúdo e data de envio.  
+- `RepositorioDicas`: gerencia o armazenamento das dicas enviadas pelo agrônomo.  
+- `Produtor`: recebe as dicas e pode visualizá-las vinculadas aos seus produtos.
+
+### Diagrama C4 (Container)  
+A funcionalidade está presente no container **Aplicativo Mobile** (Flutter), com integração aos seguintes sistemas:
+- **API Backend** (Node.js + Express.js): recebe e processa as dicas enviadas pelo agrônomo.  
+- **Banco de Dados** (PostgreSQL): armazena os dados das dicas, produtos e relacionamentos com produtores.  
+- **Firebase Authentication**: valida que apenas agrônomos autenticados possam enviar dicas.  
+- **Firebase Cloud Messaging**: pode ser utilizado para notificar o produtor sobre novas dicas recebidas.
+
+### Diagrama C4 (Componente)  
+- `Tela de Feed de Produtos`: interface onde o agrônomo vê os produtos e seleciona o item para enviar dica.  
+- `Componente Dar Dica`: botão abaixo de cada produto que abre o formulário de envio.  
+- `Serviço de Dica`: envia os dados da dica à API para processamento e armazenamento.  
+- `Repositório de Dicas`: salva as informações no banco de dados e vincula à entidade `Produto`.  
+- `Notificador de Produtores`: envia alertas aos produtores sobre novas contribuições do agrônomo.
 
 #
