@@ -71,9 +71,10 @@ Conheça profissionais dedicados ao seu bem-estar por meio de uma interface clar
 
 ![tela nutricionista](https://github.com/user-attachments/assets/36a1832e-67d7-41ba-b2b3-52e727cf6519)
 
-### 6.0 Descrição: Tela Consumidor Agrônomo, a tela apresenta a lista de produtos orgânicos disponíveis para compra, com detalhes como nome da fazenda, descrição do produto, valor por unidade ou quilo e selo de autenticidade. O usuário pode adicionar produtos ao carrinho diretamente pela interface.
+### 6.0 Descrição: Tela Consumidor Agrônomo, a tela apresenta a lista de produtos disponíveis para compra, é similar a tela do consumidor comum, porém com algumas funcionalidades à mais. O agrônomo pode avaliar a procedência do produto, emitir dicas técnicas e conceder o selo de produto orgânico seguro. Essa validação contribui para a confiança do consumidor e garante a rastreabilidade da origem.
 ![tela consumidor agronomo](https://github.com/user-attachments/assets/eeec4f33-b3ec-4954-930a-209727cdc321)
 
 
-### 7.0 Descrição: Tela Consumidor Agônomo, é similar à tela do consumidor, porém com funcionalidades adicionais. O agrônomo pode avaliar a procedência do produto, emitir dicas técnicas e conceder o selo de produto orgânico seguro. Essa validação contribui para a confiança do consumidor e garante a rastreabilidade da origem.
+### 7.0 Descrição: Tela Consumidor, a tela apresenta a lista de produtos orgânicos disponíveis para compra, com detalhes como nome da fazenda, descrição do produto, valor por unidade ou quilo e selo de autenticidade. O usuário pode adicionar produtos ao carrinho diretamente pela interface..
+
 ![consumidor comum](https://github.com/user-attachments/assets/0fc9a5a9-154b-43d8-af05-4b07c61c4073)
